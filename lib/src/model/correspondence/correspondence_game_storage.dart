@@ -3,10 +3,10 @@ import 'dart:convert';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/db/database.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/correspondence/offline_correspondence_game.dart';
+import 'package:citystat1/src/db/database.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/correspondence/offline_correspondence_game.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:sqflite/sqflite.dart';
 

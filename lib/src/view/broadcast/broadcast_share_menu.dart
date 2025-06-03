@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:lichess_mobile/src/model/broadcast/broadcast.dart';
-import 'package:lichess_mobile/src/network/http.dart';
-import 'package:lichess_mobile/src/utils/share.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_action_sheet.dart';
+import 'package:citystat1/src/model/broadcast/broadcast.dart';
+import 'package:citystat1/src/network/http.dart';
+import 'package:citystat1/src/utils/share.dart';
+import 'package:citystat1/src/widgets/adaptive_action_sheet.dart';
 import 'package:share_plus/share_plus.dart';
 
 Future<void> showBroadcastShareMenu(

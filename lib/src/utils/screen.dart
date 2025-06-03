@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/constants.dart';
+import 'package:citystat1/src/constants.dart';
 
 /// Returns the estimated height of what is left after removing the height of the board from the screen.
 double estimateHeightMinusBoard(MediaQueryData mediaQuery) {

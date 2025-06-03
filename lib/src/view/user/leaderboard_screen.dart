@@ -3,15 +3,15 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter_layout_grid/flutter_layout_grid.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/user/leaderboard.dart';
-import 'package:lichess_mobile/src/model/user/user_repository_providers.dart';
-import 'package:lichess_mobile/src/styles/lichess_icons.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/view/user/user_screen.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
-import 'package:lichess_mobile/src/widgets/user_full_name.dart';
+import 'package:citystat1/src/model/user/leaderboard.dart';
+import 'package:citystat1/src/model/user/user_repository_providers.dart';
+import 'package:citystat1/src/styles/lichess_icons.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/view/user/user_screen.dart';
+import 'package:citystat1/src/widgets/list.dart';
+import 'package:citystat1/src/widgets/user_full_name.dart';
 
 /// Create a Screen with Top 10 players for each Lichess Variant
 class LeaderboardScreen extends StatelessWidget {

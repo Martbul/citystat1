@@ -1,21 +1,21 @@
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/common/perf.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
-import 'package:lichess_mobile/src/model/user/user_repository_providers.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/view/account/rating_pref_aware.dart';
-import 'package:lichess_mobile/src/view/play/challenge_odd_bots_screen.dart';
-import 'package:lichess_mobile/src/view/play/create_challenge_bottom_sheet.dart';
-import 'package:lichess_mobile/src/view/user/user_context_menu.dart';
-import 'package:lichess_mobile/src/widgets/feedback.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
-import 'package:lichess_mobile/src/widgets/platform.dart';
-import 'package:lichess_mobile/src/widgets/user_full_name.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/common/perf.dart';
+import 'package:citystat1/src/model/user/user.dart';
+import 'package:citystat1/src/model/user/user_repository_providers.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/view/account/rating_pref_aware.dart';
+import 'package:citystat1/src/view/play/challenge_odd_bots_screen.dart';
+import 'package:citystat1/src/view/play/create_challenge_bottom_sheet.dart';
+import 'package:citystat1/src/view/user/user_context_menu.dart';
+import 'package:citystat1/src/widgets/feedback.dart';
+import 'package:citystat1/src/widgets/list.dart';
+import 'package:citystat1/src/widgets/platform.dart';
+import 'package:citystat1/src/widgets/user_full_name.dart';
 
 class OnlineBotsScreen extends StatelessWidget {
   const OnlineBotsScreen();

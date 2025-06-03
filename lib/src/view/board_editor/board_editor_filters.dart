@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'package:dartchess/dartchess.dart' hide Position;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/board_editor/board_editor_controller.dart';
-import 'package:lichess_mobile/src/model/board_editor/position.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_bottom_sheet.dart';
+import 'package:citystat1/src/model/board_editor/board_editor_controller.dart';
+import 'package:citystat1/src/model/board_editor/position.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/widgets/adaptive_bottom_sheet.dart';
 
 class BoardEditorFilters extends ConsumerWidget {
   const BoardEditorFilters({required this.initialFen, super.key});

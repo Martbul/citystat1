@@ -2,16 +2,16 @@ import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:lichess_mobile/src/model/common/perf.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
-import 'package:lichess_mobile/src/styles/lichess_colors.dart';
-import 'package:lichess_mobile/src/styles/lichess_icons.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/view/account/rating_pref_aware.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
-import 'package:lichess_mobile/src/widgets/rating.dart';
-import 'package:lichess_mobile/src/widgets/shimmer.dart';
+import 'package:citystat1/src/model/common/perf.dart';
+import 'package:citystat1/src/model/user/user.dart';
+import 'package:citystat1/src/styles/lichess_colors.dart';
+import 'package:citystat1/src/styles/lichess_icons.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/view/account/rating_pref_aware.dart';
+import 'package:citystat1/src/widgets/list.dart';
+import 'package:citystat1/src/widgets/rating.dart';
+import 'package:citystat1/src/widgets/shimmer.dart';
 
 final _dateFormatter = DateFormat.yMMMd();
 

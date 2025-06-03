@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/widgets/platform.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/widgets/platform.dart';
 
 class TournamentFAQScreen extends StatelessWidget {
   const TournamentFAQScreen({super.key});

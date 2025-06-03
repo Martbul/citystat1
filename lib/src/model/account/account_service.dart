@@ -3,18 +3,18 @@ import 'dart:async';
 import 'package:flutter/material.dart' show AlertDialog, Navigator, Text, showAdaptiveDialog;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/binding.dart' show LichessBinding;
-import 'package:lichess_mobile/src/model/account/account_repository.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/notifications/notification_service.dart';
-import 'package:lichess_mobile/src/model/notifications/notifications.dart'
+import 'package:citystat1/src/binding.dart' show LichessBinding;
+import 'package:citystat1/src/model/account/account_repository.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/notifications/notification_service.dart';
+import 'package:citystat1/src/model/notifications/notifications.dart'
     show LocalNotification, PlaybanNotification;
-import 'package:lichess_mobile/src/model/user/user.dart' show TemporaryBan, User;
-import 'package:lichess_mobile/src/network/http.dart';
-import 'package:lichess_mobile/src/tab_scaffold.dart' show currentNavigatorKeyProvider;
-import 'package:lichess_mobile/src/view/play/playban.dart';
-import 'package:lichess_mobile/src/widgets/platform_alert_dialog.dart';
+import 'package:citystat1/src/model/user/user.dart' show TemporaryBan, User;
+import 'package:citystat1/src/network/http.dart';
+import 'package:citystat1/src/tab_scaffold.dart' show currentNavigatorKeyProvider;
+import 'package:citystat1/src/view/play/playban.dart';
+import 'package:citystat1/src/widgets/platform_alert_dialog.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'account_service.g.dart';

@@ -1,8 +1,8 @@
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/account/home_widgets.dart';
-import 'package:lichess_mobile/src/model/settings/preferences_storage.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
+import 'package:citystat1/src/model/account/home_widgets.dart';
+import 'package:citystat1/src/model/settings/preferences_storage.dart';
+import 'package:citystat1/src/model/user/user.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'home_preferences.freezed.dart';

@@ -6,25 +6,25 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_displaymode/flutter_displaymode.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:lichess_mobile/l10n/l10n.dart';
-import 'package:lichess_mobile/src/binding.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/db/secure_storage.dart';
-import 'package:lichess_mobile/src/model/account/home_preferences.dart';
-import 'package:lichess_mobile/src/model/account/home_widgets.dart';
-import 'package:lichess_mobile/src/model/analysis/analysis_preferences.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/auth/session_storage.dart';
-import 'package:lichess_mobile/src/model/broadcast/broadcast_preferences.dart';
-import 'package:lichess_mobile/src/model/notifications/notification_service.dart';
-import 'package:lichess_mobile/src/model/notifications/notifications.dart';
-import 'package:lichess_mobile/src/model/settings/board_preferences.dart';
-import 'package:lichess_mobile/src/model/settings/preferences_storage.dart';
-import 'package:lichess_mobile/src/model/study/study_preferences.dart';
-import 'package:lichess_mobile/src/utils/chessboard.dart';
-import 'package:lichess_mobile/src/utils/color_palette.dart';
-import 'package:lichess_mobile/src/utils/screen.dart';
-import 'package:lichess_mobile/src/utils/string.dart';
+import 'package:citystat1/l10n/l10n.dart';
+import 'package:citystat1/src/binding.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/db/secure_storage.dart';
+import 'package:citystat1/src/model/account/home_preferences.dart';
+import 'package:citystat1/src/model/account/home_widgets.dart';
+import 'package:citystat1/src/model/analysis/analysis_preferences.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/auth/session_storage.dart';
+import 'package:citystat1/src/model/broadcast/broadcast_preferences.dart';
+import 'package:citystat1/src/model/notifications/notification_service.dart';
+import 'package:citystat1/src/model/notifications/notifications.dart';
+import 'package:citystat1/src/model/settings/board_preferences.dart';
+import 'package:citystat1/src/model/settings/preferences_storage.dart';
+import 'package:citystat1/src/model/study/study_preferences.dart';
+import 'package:citystat1/src/utils/chessboard.dart';
+import 'package:citystat1/src/utils/color_palette.dart';
+import 'package:citystat1/src/utils/screen.dart';
+import 'package:citystat1/src/utils/string.dart';
 import 'package:logging/logging.dart';
 import 'package:material_color_utilities/palettes/core_palette.dart';
 import 'package:package_info_plus/package_info_plus.dart';
@@ -83,23 +83,49 @@ Future<void> setupFirstLaunch() async {
   }
 }
 
+
+
 Future<void> initializeLocalNotifications(Locale locale) async {
   final l10n = await AppLocalizations.delegate.load(locale);
-  await FlutterLocalNotificationsPlugin().initialize(
-    InitializationSettings(
-      android: const AndroidInitializationSettings('logo_black'),
-      iOS: DarwinInitializationSettings(
-        requestBadgePermission: false,
-        notificationCategories: <DarwinNotificationCategory>[
-          ChallengeNotification.darwinPlayableVariantCategory(l10n),
-          ChallengeNotification.darwinUnplayableVariantCategory(l10n),
-        ],
-      ),
+  final flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
+
+  final initializationSettings = InitializationSettings(
+    android: const AndroidInitializationSettings('logo_black'),
+    iOS: DarwinInitializationSettings(
+      requestBadgePermission: false,
+      notificationCategories: <DarwinNotificationCategory>[
+        ChallengeNotification.darwinPlayableVariantCategory(l10n),
+        ChallengeNotification.darwinUnplayableVariantCategory(l10n),
+      ],
     ),
+    linux: LinuxInitializationSettings(
+      defaultActionName: 'Open notification',
+    ),
+  );
+
+  await flutterLocalNotificationsPlugin.initialize(
+    initializationSettings,
     onDidReceiveNotificationResponse: NotificationService.onDidReceiveNotificationResponse,
-    // onDidReceiveBackgroundNotificationResponse: notificationTapBackground,
   );
 }
+
+// Future<void> initializeLocalNotifications(Locale locale) async {
+//   final l10n = await AppLocalizations.delegate.load(locale);
+//   await FlutterLocalNotificationsPlugin().initialize(
+//     InitializationSettings(
+//       android: const AndroidInitializationSettings('logo_black'),
+//       iOS: DarwinInitializationSettings(
+//         requestBadgePermission: false,
+//         notificationCategories: <DarwinNotificationCategory>[
+//           ChallengeNotification.darwinPlayableVariantCategory(l10n),
+//           ChallengeNotification.darwinUnplayableVariantCategory(l10n),
+//         ],
+//       ),
+//     ),
+//     onDidReceiveNotificationResponse: NotificationService.onDidReceiveNotificationResponse,
+//     // onDidReceiveBackgroundNotificationResponse: notificationTapBackground,
+//   );
+// }
 
 Future<void> preloadPieceImages() async {
   final prefs = LichessBinding.instance.sharedPreferences;

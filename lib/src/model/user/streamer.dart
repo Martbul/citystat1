@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'package:lichess_mobile/src/model/common/id.dart';
+import 'package:citystat1/src/model/common/id.dart';
 
 part 'streamer.freezed.dart';
 

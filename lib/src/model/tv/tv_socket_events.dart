@@ -1,10 +1,10 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:deep_pick/deep_pick.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/common/chess.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/tv/tv_channel.dart';
-import 'package:lichess_mobile/src/utils/json.dart';
+import 'package:citystat1/src/model/common/chess.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/tv/tv_channel.dart';
+import 'package:citystat1/src/utils/json.dart';
 
 part 'tv_socket_events.freezed.dart';
 

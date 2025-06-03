@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/chat/chat.dart';
-import 'package:lichess_mobile/src/model/chat/chat_controller.dart';
-import 'package:lichess_mobile/src/tab_scaffold.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/widgets/bottom_bar.dart';
-import 'package:lichess_mobile/src/widgets/buttons.dart';
-import 'package:lichess_mobile/src/widgets/user_full_name.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/chat/chat.dart';
+import 'package:citystat1/src/model/chat/chat_controller.dart';
+import 'package:citystat1/src/tab_scaffold.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/widgets/bottom_bar.dart';
+import 'package:citystat1/src/widgets/buttons.dart';
+import 'package:citystat1/src/widgets/user_full_name.dart';
 
 class ChatBottomBarButton extends ConsumerWidget {
   const ChatBottomBarButton({required this.options, this.showLabel = false, super.key});

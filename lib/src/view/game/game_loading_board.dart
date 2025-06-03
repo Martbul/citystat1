@@ -2,16 +2,16 @@ import 'package:dartchess/dartchess.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/challenge/challenge.dart';
-import 'package:lichess_mobile/src/model/lobby/game_seek.dart';
-import 'package:lichess_mobile/src/model/lobby/lobby_numbers.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/widgets/board_table.dart';
-import 'package:lichess_mobile/src/widgets/bottom_bar.dart';
-import 'package:lichess_mobile/src/widgets/feedback.dart';
-import 'package:lichess_mobile/src/widgets/shimmer.dart';
-import 'package:lichess_mobile/src/widgets/user_full_name.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/challenge/challenge.dart';
+import 'package:citystat1/src/model/lobby/game_seek.dart';
+import 'package:citystat1/src/model/lobby/lobby_numbers.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/widgets/board_table.dart';
+import 'package:citystat1/src/widgets/bottom_bar.dart';
+import 'package:citystat1/src/widgets/feedback.dart';
+import 'package:citystat1/src/widgets/shimmer.dart';
+import 'package:citystat1/src/widgets/user_full_name.dart';
 
 class LobbyScreenLoadingContent extends StatefulWidget {
   const LobbyScreenLoadingContent(this.seek, this.cancelGameCreation);

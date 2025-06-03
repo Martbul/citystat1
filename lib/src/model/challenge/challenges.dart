@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/challenge/challenge.dart';
-import 'package:lichess_mobile/src/model/challenge/challenge_repository.dart';
-import 'package:lichess_mobile/src/model/challenge/challenge_service.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/challenge/challenge.dart';
+import 'package:citystat1/src/model/challenge/challenge_repository.dart';
+import 'package:citystat1/src/model/challenge/challenge_service.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'challenges.g.dart';

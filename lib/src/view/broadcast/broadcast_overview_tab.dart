@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:lichess_mobile/src/model/broadcast/broadcast.dart';
-import 'package:lichess_mobile/src/model/broadcast/broadcast_providers.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
+import 'package:citystat1/src/model/broadcast/broadcast.dart';
+import 'package:citystat1/src/model/broadcast/broadcast_providers.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 final _dateFormatter = DateFormat.MMMd();

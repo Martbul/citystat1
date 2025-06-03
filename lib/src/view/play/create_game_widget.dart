@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/account/account_repository.dart';
-import 'package:lichess_mobile/src/model/account/account_service.dart';
-import 'package:lichess_mobile/src/model/common/chess.dart';
-import 'package:lichess_mobile/src/model/lobby/game_seek.dart';
-import 'package:lichess_mobile/src/model/lobby/game_setup_preferences.dart';
-import 'package:lichess_mobile/src/network/connectivity.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/view/game/game_screen.dart';
-import 'package:lichess_mobile/src/view/play/common_play_widgets.dart';
-import 'package:lichess_mobile/src/view/play/time_control_modal.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_bottom_sheet.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_choice_picker.dart';
+import 'package:citystat1/src/model/account/account_repository.dart';
+import 'package:citystat1/src/model/account/account_service.dart';
+import 'package:citystat1/src/model/common/chess.dart';
+import 'package:citystat1/src/model/lobby/game_seek.dart';
+import 'package:citystat1/src/model/lobby/game_setup_preferences.dart';
+import 'package:citystat1/src/network/connectivity.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/view/game/game_screen.dart';
+import 'package:citystat1/src/view/play/common_play_widgets.dart';
+import 'package:citystat1/src/view/play/time_control_modal.dart';
+import 'package:citystat1/src/widgets/adaptive_bottom_sheet.dart';
+import 'package:citystat1/src/widgets/adaptive_choice_picker.dart';
 
 class CreateGameWidget extends ConsumerWidget {
   const CreateGameWidget();

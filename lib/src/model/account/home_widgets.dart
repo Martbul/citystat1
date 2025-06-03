@@ -1,4 +1,4 @@
-import 'package:lichess_mobile/l10n/l10n.dart';
+import 'package:citystat1/l10n/l10n.dart';
 
 /// Enum representing the editable widgets on the home screen.
 enum HomeEditableWidget {

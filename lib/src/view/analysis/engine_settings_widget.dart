@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_preferences.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_service.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
-import 'package:lichess_mobile/src/widgets/non_linear_slider.dart';
-import 'package:lichess_mobile/src/widgets/settings.dart';
+import 'package:citystat1/src/model/engine/evaluation_preferences.dart';
+import 'package:citystat1/src/model/engine/evaluation_service.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/widgets/list.dart';
+import 'package:citystat1/src/widgets/non_linear_slider.dart';
+import 'package:citystat1/src/widgets/settings.dart';
 
 class EngineSettingsWidget extends ConsumerWidget {
   const EngineSettingsWidget({

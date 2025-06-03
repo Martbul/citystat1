@@ -1,7 +1,7 @@
 import 'package:deep_pick/deep_pick.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter/widgets.dart';
-import 'package:lichess_mobile/src/styles/lichess_icons.dart';
+import 'package:citystat1/src/styles/lichess_icons.dart';
 
 enum TvChannel {
   best('Top Rated', LichessIcons.crown),

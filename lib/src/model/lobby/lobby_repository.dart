@@ -2,12 +2,12 @@ import 'package:deep_pick/deep_pick.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart' as http;
-import 'package:lichess_mobile/src/model/common/chess.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/common/perf.dart';
-import 'package:lichess_mobile/src/model/lobby/correspondence_challenge.dart';
-import 'package:lichess_mobile/src/model/lobby/game_seek.dart';
-import 'package:lichess_mobile/src/network/http.dart';
+import 'package:citystat1/src/model/common/chess.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/common/perf.dart';
+import 'package:citystat1/src/model/lobby/correspondence_challenge.dart';
+import 'package:citystat1/src/model/lobby/game_seek.dart';
+import 'package:citystat1/src/network/http.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'lobby_repository.g.dart';

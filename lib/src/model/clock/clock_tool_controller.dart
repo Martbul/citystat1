@@ -1,9 +1,9 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/clock/chess_clock.dart';
-import 'package:lichess_mobile/src/model/common/service/sound_service.dart';
-import 'package:lichess_mobile/src/model/common/time_increment.dart';
+import 'package:citystat1/src/model/clock/chess_clock.dart';
+import 'package:citystat1/src/model/common/service/sound_service.dart';
+import 'package:citystat1/src/model/common/time_increment.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'clock_tool_controller.freezed.dart';

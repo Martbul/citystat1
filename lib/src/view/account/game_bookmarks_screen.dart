@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:lichess_mobile/src/model/account/account_service.dart';
-import 'package:lichess_mobile/src/model/analysis/analysis_controller.dart';
-import 'package:lichess_mobile/src/model/game/game_bookmarks.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/view/analysis/analysis_screen.dart';
-import 'package:lichess_mobile/src/view/game/game_list_tile.dart';
-import 'package:lichess_mobile/src/widgets/feedback.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
+import 'package:citystat1/src/model/account/account_service.dart';
+import 'package:citystat1/src/model/analysis/analysis_controller.dart';
+import 'package:citystat1/src/model/game/game_bookmarks.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/view/analysis/analysis_screen.dart';
+import 'package:citystat1/src/view/game/game_list_tile.dart';
+import 'package:citystat1/src/widgets/feedback.dart';
+import 'package:citystat1/src/widgets/list.dart';
 
 class GameBookmarksScreen extends ConsumerWidget {
   const GameBookmarksScreen({required this.nbBookmarks, super.key});

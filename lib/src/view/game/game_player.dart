@@ -6,22 +6,22 @@ import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/account/account_repository.dart';
-import 'package:lichess_mobile/src/model/common/service/sound_service.dart';
-import 'package:lichess_mobile/src/model/game/game.dart';
-import 'package:lichess_mobile/src/model/game/material_diff.dart';
-import 'package:lichess_mobile/src/model/settings/board_preferences.dart';
-import 'package:lichess_mobile/src/styles/lichess_colors.dart';
-import 'package:lichess_mobile/src/styles/lichess_icons.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/lichess_assets.dart';
-import 'package:lichess_mobile/src/utils/screen.dart';
-import 'package:lichess_mobile/src/view/account/profile_screen.dart';
-import 'package:lichess_mobile/src/view/account/rating_pref_aware.dart';
-import 'package:lichess_mobile/src/view/user/user_screen.dart';
-import 'package:lichess_mobile/src/widgets/buttons.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/account/account_repository.dart';
+import 'package:citystat1/src/model/common/service/sound_service.dart';
+import 'package:citystat1/src/model/game/game.dart';
+import 'package:citystat1/src/model/game/material_diff.dart';
+import 'package:citystat1/src/model/settings/board_preferences.dart';
+import 'package:citystat1/src/styles/lichess_colors.dart';
+import 'package:citystat1/src/styles/lichess_icons.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/lichess_assets.dart';
+import 'package:citystat1/src/utils/screen.dart';
+import 'package:citystat1/src/view/account/profile_screen.dart';
+import 'package:citystat1/src/view/account/rating_pref_aware.dart';
+import 'package:citystat1/src/view/user/user_screen.dart';
+import 'package:citystat1/src/widgets/buttons.dart';
 
 /// A widget to display player information above/below the chess board.
 class GamePlayer extends StatelessWidget {

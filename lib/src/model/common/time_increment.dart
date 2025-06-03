@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-import 'package:lichess_mobile/src/model/common/speed.dart';
+import 'package:citystat1/src/model/common/speed.dart';
 
 /// A pair of time and increment in seconds used as game clock
 @immutable

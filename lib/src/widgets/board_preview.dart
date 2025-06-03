@@ -2,9 +2,9 @@ import 'package:chessground/chessground.dart';
 import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/settings/board_preferences.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/settings/board_preferences.dart';
+import 'package:citystat1/src/styles/styles.dart';
 
 /// A board preview with a description.
 class SmallBoardPreview extends ConsumerWidget {

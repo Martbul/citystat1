@@ -4,14 +4,14 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/l10n/l10n.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/view/home/home_tab_screen.dart';
-import 'package:lichess_mobile/src/view/puzzle/puzzle_tab_screen.dart';
-import 'package:lichess_mobile/src/view/tools/tools_tab_screen.dart';
-import 'package:lichess_mobile/src/view/watch/watch_tab_screen.dart';
-import 'package:lichess_mobile/src/widgets/background.dart';
+import 'package:citystat1/l10n/l10n.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/view/home/home_tab_screen.dart';
+import 'package:citystat1/src/view/puzzle/puzzle_tab_screen.dart';
+import 'package:citystat1/src/view/tools/tools_tab_screen.dart';
+import 'package:citystat1/src/view/watch/watch_tab_screen.dart';
+import 'package:citystat1/src/widgets/background.dart';
 import 'package:material_symbols_icons/symbols.dart';
 
 enum BottomTab {

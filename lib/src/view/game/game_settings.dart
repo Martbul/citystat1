@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/account/account_preferences.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/game/game_controller.dart';
-import 'package:lichess_mobile/src/model/game/game_preferences.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/view/game/game_screen_providers.dart';
-import 'package:lichess_mobile/src/view/settings/board_settings_screen.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_bottom_sheet.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
-import 'package:lichess_mobile/src/widgets/settings.dart';
+import 'package:citystat1/src/model/account/account_preferences.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/game/game_controller.dart';
+import 'package:citystat1/src/model/game/game_preferences.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/view/game/game_screen_providers.dart';
+import 'package:citystat1/src/view/settings/board_settings_screen.dart';
+import 'package:citystat1/src/widgets/adaptive_bottom_sheet.dart';
+import 'package:citystat1/src/widgets/list.dart';
+import 'package:citystat1/src/widgets/settings.dart';
 
 class GameSettings extends ConsumerWidget {
   const GameSettings({required this.id, super.key});

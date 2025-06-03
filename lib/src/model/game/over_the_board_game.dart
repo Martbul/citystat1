@@ -1,13 +1,13 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/common/eval.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/game/game.dart';
-import 'package:lichess_mobile/src/model/game/game_status.dart';
-import 'package:lichess_mobile/src/model/game/player.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
-import 'package:lichess_mobile/src/utils/string.dart';
+import 'package:citystat1/src/model/common/eval.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/game/game.dart';
+import 'package:citystat1/src/model/game/game_status.dart';
+import 'package:citystat1/src/model/game/player.dart';
+import 'package:citystat1/src/model/user/user.dart';
+import 'package:citystat1/src/utils/string.dart';
 
 part 'over_the_board_game.freezed.dart';
 part 'over_the_board_game.g.dart';

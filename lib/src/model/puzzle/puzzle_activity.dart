@@ -2,11 +2,11 @@ import 'dart:async';
 
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/puzzle/puzzle.dart';
-import 'package:lichess_mobile/src/model/puzzle/puzzle_providers.dart';
-import 'package:lichess_mobile/src/model/puzzle/puzzle_repository.dart';
-import 'package:lichess_mobile/src/network/http.dart';
-import 'package:lichess_mobile/src/utils/riverpod.dart';
+import 'package:citystat1/src/model/puzzle/puzzle.dart';
+import 'package:citystat1/src/model/puzzle/puzzle_providers.dart';
+import 'package:citystat1/src/model/puzzle/puzzle_repository.dart';
+import 'package:citystat1/src/network/http.dart';
+import 'package:citystat1/src/utils/riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'puzzle_activity.freezed.dart';

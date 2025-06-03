@@ -21,12 +21,12 @@ import 'package:http/http.dart'
         StreamedResponse;
 import 'package:http/io_client.dart';
 import 'package:http/retry.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/auth/bearer.dart';
-import 'package:lichess_mobile/src/model/common/preloaded_data.dart';
-import 'package:lichess_mobile/src/model/http_log/http_log_storage.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/auth/bearer.dart';
+import 'package:citystat1/src/model/common/preloaded_data.dart';
+import 'package:citystat1/src/model/http_log/http_log_storage.dart';
+import 'package:citystat1/src/model/user/user.dart';
 import 'package:logging/logging.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';

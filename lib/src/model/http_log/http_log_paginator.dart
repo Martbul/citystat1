@@ -1,6 +1,6 @@
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/http_log/http_log_storage.dart';
+import 'package:citystat1/src/model/http_log/http_log_storage.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'http_log_paginator.freezed.dart';

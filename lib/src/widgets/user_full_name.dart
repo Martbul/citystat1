@@ -1,13 +1,13 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/account/account_preferences.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
-import 'package:lichess_mobile/src/styles/lichess_icons.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/lichess_assets.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/account/account_preferences.dart';
+import 'package:citystat1/src/model/user/user.dart';
+import 'package:citystat1/src/styles/lichess_icons.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/lichess_assets.dart';
 
 /// Displays a user name, title, flair (optional) with an optional rating.
 class UserFullNameWidget extends ConsumerWidget {

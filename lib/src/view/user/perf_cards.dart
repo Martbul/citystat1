@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/common/perf.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
-import 'package:lichess_mobile/src/styles/lichess_icons.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/view/account/rating_pref_aware.dart';
-import 'package:lichess_mobile/src/view/puzzle/dashboard_screen.dart';
-import 'package:lichess_mobile/src/view/puzzle/storm_dashboard.dart';
-import 'package:lichess_mobile/src/view/user/perf_stats_screen.dart';
-import 'package:lichess_mobile/src/widgets/rating.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/common/perf.dart';
+import 'package:citystat1/src/model/user/user.dart';
+import 'package:citystat1/src/styles/lichess_icons.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/view/account/rating_pref_aware.dart';
+import 'package:citystat1/src/view/puzzle/dashboard_screen.dart';
+import 'package:citystat1/src/view/puzzle/storm_dashboard.dart';
+import 'package:citystat1/src/view/user/perf_stats_screen.dart';
+import 'package:citystat1/src/widgets/rating.dart';
 
 /// A widget that displays the performance cards of a user.
 class PerfCards extends StatelessWidget {

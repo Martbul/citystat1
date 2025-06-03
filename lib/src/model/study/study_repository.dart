@@ -4,11 +4,11 @@ import 'package:deep_pick/deep_pick.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:http/http.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/study/study.dart';
-import 'package:lichess_mobile/src/model/study/study_filter.dart';
-import 'package:lichess_mobile/src/model/study/study_list_paginator.dart';
-import 'package:lichess_mobile/src/network/http.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/study/study.dart';
+import 'package:citystat1/src/model/study/study_filter.dart';
+import 'package:citystat1/src/model/study/study_list_paginator.dart';
+import 'package:citystat1/src/network/http.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'study_repository.g.dart';

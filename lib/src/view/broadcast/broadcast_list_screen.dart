@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/l10n/l10n.dart';
-import 'package:lichess_mobile/src/model/broadcast/broadcast_providers.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/view/broadcast/broadcast_list_tile.dart';
-import 'package:lichess_mobile/src/view/broadcast/broadcast_search_screen.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_bottom_sheet.dart';
-import 'package:lichess_mobile/src/widgets/buttons.dart';
-import 'package:lichess_mobile/src/widgets/filter.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
-import 'package:lichess_mobile/src/widgets/misc.dart';
-import 'package:lichess_mobile/src/widgets/shimmer.dart';
+import 'package:citystat1/l10n/l10n.dart';
+import 'package:citystat1/src/model/broadcast/broadcast_providers.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/view/broadcast/broadcast_list_tile.dart';
+import 'package:citystat1/src/view/broadcast/broadcast_search_screen.dart';
+import 'package:citystat1/src/widgets/adaptive_bottom_sheet.dart';
+import 'package:citystat1/src/widgets/buttons.dart';
+import 'package:citystat1/src/widgets/filter.dart';
+import 'package:citystat1/src/widgets/list.dart';
+import 'package:citystat1/src/widgets/misc.dart';
+import 'package:citystat1/src/widgets/shimmer.dart';
 
 enum _BroadcastFilter {
   all,

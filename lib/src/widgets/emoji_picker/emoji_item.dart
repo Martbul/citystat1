@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/constants.dart';
+import 'package:citystat1/src/constants.dart';
 
 class EmojiItem extends StatelessWidget {
   const EmojiItem({super.key, required this.onTap, required this.emoji, this.size = 24});

@@ -1,17 +1,17 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/analysis/analysis_controller.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/game/exported_game.dart';
-import 'package:lichess_mobile/src/model/game/game_share_service.dart';
-import 'package:lichess_mobile/src/network/http.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/share.dart';
-import 'package:lichess_mobile/src/view/analysis/analysis_screen.dart';
-import 'package:lichess_mobile/src/view/game/game_screen.dart';
-import 'package:lichess_mobile/src/widgets/feedback.dart';
-import 'package:lichess_mobile/src/widgets/platform_context_menu_button.dart';
+import 'package:citystat1/src/model/analysis/analysis_controller.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/game/exported_game.dart';
+import 'package:citystat1/src/model/game/game_share_service.dart';
+import 'package:citystat1/src/network/http.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/share.dart';
+import 'package:citystat1/src/view/analysis/analysis_screen.dart';
+import 'package:citystat1/src/view/game/game_screen.dart';
+import 'package:citystat1/src/widgets/feedback.dart';
+import 'package:citystat1/src/widgets/platform_context_menu_button.dart';
 import 'package:share_plus/share_plus.dart';
 
 /// Opens a game screen for the given [LightExportedGame].

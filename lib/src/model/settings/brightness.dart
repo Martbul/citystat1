@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart' show Brightness;
 import 'package:flutter/widgets.dart' show WidgetsBinding;
-import 'package:lichess_mobile/src/model/settings/general_preferences.dart';
+import 'package:citystat1/src/model/settings/general_preferences.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'brightness.g.dart';

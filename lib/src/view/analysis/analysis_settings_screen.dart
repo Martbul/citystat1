@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/analysis/analysis_controller.dart';
-import 'package:lichess_mobile/src/model/analysis/analysis_preferences.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/view/analysis/engine_settings_widget.dart';
-import 'package:lichess_mobile/src/view/opening_explorer/opening_explorer_settings.dart';
-import 'package:lichess_mobile/src/widgets/feedback.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
-import 'package:lichess_mobile/src/widgets/settings.dart';
+import 'package:citystat1/src/model/analysis/analysis_controller.dart';
+import 'package:citystat1/src/model/analysis/analysis_preferences.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/view/analysis/engine_settings_widget.dart';
+import 'package:citystat1/src/view/opening_explorer/opening_explorer_settings.dart';
+import 'package:citystat1/src/widgets/feedback.dart';
+import 'package:citystat1/src/widgets/list.dart';
+import 'package:citystat1/src/widgets/settings.dart';
 
 class AnalysisSettingsScreen extends ConsumerWidget {
   const AnalysisSettingsScreen(this.options);

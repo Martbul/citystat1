@@ -1,16 +1,16 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_preferences.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_service.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/view/analysis/engine_settings_widget.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_choice_picker.dart';
-import 'package:lichess_mobile/src/widgets/buttons.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
-import 'package:lichess_mobile/src/widgets/platform_alert_dialog.dart';
-import 'package:lichess_mobile/src/widgets/settings.dart';
+import 'package:citystat1/src/model/engine/evaluation_preferences.dart';
+import 'package:citystat1/src/model/engine/evaluation_service.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/view/analysis/engine_settings_widget.dart';
+import 'package:citystat1/src/widgets/adaptive_choice_picker.dart';
+import 'package:citystat1/src/widgets/buttons.dart';
+import 'package:citystat1/src/widgets/list.dart';
+import 'package:citystat1/src/widgets/platform_alert_dialog.dart';
+import 'package:citystat1/src/widgets/settings.dart';
 
 class EngineSettingsScreen extends ConsumerStatefulWidget {
   const EngineSettingsScreen({super.key});

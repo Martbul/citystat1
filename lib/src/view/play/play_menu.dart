@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/common/perf.dart';
-import 'package:lichess_mobile/src/network/connectivity.dart';
-import 'package:lichess_mobile/src/styles/lichess_icons.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/view/over_the_board/over_the_board_screen.dart';
-import 'package:lichess_mobile/src/view/play/correspondence_challenges_screen.dart';
-import 'package:lichess_mobile/src/view/play/create_game_widget.dart';
-import 'package:lichess_mobile/src/view/tournament/tournament_list_screen.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
+import 'package:citystat1/src/model/common/perf.dart';
+import 'package:citystat1/src/network/connectivity.dart';
+import 'package:citystat1/src/styles/lichess_icons.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/view/over_the_board/over_the_board_screen.dart';
+import 'package:citystat1/src/view/play/correspondence_challenges_screen.dart';
+import 'package:citystat1/src/view/play/create_game_widget.dart';
+import 'package:citystat1/src/view/tournament/tournament_list_screen.dart';
+import 'package:citystat1/src/widgets/list.dart';
 
 class PlayMenu extends ConsumerWidget {
   const PlayMenu();

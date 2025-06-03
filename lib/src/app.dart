@@ -2,22 +2,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:l10n_esperanto/l10n_esperanto.dart';
-import 'package:lichess_mobile/l10n/l10n.dart';
-import 'package:lichess_mobile/src/app_links.dart';
-import 'package:lichess_mobile/src/model/account/account_repository.dart';
-import 'package:lichess_mobile/src/model/account/account_service.dart';
-import 'package:lichess_mobile/src/model/challenge/challenge_service.dart';
-import 'package:lichess_mobile/src/model/common/preloaded_data.dart';
-import 'package:lichess_mobile/src/model/correspondence/correspondence_service.dart';
-import 'package:lichess_mobile/src/model/notifications/notification_service.dart';
-import 'package:lichess_mobile/src/model/settings/board_preferences.dart';
-import 'package:lichess_mobile/src/model/settings/general_preferences.dart';
-import 'package:lichess_mobile/src/network/connectivity.dart';
-import 'package:lichess_mobile/src/network/socket.dart';
-import 'package:lichess_mobile/src/tab_scaffold.dart';
-import 'package:lichess_mobile/src/theme.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/utils/screen.dart';
+import 'package:citystat1/l10n/l10n.dart';
+import 'package:citystat1/src/app_links.dart';
+import 'package:citystat1/src/model/account/account_repository.dart';
+import 'package:citystat1/src/model/account/account_service.dart';
+import 'package:citystat1/src/model/challenge/challenge_service.dart';
+import 'package:citystat1/src/model/common/preloaded_data.dart';
+import 'package:citystat1/src/model/correspondence/correspondence_service.dart';
+import 'package:citystat1/src/model/notifications/notification_service.dart';
+import 'package:citystat1/src/model/settings/board_preferences.dart';
+import 'package:citystat1/src/model/settings/general_preferences.dart';
+import 'package:citystat1/src/network/connectivity.dart';
+import 'package:citystat1/src/network/socket.dart';
+import 'package:citystat1/src/tab_scaffold.dart';
+import 'package:citystat1/src/theme.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/utils/screen.dart';
 
 /// Application initialization and main entry point.
 class AppInitializationScreen extends ConsumerWidget {

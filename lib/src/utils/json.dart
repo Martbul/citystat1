@@ -2,7 +2,7 @@ import 'dart:ui' show Color, Locale;
 
 import 'package:deep_pick/deep_pick.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:lichess_mobile/src/model/common/uci.dart';
+import 'package:citystat1/src/model/common/uci.dart';
 
 class LocaleConverter implements JsonConverter<Locale?, Map<String, dynamic>?> {
   const LocaleConverter();

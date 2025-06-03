@@ -1,15 +1,15 @@
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/common/service/sound_service.dart';
-import 'package:lichess_mobile/src/model/puzzle/puzzle.dart';
-import 'package:lichess_mobile/src/model/puzzle/puzzle_providers.dart';
-import 'package:lichess_mobile/src/model/puzzle/puzzle_repository.dart';
-import 'package:lichess_mobile/src/model/puzzle/streak_storage.dart';
-import 'package:lichess_mobile/src/network/http.dart';
-import 'package:lichess_mobile/src/tab_scaffold.dart' show currentNavigatorKeyProvider;
-import 'package:lichess_mobile/src/widgets/feedback.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/common/service/sound_service.dart';
+import 'package:citystat1/src/model/puzzle/puzzle.dart';
+import 'package:citystat1/src/model/puzzle/puzzle_providers.dart';
+import 'package:citystat1/src/model/puzzle/puzzle_repository.dart';
+import 'package:citystat1/src/model/puzzle/streak_storage.dart';
+import 'package:citystat1/src/network/http.dart';
+import 'package:citystat1/src/tab_scaffold.dart' show currentNavigatorKeyProvider;
+import 'package:citystat1/src/widgets/feedback.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'puzzle_streak.freezed.dart';

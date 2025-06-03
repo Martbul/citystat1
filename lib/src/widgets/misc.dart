@@ -1,7 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// A widget that displays a title in the app bar with auto-sizing text.

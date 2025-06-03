@@ -1,10 +1,10 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/common/speed.dart';
-import 'package:lichess_mobile/src/model/opening_explorer/opening_explorer.dart';
-import 'package:lichess_mobile/src/model/settings/preferences_storage.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
+import 'package:citystat1/src/model/common/speed.dart';
+import 'package:citystat1/src/model/opening_explorer/opening_explorer.dart';
+import 'package:citystat1/src/model/settings/preferences_storage.dart';
+import 'package:citystat1/src/model/user/user.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'opening_explorer_preferences.freezed.dart';

@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:dartchess/dartchess.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/common/time_increment.dart';
+import 'package:citystat1/src/model/common/time_increment.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'over_the_board_clock.freezed.dart';

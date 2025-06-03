@@ -3,9 +3,9 @@ import 'package:dartchess/dartchess.dart';
 import 'package:deep_pick/deep_pick.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/common/chess.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
+import 'package:citystat1/src/model/common/chess.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/user/user.dart';
 
 part 'study.freezed.dart';
 part 'study.g.dart';

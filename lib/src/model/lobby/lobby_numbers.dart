@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:lichess_mobile/src/model/common/socket.dart';
-import 'package:lichess_mobile/src/network/socket.dart';
+import 'package:citystat1/src/model/common/socket.dart';
+import 'package:citystat1/src/network/socket.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'lobby_numbers.g.dart';

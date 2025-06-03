@@ -1,9 +1,9 @@
 import 'package:dartchess/dartchess.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/tv/featured_player.dart';
-import 'package:lichess_mobile/src/model/tv/tv_channel.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/tv/featured_player.dart';
+import 'package:citystat1/src/model/tv/tv_channel.dart';
+import 'package:citystat1/src/model/user/user.dart';
 
 part 'tv_game.freezed.dart';
 

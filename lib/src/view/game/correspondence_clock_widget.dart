@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/screen.dart';
-import 'package:lichess_mobile/src/widgets/clock.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/screen.dart';
+import 'package:citystat1/src/widgets/clock.dart';
 
 class CorrespondenceClock extends StatefulWidget {
   /// The duration left on the clock.

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/tv/live_tv_channels.dart';
-import 'package:lichess_mobile/src/model/tv/tv_channel.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/focus_detector.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/view/watch/tv_screen.dart';
-import 'package:lichess_mobile/src/widgets/board_preview.dart';
-import 'package:lichess_mobile/src/widgets/platform.dart';
-import 'package:lichess_mobile/src/widgets/user_full_name.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/tv/live_tv_channels.dart';
+import 'package:citystat1/src/model/tv/tv_channel.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/focus_detector.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/view/watch/tv_screen.dart';
+import 'package:citystat1/src/widgets/board_preview.dart';
+import 'package:citystat1/src/widgets/platform.dart';
+import 'package:citystat1/src/widgets/user_full_name.dart';
 
 class LiveTvChannelsScreen extends ConsumerWidget {
   const LiveTvChannelsScreen({super.key});

@@ -3,9 +3,9 @@ import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
-import 'package:lichess_mobile/firebase_options.dart';
-import 'package:lichess_mobile/src/log.dart';
-import 'package:lichess_mobile/src/model/engine/engine.dart';
+import 'package:citystat1/firebase_options.dart';
+import 'package:citystat1/src/log.dart';
+import 'package:citystat1/src/model/engine/engine.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// A singleton class that provides access to plugins and external APIs.

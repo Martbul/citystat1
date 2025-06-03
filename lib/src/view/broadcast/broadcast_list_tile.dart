@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/model/broadcast/broadcast.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/styles/lichess_icons.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/screen.dart';
-import 'package:lichess_mobile/src/view/broadcast/broadcast_round_screen.dart';
+import 'package:citystat1/src/model/broadcast/broadcast.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/styles/lichess_icons.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/screen.dart';
+import 'package:citystat1/src/view/broadcast/broadcast_round_screen.dart';
 
 const _kDefaultBroadcastImage = AssetImage('assets/images/broadcast_image.png');
 const _kHandsetThumbnailSize = 80.0;

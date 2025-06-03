@@ -3,12 +3,12 @@ import 'dart:io' show Directory;
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/db/secure_storage.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/auth/session_storage.dart';
-import 'package:lichess_mobile/src/utils/string.dart';
-import 'package:lichess_mobile/src/utils/system.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/db/secure_storage.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/auth/session_storage.dart';
+import 'package:citystat1/src/utils/string.dart';
+import 'package:citystat1/src/utils/system.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:path_provider/path_provider.dart'
     show getApplicationDocumentsDirectory, getApplicationSupportDirectory;

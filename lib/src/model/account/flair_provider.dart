@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/network/http.dart';
-import 'package:lichess_mobile/src/utils/lichess_assets.dart';
-import 'package:lichess_mobile/src/widgets/emoji_picker/emoji_picker_models.dart';
+import 'package:citystat1/src/network/http.dart';
+import 'package:citystat1/src/utils/lichess_assets.dart';
+import 'package:citystat1/src/widgets/emoji_picker/emoji_picker_models.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'flair_provider.g.dart';

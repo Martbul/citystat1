@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/common/chess.dart';
-import 'package:lichess_mobile/src/model/common/time_increment.dart';
-import 'package:lichess_mobile/src/model/lobby/game_setup_preferences.dart';
-import 'package:lichess_mobile/src/model/over_the_board/over_the_board_clock.dart';
-import 'package:lichess_mobile/src/model/over_the_board/over_the_board_game_controller.dart';
-import 'package:lichess_mobile/src/model/settings/over_the_board_preferences.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_bottom_sheet.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_choice_picker.dart';
-import 'package:lichess_mobile/src/widgets/list.dart';
-import 'package:lichess_mobile/src/widgets/non_linear_slider.dart';
-import 'package:lichess_mobile/src/widgets/settings.dart';
+import 'package:citystat1/src/model/common/chess.dart';
+import 'package:citystat1/src/model/common/time_increment.dart';
+import 'package:citystat1/src/model/lobby/game_setup_preferences.dart';
+import 'package:citystat1/src/model/over_the_board/over_the_board_clock.dart';
+import 'package:citystat1/src/model/over_the_board/over_the_board_game_controller.dart';
+import 'package:citystat1/src/model/settings/over_the_board_preferences.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/widgets/adaptive_bottom_sheet.dart';
+import 'package:citystat1/src/widgets/adaptive_choice_picker.dart';
+import 'package:citystat1/src/widgets/list.dart';
+import 'package:citystat1/src/widgets/non_linear_slider.dart';
+import 'package:citystat1/src/widgets/settings.dart';
 
 void showConfigureGameSheet(BuildContext context, {required bool isDismissible}) {
   final double screenHeight = MediaQuery.sizeOf(context).height;

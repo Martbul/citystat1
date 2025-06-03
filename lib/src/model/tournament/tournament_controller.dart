@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/chat/chat_controller.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/common/socket.dart';
-import 'package:lichess_mobile/src/model/tournament/tournament.dart';
-import 'package:lichess_mobile/src/model/tournament/tournament_repository.dart';
-import 'package:lichess_mobile/src/model/tv/tv_socket_events.dart';
-import 'package:lichess_mobile/src/network/socket.dart';
+import 'package:citystat1/src/model/chat/chat_controller.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/common/socket.dart';
+import 'package:citystat1/src/model/tournament/tournament.dart';
+import 'package:citystat1/src/model/tournament/tournament_repository.dart';
+import 'package:citystat1/src/model/tv/tv_socket_events.dart';
+import 'package:citystat1/src/network/socket.dart';
 import 'package:logging/logging.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 

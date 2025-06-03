@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-import 'package:lichess_mobile/src/constants.dart';
+import 'package:citystat1/src/constants.dart';
 
 class RatingWidget extends StatelessWidget {
   const RatingWidget({

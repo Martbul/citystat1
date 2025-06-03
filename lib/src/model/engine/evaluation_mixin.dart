@@ -4,17 +4,17 @@ import 'package:dartchess/dartchess.dart';
 import 'package:deep_pick/deep_pick.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/common/chess.dart';
-import 'package:lichess_mobile/src/model/common/eval.dart';
-import 'package:lichess_mobile/src/model/common/node.dart';
-import 'package:lichess_mobile/src/model/common/socket.dart';
-import 'package:lichess_mobile/src/model/common/uci.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_preferences.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_service.dart';
-import 'package:lichess_mobile/src/model/engine/work.dart';
-import 'package:lichess_mobile/src/network/socket.dart';
-import 'package:lichess_mobile/src/utils/json.dart';
-import 'package:lichess_mobile/src/utils/rate_limit.dart';
+import 'package:citystat1/src/model/common/chess.dart';
+import 'package:citystat1/src/model/common/eval.dart';
+import 'package:citystat1/src/model/common/node.dart';
+import 'package:citystat1/src/model/common/socket.dart';
+import 'package:citystat1/src/model/common/uci.dart';
+import 'package:citystat1/src/model/engine/evaluation_preferences.dart';
+import 'package:citystat1/src/model/engine/evaluation_service.dart';
+import 'package:citystat1/src/model/engine/work.dart';
+import 'package:citystat1/src/network/socket.dart';
+import 'package:citystat1/src/utils/json.dart';
+import 'package:citystat1/src/utils/rate_limit.dart';
 import 'package:meta/meta.dart';
 
 /// The debounce delay for requesting an eval.

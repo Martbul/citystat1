@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/clock/clock_tool_controller.dart';
-import 'package:lichess_mobile/src/model/common/time_increment.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/immersive_mode.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/utils/screen.dart';
-import 'package:lichess_mobile/src/view/clock/clock_settings.dart';
-import 'package:lichess_mobile/src/view/clock/custom_clock_settings.dart';
-import 'package:lichess_mobile/src/widgets/buttons.dart';
-import 'package:lichess_mobile/src/widgets/clock.dart';
+import 'package:citystat1/src/model/clock/clock_tool_controller.dart';
+import 'package:citystat1/src/model/common/time_increment.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/immersive_mode.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/utils/screen.dart';
+import 'package:citystat1/src/view/clock/clock_settings.dart';
+import 'package:citystat1/src/view/clock/custom_clock_settings.dart';
+import 'package:citystat1/src/widgets/buttons.dart';
+import 'package:citystat1/src/widgets/clock.dart';
 
 class ClockToolScreen extends StatelessWidget {
   const ClockToolScreen({super.key});

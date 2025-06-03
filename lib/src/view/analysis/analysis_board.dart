@@ -3,15 +3,15 @@ import 'package:dartchess/dartchess.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/analysis/analysis_controller.dart';
-import 'package:lichess_mobile/src/model/analysis/analysis_preferences.dart';
-import 'package:lichess_mobile/src/model/common/chess.dart';
-import 'package:lichess_mobile/src/model/common/eval.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_preferences.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_service.dart';
-import 'package:lichess_mobile/src/model/settings/board_preferences.dart';
-import 'package:lichess_mobile/src/widgets/pgn.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/analysis/analysis_controller.dart';
+import 'package:citystat1/src/model/analysis/analysis_preferences.dart';
+import 'package:citystat1/src/model/common/chess.dart';
+import 'package:citystat1/src/model/common/eval.dart';
+import 'package:citystat1/src/model/engine/evaluation_preferences.dart';
+import 'package:citystat1/src/model/engine/evaluation_service.dart';
+import 'package:citystat1/src/model/settings/board_preferences.dart';
+import 'package:citystat1/src/widgets/pgn.dart';
 
 class AnalysisBoard extends ConsumerStatefulWidget {
   const AnalysisBoard(

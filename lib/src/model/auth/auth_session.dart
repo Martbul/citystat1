@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/auth/session_storage.dart';
-import 'package:lichess_mobile/src/model/common/preloaded_data.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
+import 'package:citystat1/src/model/auth/session_storage.dart';
+import 'package:citystat1/src/model/common/preloaded_data.dart';
+import 'package:citystat1/src/model/user/user.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'auth_session.freezed.dart';

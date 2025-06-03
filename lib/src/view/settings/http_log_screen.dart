@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/http_log/http_log_paginator.dart';
-import 'package:lichess_mobile/src/model/http_log/http_log_storage.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/utils/navigation.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_action_sheet.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/http_log/http_log_paginator.dart';
+import 'package:citystat1/src/model/http_log/http_log_storage.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/utils/navigation.dart';
+import 'package:citystat1/src/widgets/adaptive_action_sheet.dart';
 
 class HttpLogScreen extends ConsumerStatefulWidget {
   const HttpLogScreen({super.key});

@@ -1,12 +1,12 @@
 import 'package:dartchess/dartchess.dart' show Move, Side;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/challenge/challenge.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/common/speed.dart';
-import 'package:lichess_mobile/src/model/game/game.dart';
-import 'package:lichess_mobile/src/model/game/game_controller.dart';
-import 'package:lichess_mobile/src/model/lobby/create_game_service.dart';
-import 'package:lichess_mobile/src/model/lobby/game_seek.dart';
+import 'package:citystat1/src/model/challenge/challenge.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/common/speed.dart';
+import 'package:citystat1/src/model/game/game.dart';
+import 'package:citystat1/src/model/game/game_controller.dart';
+import 'package:citystat1/src/model/lobby/create_game_service.dart';
+import 'package:citystat1/src/model/lobby/game_seek.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'game_screen_providers.g.dart';

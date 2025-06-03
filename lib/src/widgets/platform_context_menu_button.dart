@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/widgets/buttons.dart';
+import 'package:citystat1/src/widgets/buttons.dart';
 import 'package:popover/popover.dart';
 
 const Color _kBorderColor = CupertinoDynamicColor.withBrightness(

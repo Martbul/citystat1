@@ -1,15 +1,15 @@
 import 'dart:math' as math;
 
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/common/chess.dart';
-import 'package:lichess_mobile/src/model/common/perf.dart';
-import 'package:lichess_mobile/src/model/common/speed.dart';
-import 'package:lichess_mobile/src/model/common/time_increment.dart';
-import 'package:lichess_mobile/src/model/game/game.dart';
-import 'package:lichess_mobile/src/model/game/playable_game.dart';
-import 'package:lichess_mobile/src/model/lobby/game_setup_preferences.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/common/chess.dart';
+import 'package:citystat1/src/model/common/perf.dart';
+import 'package:citystat1/src/model/common/speed.dart';
+import 'package:citystat1/src/model/common/time_increment.dart';
+import 'package:citystat1/src/model/game/game.dart';
+import 'package:citystat1/src/model/game/playable_game.dart';
+import 'package:citystat1/src/model/lobby/game_setup_preferences.dart';
+import 'package:citystat1/src/model/user/user.dart';
 
 part 'game_seek.freezed.dart';
 

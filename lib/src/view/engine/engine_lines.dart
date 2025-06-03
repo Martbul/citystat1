@@ -3,12 +3,12 @@ import 'package:dartchess/dartchess.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/model/account/account_preferences.dart';
-import 'package:lichess_mobile/src/model/common/eval.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_preferences.dart';
-import 'package:lichess_mobile/src/model/engine/evaluation_service.dart';
-import 'package:lichess_mobile/src/styles/styles.dart';
-import 'package:lichess_mobile/src/view/engine/engine_gauge.dart';
+import 'package:citystat1/src/model/account/account_preferences.dart';
+import 'package:citystat1/src/model/common/eval.dart';
+import 'package:citystat1/src/model/engine/evaluation_preferences.dart';
+import 'package:citystat1/src/model/engine/evaluation_service.dart';
+import 'package:citystat1/src/styles/styles.dart';
+import 'package:citystat1/src/view/engine/engine_gauge.dart';
 
 class EngineLines extends ConsumerStatefulWidget {
   const EngineLines({required this.onTapMove, required this.savedEval, required this.isGameOver});

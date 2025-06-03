@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/widgets/clock.dart' show CountdownClockBuilder;
+import 'package:citystat1/src/model/user/user.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/widgets/clock.dart' show CountdownClockBuilder;
 
 class PlaybanMessage extends StatelessWidget {
   const PlaybanMessage({required this.playban, this.centerText = false, super.key});

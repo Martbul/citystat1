@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/foundation.dart';
-import 'package:lichess_mobile/src/binding.dart';
-import 'package:lichess_mobile/src/constants.dart';
-import 'package:lichess_mobile/src/model/engine/uci_protocol.dart';
-import 'package:lichess_mobile/src/model/engine/work.dart';
+import 'package:citystat1/src/binding.dart';
+import 'package:citystat1/src/constants.dart';
+import 'package:citystat1/src/model/engine/uci_protocol.dart';
+import 'package:citystat1/src/model/engine/work.dart';
 import 'package:logging/logging.dart';
 import 'package:multistockfish/multistockfish.dart';
 

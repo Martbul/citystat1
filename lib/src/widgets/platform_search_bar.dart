@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:lichess_mobile/src/widgets/platform.dart';
+import 'package:citystat1/src/widgets/platform.dart';
 
 /// Displays a [SearchBar] on Android and a [CupertinoSearchTextField] on iOS.
 class PlatformSearchBar extends StatelessWidget {

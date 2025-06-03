@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:lichess_mobile/src/binding.dart';
-import 'package:lichess_mobile/src/model/auth/auth_session.dart';
-import 'package:lichess_mobile/src/model/game/game_storage.dart';
-import 'package:lichess_mobile/src/utils/l10n_context.dart';
-import 'package:lichess_mobile/src/view/play/play_menu.dart';
-import 'package:lichess_mobile/src/widgets/adaptive_bottom_sheet.dart';
+import 'package:citystat1/src/binding.dart';
+import 'package:citystat1/src/model/auth/auth_session.dart';
+import 'package:citystat1/src/model/game/game_storage.dart';
+import 'package:citystat1/src/utils/l10n_context.dart';
+import 'package:citystat1/src/view/play/play_menu.dart';
+import 'package:citystat1/src/widgets/adaptive_bottom_sheet.dart';
 import 'package:material_symbols_icons/symbols.dart';
 import 'package:popover/popover.dart';
 

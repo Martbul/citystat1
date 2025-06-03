@@ -1,12 +1,12 @@
 import 'package:deep_pick/deep_pick.dart';
 import 'package:fast_immutable_collections/fast_immutable_collections.dart';
 import 'package:http/http.dart' as http;
-import 'package:lichess_mobile/src/model/common/chess.dart';
-import 'package:lichess_mobile/src/model/common/id.dart';
-import 'package:lichess_mobile/src/model/tv/tv_channel.dart';
-import 'package:lichess_mobile/src/model/tv/tv_game.dart';
-import 'package:lichess_mobile/src/model/user/user.dart';
-import 'package:lichess_mobile/src/network/http.dart';
+import 'package:citystat1/src/model/common/chess.dart';
+import 'package:citystat1/src/model/common/id.dart';
+import 'package:citystat1/src/model/tv/tv_channel.dart';
+import 'package:citystat1/src/model/tv/tv_game.dart';
+import 'package:citystat1/src/model/user/user.dart';
+import 'package:citystat1/src/network/http.dart';
 
 typedef TvChannels = IMap<TvChannel, TvGame>;
 
