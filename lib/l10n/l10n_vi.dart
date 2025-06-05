@@ -157,14 +157,14 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Đã ghi danh tại lichess.org';
+  String get activitySignedUp => 'Đã ghi danh tại Lichess.org';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Đã ủng hộ lichess.org $count tháng với tư cách là một $param2',
+      other: 'Đã ủng hộ Lichess.org $count tháng với tư cách là một $param2',
     );
     return '$_temp0';
   }
@@ -4310,7 +4310,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get temporaryInconvenience => 'Chúng tôi rất tiếc vì những bất tiện tạm thời này,';
 
   @override
-  String get wishYouGreatGames => 'và chúc bạn có những ván cờ tuyệt vời trên lichess.org.';
+  String get wishYouGreatGames => 'và chúc bạn có những ván cờ tuyệt vời trên Lichess.org.';
 
   @override
   String get thankYouForReading => 'Cảm ơn bạn vì đã đọc!';
@@ -5757,7 +5757,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'Bạn có thể tìm <a href=\'/study/mine/hot\'>nghiên cứu trước đó</a>từ trang hồ sơ của bạn.<br>Ngoài ra còn có một <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>bài blog về các nghiên cứu</a>.<br>Những người thành thạo có thể nhập \"?\" để xem các phím tắt.<br>Chúc vui vẻ!';
+      'Bạn có thể tìm <a href=\'/study/mine/hot\'>nghiên cứu trước đó</a>từ trang hồ sơ của bạn.<br>Ngoài ra còn có một <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>bài blog về các nghiên cứu</a>.<br>Những người thành thạo có thể nhập \"?\" để xem các phím tắt.<br>Chúc vui vẻ!';
 
   @override
   String get studyCreateChapterTitle => 'Hãy tạo một chương nghiên cứu';
@@ -5785,7 +5785,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Dán URL một ván cờ trên lichess<br>(kiểu như lichess.org/7fhiu0xi)<br>để tải các nước cờ trong chương.';
+      'Dán URL một ván cờ trên Lichess<br>(kiểu như Lichess.org/7fhiu0xi)<br>để tải các nước cờ trong chương.';
 
   @override
   String get studyFromFenStringTitle => 'Từ một chuỗi FEN';

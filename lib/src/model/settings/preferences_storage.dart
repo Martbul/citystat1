@@ -43,7 +43,7 @@ mixin PreferencesStorage<T extends Serializable> on Notifier<T> {
   PrefCategory get prefCategory;
 
   Future<void> save(T value) async {
-    await LichessBinding.instance.sharedPreferences.setString(
+    await CitystatBinding.instance.sharedPreferences.setString(
       prefCategory.storageKey,
       jsonEncode(value.toJson()),
     );
@@ -52,7 +52,7 @@ mixin PreferencesStorage<T extends Serializable> on Notifier<T> {
   }
 
   T fetch() {
-    final stored = LichessBinding.instance.sharedPreferences.getString(prefCategory.storageKey);
+    final stored = CitystatBinding.instance.sharedPreferences.getString(prefCategory.storageKey);
     if (stored == null) {
       return defaults;
     }
@@ -74,7 +74,7 @@ mixin SessionPreferencesStorage<T extends Serializable> on Notifier<T> {
 
   Future<void> save(T value) async {
     final session = ref.read(authSessionProvider);
-    await LichessBinding.instance.sharedPreferences.setString(
+    await CitystatBinding.instance.sharedPreferences.setString(
       key(prefCategory.storageKey, session),
       jsonEncode(value.toJson()),
     );
@@ -84,7 +84,7 @@ mixin SessionPreferencesStorage<T extends Serializable> on Notifier<T> {
 
   T fetch() {
     final session = ref.watch(authSessionProvider);
-    final stored = LichessBinding.instance.sharedPreferences.getString(
+    final stored = CitystatBinding.instance.sharedPreferences.getString(
       key(prefCategory.storageKey, session),
     );
     if (stored == null) {

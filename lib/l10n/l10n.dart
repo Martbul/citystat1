@@ -474,13 +474,13 @@ abstract class AppLocalizations {
   /// No description provided for @activitySignedUp.
   ///
   /// In en, this message translates to:
-  /// **'Signed up to lichess.org'**
+  /// **'Signed up to Lichess.org'**
   String get activitySignedUp;
 
   /// No description provided for @activitySupportedNbMonths.
   ///
   /// In en, this message translates to:
-  /// **'{count, plural, =1{Supported lichess.org for {count} month as a {param2}} other{Supported lichess.org for {count} months as a {param2}}}'**
+  /// **'{count, plural, =1{Supported Lichess.org for {count} month as a {param2}} other{Supported Lichess.org for {count} months as a {param2}}}'**
   String activitySupportedNbMonths(int count, String param2);
 
   /// No description provided for @activityPracticedNbPositions.
@@ -7710,7 +7710,7 @@ abstract class AppLocalizations {
   /// No description provided for @wishYouGreatGames.
   ///
   /// In en, this message translates to:
-  /// **'and wish you great games on lichess.org.'**
+  /// **'and wish you great games on Lichess.org.'**
   String get wishYouGreatGames;
 
   /// No description provided for @thankYouForReading.
@@ -9924,7 +9924,7 @@ abstract class AppLocalizations {
   /// No description provided for @studyConclusionText.
   ///
   /// In en, this message translates to:
-  /// **'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!'**
+  /// **'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!'**
   String get studyConclusionText;
 
   /// No description provided for @studyCreateChapterTitle.
@@ -9966,13 +9966,13 @@ abstract class AppLocalizations {
   /// No description provided for @studyLoadExistingLichessGameTitle.
   ///
   /// In en, this message translates to:
-  /// **'Load an existing lichess game'**
+  /// **'Load an existing Lichess game'**
   String get studyLoadExistingLichessGameTitle;
 
   /// No description provided for @studyLoadExistingLichessGameText.
   ///
   /// In en, this message translates to:
-  /// **'Paste a lichess game URL<br>(like lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.'**
+  /// **'Paste a Lichess game URL<br>(like Lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.'**
   String get studyLoadExistingLichessGameText;
 
   /// No description provided for @studyFromFenStringTitle.
@@ -10008,7 +10008,7 @@ abstract class AppLocalizations {
   /// No description provided for @studyVariantsAreSupportedText.
   ///
   /// In en, this message translates to:
-  /// **'Yes, you can study crazyhouse<br>and all lichess variants!'**
+  /// **'Yes, you can study crazyhouse<br>and all Lichess variants!'**
   String get studyVariantsAreSupportedText;
 
   /// No description provided for @studyChapterConclusionText.

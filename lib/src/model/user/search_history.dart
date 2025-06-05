@@ -17,7 +17,7 @@ class SearchHistory extends _$SearchHistory {
   String _storageKey(AuthSessionState? session) =>
       'search.history.${session?.user.id ?? '**anon**'}';
 
-  SharedPreferencesWithCache get _prefs => LichessBinding.instance.sharedPreferences;
+  SharedPreferencesWithCache get _prefs => CitystatBinding.instance.sharedPreferences;
 
   @override
   SearchHistoryState build() {

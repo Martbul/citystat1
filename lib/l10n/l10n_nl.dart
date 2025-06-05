@@ -157,15 +157,15 @@ class AppLocalizationsNl extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Geregistreerd op lichess.org';
+  String get activitySignedUp => 'Geregistreerd op Lichess.org';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Steunde lichess.org voor $count maanden als $param2',
-      one: 'Steunde lichess.org voor $count maand als $param2',
+      other: 'Steunde Lichess.org voor $count maanden als $param2',
+      one: 'Steunde Lichess.org voor $count maand als $param2',
     );
     return '$_temp0';
   }
@@ -3961,7 +3961,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get timeToProcessAMoveOnLichessServer =>
-      'Tijd om een zet te verwerken op de lichess server';
+      'Tijd om een zet te verwerken op de Lichess server';
 
   @override
   String get downloadAnnotated => 'Download de geannoteerde partij';
@@ -4361,7 +4361,7 @@ class AppLocalizationsNl extends AppLocalizations {
   String get temporaryInconvenience => 'Onze excuses voor het tijdelijke ongemak,';
 
   @override
-  String get wishYouGreatGames => 'en wij wensen u veel goede partijen op lichess.org.';
+  String get wishYouGreatGames => 'en wij wensen u veel goede partijen op Lichess.org.';
 
   @override
   String get thankYouForReading => 'Bedankt voor het lezen!';
@@ -5944,7 +5944,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
+      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
 
   @override
   String get studyCreateChapterTitle => 'Laten we een studiehoofdstuk maken';
@@ -5967,11 +5967,11 @@ class AppLocalizationsNl extends AppLocalizations {
   String get studyCustomPositionText => 'Setup the board your way.<br>Suited to explore endgames.';
 
   @override
-  String get studyLoadExistingLichessGameTitle => 'Laad een bestaande lichess-partij';
+  String get studyLoadExistingLichessGameTitle => 'Laad een bestaande Lichess-partij';
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Plak een lichess partij link<br>(zoals lichess.org/7fHIU0XI)<br>om de partijzetten in het hoofdstuk te laden.';
+      'Plak een Lichess partij link<br>(zoals Lichess.org/7fHIU0XI)<br>om de partijzetten in het hoofdstuk te laden.';
 
   @override
   String get studyFromFenStringTitle => 'Van een FEN-tekenreeks';
@@ -5992,7 +5992,7 @@ class AppLocalizationsNl extends AppLocalizations {
 
   @override
   String get studyVariantsAreSupportedText =>
-      'Yes, you can study crazyhouse<br>and all lichess variants!';
+      'Yes, you can study crazyhouse<br>and all Lichess variants!';
 
   @override
   String get studyChapterConclusionText =>

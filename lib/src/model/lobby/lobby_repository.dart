@@ -41,7 +41,7 @@ class LobbyRepository {
   Future<IList<CorrespondenceChallenge>> getCorrespondenceChallenges() {
     return client.readJsonList(
       Uri(path: '/lobby/seeks'),
-      headers: {'Accept': 'application/vnd.lichess.v5+json'},
+      headers: {'Accept': 'application/vnd.Lichess.v5+json'},
       mapper: _correspondenceSeekFromJson,
     );
   }

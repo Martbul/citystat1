@@ -97,9 +97,9 @@ const _gameJson = '''
         "f": "people.man-singer"
       },
       {
-        "u": "lichess",
+        "u": "Lichess",
         "t": "Takeback accepted",
-        "f": "activity.lichess"
+        "f": "activity.Lichess"
       }
     ]
   }

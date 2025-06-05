@@ -1,0 +1,19 @@
+A Future<T> in Dart represents a computation or operation that will complete sometime in the future and produce a value of type T (or an error).
+
+async - it’s Dart’s way to handle asynchronous programming — waiting for things like network requests, file I/O, or timers without blocking the main thread.
+
+final is a keyword to declare a variable whose value can be set only once.
+Unlike const, final variables are initialized at runtime (when the code executes) rather than compile time.
+
+singleton - In Dart, a Singleton is a design pattern that ensures a class has only one instance throughout the entire app, 
+and provides a global point of access to that instance.
+
+static means the method or variable belongs to the class itself, not to any specific instance of that class.
+
+In Dart, get defines a getter — a method that behaves like a property.EXAMPLE:int get age => 2025 - birthYear;print(person.age); // instead of person.age()
+
+@override tells Dart you're overriding the abstract getter.
+
+=> FirebaseMessaging.instance is a shorthand way to return the singleton instance of the FirebaseMessaging class (from the Firebase plugin).
+
+A variable that starts with _ is private to its file.

@@ -49,7 +49,7 @@ final _globalStreamController = StreamController<SocketEvent>.broadcast();
 /// - 'challenges'
 final socketGlobalStream = _globalStreamController.stream;
 
-/// Creates a WebSocket URI for the lichess server.
+/// Creates a WebSocket URI for the Lichess server.
 Uri lichessWSUri(String unencodedPath, [Map<String, String>? queryParameters]) =>
     kLichessWSHost.startsWith('localhost') ||
         kLichessWSHost.startsWith('10.') ||
@@ -68,7 +68,7 @@ Uri lichessWSUri(String unencodedPath, [Map<String, String>? queryParameters]) =
         queryParameters: queryParameters,
       );
 
-/// A lichess WebSocket client.
+/// A Lichess WebSocket client.
 ///
 /// Handles authentication:
 ///  - adds the following headers on connect:
@@ -375,7 +375,7 @@ class SocketClient {
           _logger.severe(
             'Cannot solve event gap: version incoming ${event.version} vs current $version',
           );
-          LichessBinding.instance.firebaseCrashlytics.recordError(
+          CitystatBinding.instance.firebaseCrashlytics.recordError(
             'Cannot solve event gap: version incoming ${event.version} vs current $version',
             null,
             information: ['socket.route: $route', 'event.topic: ${event.topic}'],
@@ -486,7 +486,7 @@ class SocketClient {
 ///
 /// The pool is used to manage multiple socket connections to different routes.
 /// It ensures that only one connection is active at a time, and that a client
-/// created for a route other than the lichess default socket route is disposed
+/// created for a route other than the Lichess default socket route is disposed
 /// when it becomes idle.
 ///
 /// A client for the default route is created upon initialization and is never

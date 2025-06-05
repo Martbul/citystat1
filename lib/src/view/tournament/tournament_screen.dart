@@ -678,7 +678,7 @@ class _FeaturedGamePlayer extends StatelessWidget {
         game.fen.endsWith(' w') && side == Side.white ||
         game.fen.endsWith(' b') && side == Side.black;
 
-    // See https://github.com/lichess-org/lila/blob/974e1fbd9af0a9d125cec3008d4e72ec09834cf3/ui/lib/src/clock.ts#L13
+    // See https://github.com/Lichess-org/lila/blob/974e1fbd9af0a9d125cec3008d4e72ec09834cf3/ui/lib/src/clock.ts#L13
     final clockActive =
         isOurTurn &&
         (side == Side.white

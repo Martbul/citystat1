@@ -9,15 +9,17 @@ import 'package:citystat1/src/intl.dart';
 import 'package:citystat1/src/log.dart';
 import 'package:citystat1/src/model/common/service/sound_service.dart';
 
+
 Future<void> main() async {
+  // Widgets is a framework and this is the "glue" to bind the framework to the Flutter engine
   final widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  final lichessBinding = AppLichessBinding.ensureInitialized();
+  final citystatBinding = AppCityStatBinding.ensureInitialized();
 
   // Show splash screen until app is ready
   // See src/app.dart for splash screen removal
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding); //?This tells Flutter to keep showing the splash screen (defined in native Android/iOS code) until we explicitly remove it later in the app. It's part of the flutter_native_splash package.
 
-  await lichessBinding.preloadSharedPreferences();
+  await citystatBinding.preloadSharedPreferences();
 
   await preloadPieceImages();
 
@@ -25,15 +27,37 @@ Future<void> main() async {
 
   await SoundService.initialize();
 
+//? setups localization
   final locale = await setupIntl(widgetsBinding);
 
   await initializeLocalNotifications(locale);
 
-  //await lichessBinding.initializeFirebase();
+  //await CitystatBinding.initializeFirebase();
 
   if (defaultTargetPlatform == TargetPlatform.android) {
     await androidDisplayInitialization(widgetsBinding);
   }
 
-  runApp(ProviderScope(observers: [ProviderLogger()], child: const AppInitializationScreen()));
+//? the ENTRY POINT
+  runApp(
+    ProviderScope(
+      observers: 
+      [ProviderLogger()],
+       child: const AppInitializationScreen()
+)
+);
 }
+
+//? runApp(...) is the Flutter entry point that inflates the widget tree and starts rendering the UI.
+
+//? ProviderScope(...) - This comes from Riverpod — a state management library. ProviderScope:Wraps your entire app.
+//?Manages the lifecycle of providers (like dependency injection or global state).
+//?Allows reading/watching providers anywhere down the tree.Think of this as setting up a context for Riverpod to work in.
+
+//?observers: [ProviderLogger()]
+
+//? child: const AppInitializationScreen() This is the first visible screen of your app.
+//? shows a splash screen, loading animation, or performs final checks before entering the main app 
+
+
+

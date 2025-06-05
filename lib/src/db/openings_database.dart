@@ -8,7 +8,7 @@ import 'package:sqflite/sqflite.dart';
 
 part 'openings_database.g.dart';
 
-// The dataset is from https://github.com/lichess-org/chess-openings
+// The dataset is from https://github.com/Lichess-org/chess-openings
 // and was simply imported in sqlite with:
 //   sqlite> .mode tabs
 //   sqlite> .import a.tsv openings

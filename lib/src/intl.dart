@@ -8,10 +8,10 @@ import 'package:citystat1/src/model/settings/preferences_storage.dart';
 
 /// Setup [Intl.defaultLocale] and timeago locale and messages.
 Future<Locale> setupIntl(WidgetsBinding widgetsBinding) async {
-  final systemLocale = widgetsBinding.platformDispatcher.locale;
+  final systemLocale = widgetsBinding.platformDispatcher.locale; //?This gives you the OS-level locale, like Locale('en', 'US'), from WidgetsBinding.instance.platformDispatcher.
 
   // Get locale from shared preferences, if any
-  final json = LichessBinding.instance.sharedPreferences.getString(PrefCategory.general.storageKey);
+  final json = CitystatBinding.instance.sharedPreferences.getString(PrefCategory.general.storageKey);
   final generalPref = json != null
       ? GeneralPrefs.fromJson(jsonDecode(json) as Map<String, dynamic>)
       : GeneralPrefs.defaults;

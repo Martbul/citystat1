@@ -491,7 +491,7 @@ class GameController extends _$GameController {
       if (event.version != null) {
         _logger.warning('received $event while game state not yet available');
         // not sure whether this can happen so log it
-        LichessBinding.instance.firebaseCrashlytics.recordError(
+        CitystatBinding.instance.firebaseCrashlytics.recordError(
           'received $event while game state not yet available',
           null,
           reason: 'versioned socket event received before game state available',

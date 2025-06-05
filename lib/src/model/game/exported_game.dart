@@ -20,7 +20,7 @@ part 'exported_game.g.dart';
 
 typedef ClockData = ({Duration initial, Duration increment});
 
-/// A lichess game fetched from the export API.
+/// A Lichess game fetched from the export API.
 ///
 /// This usually represents a game that is finished and can be viewed by anyone, or accessed
 /// offline.
@@ -54,7 +54,7 @@ sealed class ExportedGame with _$ExportedGame, BaseGame, IndexableSteps implemen
     IList<Duration>? clocks,
   }) = _ExportedGame;
 
-  /// Create an exported game from the lichess api.
+  /// Create an exported game from the Lichess api.
   ///
   /// Currently, those endpoints are supported:
   /// - GET /game/export/:id
@@ -69,7 +69,7 @@ sealed class ExportedGame with _$ExportedGame, BaseGame, IndexableSteps implemen
 /// A [LightExportedGame] associated with a point of view of a player.
 typedef LightExportedGameWithPov = ({LightExportedGame game, Side pov});
 
-/// A lichess game exported from the API, with less data than [ExportedGame].
+/// A Lichess game exported from the API, with less data than [ExportedGame].
 ///
 /// This is commonly used to display a list of games.
 /// Lichess endpoints that return this data:
@@ -188,7 +188,7 @@ ExportedGame _archivedGameFromPick(RequiredPick pick, {bool withBookmarked = fal
       final moves = it.asStringOrThrow();
       final movesList = moves.isEmpty ? <String>[] : moves.split(' ');
 
-      // assume lichess always send initialFen with fromPosition and chess960
+      // assume Lichess always send initialFen with fromPosition and chess960
       Position position = (data.variant == Variant.fromPosition || data.variant == Variant.chess960)
           ? Chess.fromSetup(Setup.parseFen(initialFen!))
           : data.variant.initialPosition;
@@ -199,7 +199,7 @@ ExportedGame _archivedGameFromPick(RequiredPick pick, {bool withBookmarked = fal
         final stepClock = clocks?[index];
         index++;
         final move = position.parseSan(san);
-        // assume lichess only sends correct moves
+        // assume Lichess only sends correct moves
         position = position.playUnchecked(move!);
         steps.add(
           GameStep(

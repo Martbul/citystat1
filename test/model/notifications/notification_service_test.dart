@@ -160,7 +160,7 @@ void main() {
 
         testBinding.firebaseMessaging.onMessage.add(
           const RemoteMessage(
-            data: {'lichess.type': 'gameMove', 'lichess.fullId': '9wlmxmibr9gh'},
+            data: {'Lichess.type': 'gameMove', 'Lichess.fullId': '9wlmxmibr9gh'},
             notification: RemoteNotification(
               title: 'It is your turn!',
               body: 'Dr-Alaakour played a move',

@@ -82,7 +82,7 @@ String relativeDate(AppLocalizations l10n, DateTime date, {bool shortDate = true
 
 /// Returns a localized locale name.
 ///
-/// Names taken from https://github.com/lichess-org/lila/blob/master/modules/i18n/src/main/LangList.scala.
+/// Names taken from https://github.com/Lichess-org/lila/blob/master/modules/i18n/src/main/LangList.scala.
 ///
 /// Not all of these are actually supported in the app currently, but this way we won't have to check the lila code again when we add more languages.
 String localeToLocalizedName(Locale locale) => switch (locale) {

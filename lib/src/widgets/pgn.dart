@@ -142,7 +142,7 @@ class DebouncedPgnTreeView extends ConsumerStatefulWidget {
   /// Whether to show computer analysis informations.
   ///
   /// If `true`, the tree view will show computer analysis variations and evaluations.
-  /// Only applied to lichess game analysis.
+  /// Only applied to Lichess game analysis.
   final bool shouldShowComputerAnalysis;
 
   /// Display mode of the tree view.

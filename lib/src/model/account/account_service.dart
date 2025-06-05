@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart' show AlertDialog, Navigator, Text, showAdaptiveDialog;
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:citystat1/src/binding.dart' show LichessBinding;
+import 'package:citystat1/src/binding.dart' show CitystatBinding;
 import 'package:citystat1/src/model/account/account_repository.dart';
 import 'package:citystat1/src/model/auth/auth_session.dart';
 import 'package:citystat1/src/model/common/id.dart';
@@ -46,7 +46,7 @@ class AccountService {
   static const _storageKey = 'account.playban_notification_date';
 
   void start() {
-    final prefs = LichessBinding.instance.sharedPreferences;
+    final prefs = CitystatBinding.instance.sharedPreferences;
 
     _accountProviderSubscription = _ref.listen(accountProvider, (_, account) {
       final playban = account.valueOrNull?.playban;
@@ -81,11 +81,11 @@ class AccountService {
   }
 
   void _savePlaybanNotificationDate(DateTime date) {
-    LichessBinding.instance.sharedPreferences.setString(_storageKey, date.toIso8601String());
+    CitystatBinding.instance.sharedPreferences.setString(_storageKey, date.toIso8601String());
   }
 
   void _clearPlaybanNotificationDate() {
-    LichessBinding.instance.sharedPreferences.remove(_storageKey);
+    CitystatBinding.instance.sharedPreferences.remove(_storageKey);
   }
 
   void dispose() {

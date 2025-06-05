@@ -71,7 +71,7 @@ class PuzzleSession extends _$PuzzleSession {
     return PuzzleSessionData.fromJson(jsonDecode(stored) as Map<String, dynamic>);
   }
 
-  SharedPreferencesWithCache get _store => LichessBinding.instance.sharedPreferences;
+  SharedPreferencesWithCache get _store => CitystatBinding.instance.sharedPreferences;
 
   String get _storageKey => 'puzzle_session.${userId ?? '**anon**'}';
 }

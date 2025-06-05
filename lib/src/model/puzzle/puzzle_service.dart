@@ -161,7 +161,7 @@ class PuzzleService {
     final deficit = max(0, queueLength - unsolved.length);
 
     if (deficit > 0 || solved.isNotEmpty) {
-      _log.fine('Will sync puzzles with lichess (deficit: $deficit, solved: ${solved.length})');
+      _log.fine('Will sync puzzles with Lichess (deficit: $deficit, solved: ${solved.length})');
 
       final difficulty = _ref.read(puzzlePreferencesProvider).difficulty;
 

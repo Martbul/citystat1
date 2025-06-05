@@ -365,7 +365,7 @@ class _Player extends ConsumerWidget {
                 timeLeft: Duration(milliseconds: max(0, clock.timeLeft(side)!.inMilliseconds)),
                 key: clockKey,
                 active: clock.activeClock == side,
-                // https://github.com/lichess-org/mobile/issues/785#issuecomment-2183903498
+                // https://github.com/Lichess-org/mobile/issues/785#issuecomment-2183903498
                 emergencyThreshold: Duration(
                   seconds: (clock.timeIncrement.time * 0.125).clamp(10, 60).toInt(),
                 ),

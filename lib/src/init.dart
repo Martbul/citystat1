@@ -34,17 +34,24 @@ final _logger = Logger('Init');
 
 /// Run initialization tasks only once on first app launch or after an update.
 Future<void> setupFirstLaunch() async {
-  final prefs = LichessBinding.instance.sharedPreferences;
-  final pInfo = await PackageInfo.fromPlatform();
+//?Goal: Run one-time tasks the first time the app is opened or when the app is updated.
+ //?This includes:
+    //? Wiping old sensitive data
+    //? Generating identifiers
+    //? Initializing preferences
+    //? Migrating user data between versions
+ 
+  final prefs = CitystatBinding.instance.sharedPreferences; //? app's local key-value store (like SharedPreferences).
+  final pInfo = await PackageInfo.fromPlatform(); //?The version name from pubspec.yaml.
   final appVersion = Version.parse(pInfo.version);
-  final installedVersion = prefs.getString('installed_version');
+  final installedVersion = prefs.getString('installed_version'); //?What version was saved the last time this app ran.
 
   if (prefs.getBool('first_run') ?? true) {
     // Clear secure storage on first run because it is not deleted on app uninstall
     await SecureStorage.instance.deleteAll();
 
     // Generate a socket random identifier and store it for the app lifetime
-    final sri = genRandomString(12);
+    final sri = genRandomString(12); //? Generate a Random SRI (Socket Random Identifier)
     _logger.info('Generated new SRI: $sri');
     await SecureStorage.instance.write(key: kSRIStorageKey, value: sri);
 
@@ -59,6 +66,8 @@ Future<void> setupFirstLaunch() async {
     await prefs.setBool('first_run', false);
   }
 
+
+//?Data Migration for Older App Versions
   if (installedVersion != null && Version.parse(installedVersion) < Version(0, 15, 12)) {
     // migrate home preferences to session preferences
     final homePrefs = prefs.getString(PrefCategory.home.storageKey);
@@ -86,7 +95,7 @@ Future<void> setupFirstLaunch() async {
 
 
 Future<void> initializeLocalNotifications(Locale locale) async {
-  final l10n = await AppLocalizations.delegate.load(locale);
+  final l10n = await AppLocalizations.delegate.load(locale); //? Loads localized strings (usually from .arb files) for the provided locale.
   final flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
 
   final initializationSettings = InitializationSettings(
@@ -128,18 +137,22 @@ Future<void> initializeLocalNotifications(Locale locale) async {
 // }
 
 Future<void> preloadPieceImages() async {
-  final prefs = LichessBinding.instance.sharedPreferences;
+  final prefs = CitystatBinding.instance.sharedPreferences; //?This retrieves the already-loaded shared preferences object from your singleton (CitystatBinding).
+    print("prefs");
+    print(prefs.toString());
   final storedPrefs = prefs.getString(PrefCategory.board.storageKey);
+      print("storedPrefs");
+  print(storedPrefs.toString());
   BoardPrefs boardPrefs = BoardPrefs.defaults;
-  if (storedPrefs != null) {
+  if (storedPrefs != null) { //?Checks whether any preferences were saved before:
     try {
-      boardPrefs = BoardPrefs.fromJson(jsonDecode(storedPrefs) as Map<String, dynamic>);
+      boardPrefs = BoardPrefs.fromJson(jsonDecode(storedPrefs) as Map<String, dynamic>); //? tries to decode the saved JSON string into a Dart map.Converts the map into a BoardPrefs object using a fromJson constructor.
     } catch (e) {
       _logger.warning('Failed to decode board preferences: $e');
     }
   }
 
-  await precachePieceImages(boardPrefs.pieceSet);
+  await precachePieceImages(boardPrefs.pieceSet); //? It uses the final boardPrefs.pieceSet value to preload the piece images into memory/cache.
 }
 
 /// Display setup on Android.
@@ -199,7 +212,7 @@ Future<void> androidDisplayInitialization(WidgetsBinding widgetsBinding) async {
 
 // Adjusts some settings for small screens based on the MediaQuery data.
 Future<void> _screenSizeBasedInitialization() async {
-  final prefs = LichessBinding.instance.sharedPreferences;
+  final prefs = CitystatBinding.instance.sharedPreferences;
   final mediaQueryData = MediaQueryData.fromView(
     WidgetsBinding.instance.platformDispatcher.views.first,
   );

@@ -18,7 +18,7 @@ class AnalysisTreeView extends ConsumerWidget {
 
     final analysisState = ref.watch(ctrlProvider).requireValue;
     final prefs = ref.watch(analysisPreferencesProvider);
-    // enable computer analysis takes effect here only if it's a lichess game
+    // enable computer analysis takes effect here only if it's a Lichess game
     final enableComputerAnalysis = !options.isLichessGameAnalysis || prefs.enableComputerAnalysis;
 
     return SingleChildScrollView(

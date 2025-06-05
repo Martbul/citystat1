@@ -207,7 +207,7 @@ class _GameScreenState extends ConsumerState<GameScreen> {
       case AsyncError(error: final e, stackTrace: final s):
         debugPrint('SEVERE: [GameScreen] could not create game; $e\n$s');
 
-        // lichess sends a 400 response if user has not allowed challenges
+        // Lichess sends a 400 response if user has not allowed challenges
         final message = e is ServerException && e.statusCode == 400
             ? LoadGameError('Could not create the game: ${e.jsonError?['error'] as String?}')
             : const LoadGameError('Sorry, we could not create the game. Please try again later.');

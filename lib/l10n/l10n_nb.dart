@@ -163,8 +163,8 @@ class AppLocalizationsNb extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Har støttet lichess.org i $count måneder som $param2',
-      one: 'Har støttet lichess.org i $count måned som $param2',
+      other: 'Har støttet Lichess.org i $count måneder som $param2',
+      one: 'Har støttet Lichess.org i $count måned som $param2',
     );
     return '$_temp0';
   }
@@ -3948,11 +3948,11 @@ class AppLocalizationsNb extends AppLocalizations {
   }
 
   @override
-  String get networkLagBetweenYouAndLichess => 'Nettverksforsinkelsen mellom deg og lichess';
+  String get networkLagBetweenYouAndLichess => 'Nettverksforsinkelsen mellom deg og Lichess';
 
   @override
   String get timeToProcessAMoveOnLichessServer =>
-      'Tiden det tar å behandle et trekk på lichess-serveren';
+      'Tiden det tar å behandle et trekk på Lichess-serveren';
 
   @override
   String get downloadAnnotated => 'Last ned kommentert';
@@ -4011,7 +4011,7 @@ class AppLocalizationsNb extends AppLocalizations {
 
   @override
   String inKidModeTheLichessLogoGetsIconX(String param) {
-    return 'I barnemodus får lichess-logoen et $param symbol, så du vet at barna dine er trygge.';
+    return 'I barnemodus får Lichess-logoen et $param symbol, så du vet at barna dine er trygge.';
   }
 
   @override
@@ -4349,7 +4349,7 @@ class AppLocalizationsNb extends AppLocalizations {
   String get temporaryInconvenience => 'Vi beklager det midlertidige bryet,';
 
   @override
-  String get wishYouGreatGames => 'og håper du får gode partier på lichess.org.';
+  String get wishYouGreatGames => 'og håper du får gode partier på Lichess.org.';
 
   @override
   String get thankYouForReading => 'Takk for at du leste!';
@@ -5922,7 +5922,7 @@ class AppLocalizationsNb extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'Du kan finne dine <a href=\'/study/mine/hot\'>tidligere studier</a> fra profilen din.<br>Det finnes også et <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>blogginnlegg om studier</a>.<br>Erfarne brukere kan trykke på «?» for å se hurtigtaster.<br>Ha det gøy!';
+      'Du kan finne dine <a href=\'/study/mine/hot\'>tidligere studier</a> fra profilen din.<br>Det finnes også et <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>blogginnlegg om studier</a>.<br>Erfarne brukere kan trykke på «?» for å se hurtigtaster.<br>Ha det gøy!';
 
   @override
   String get studyCreateChapterTitle => 'La oss lage et studiekapittel';
@@ -5950,7 +5950,7 @@ class AppLocalizationsNb extends AppLocalizations {
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Lim inn en URL til et Lichess-parti<br>(som lichess.org/7fHIU0XI)<br>for å laste inn trekkene fra partiet i kapittelet.';
+      'Lim inn en URL til et Lichess-parti<br>(som Lichess.org/7fHIU0XI)<br>for å laste inn trekkene fra partiet i kapittelet.';
 
   @override
   String get studyFromFenStringTitle => 'Fra FEN-streng';

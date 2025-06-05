@@ -165,7 +165,7 @@ class ContextMenuAction extends StatelessWidget {
 
 // --
 // Copied from: https://github.com/flutter/flutter/blob/stable/packages/flutter/lib/src/cupertino/context_menu_action.dart
-// and adapted to use with lichess colors.
+// and adapted to use with Lichess colors.
 
 /// A button in a _ContextMenuSheet.
 ///

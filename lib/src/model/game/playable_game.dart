@@ -65,7 +65,7 @@ sealed class PlayableGame with _$PlayableGame, BaseGame, IndexableSteps implemen
     GameId? rematch,
   }) = _PlayableGame;
 
-  /// Create a playable game from the lichess api json.
+  /// Create a playable game from the Lichess api json.
   ///
   /// Currently, those endpoints are supported:
   /// - GET /api/mobile/my-games
@@ -182,7 +182,7 @@ PlayableGame _playableGameFromPick(RequiredPick pick) {
   final meta = _playableGameMetaFromPick(pick);
   final initialFen = requiredGamePick('initialFen').asStringOrNull();
 
-  // assume lichess always send initialFen with fromPosition and chess960
+  // assume Lichess always send initialFen with fromPosition and chess960
   Position position = (meta.variant == Variant.fromPosition || meta.variant == Variant.chess960)
       ? Chess.fromSetup(Setup.parseFen(initialFen!))
       : meta.variant.initialPosition;
@@ -193,7 +193,7 @@ PlayableGame _playableGameFromPick(RequiredPick pick) {
   if (moves != null && moves.isNotEmpty) {
     for (final san in moves) {
       final move = position.parseSan(san);
-      // assume lichess only sends correct moves
+      // assume Lichess only sends correct moves
       position = position.playUnchecked(move!);
       steps.add(
         GameStep(

@@ -654,10 +654,10 @@ sealed class AnalysisState with _$AnalysisState implements EvaluationMixinState 
   const AnalysisState._();
 
   const factory AnalysisState({
-    /// The ID of the game if it's a lichess game.
+    /// The ID of the game if it's a Lichess game.
     required GameId? gameId,
 
-    /// The archived game if it's a finished lichess game.
+    /// The archived game if it's a finished Lichess game.
     ExportedGame? archivedGame,
 
     /// The variant of the analysis.
@@ -704,7 +704,7 @@ sealed class AnalysisState with _$AnalysisState implements EvaluationMixinState 
     /// Possible promotion move to be played.
     NormalMove? promotionMove,
 
-    /// Opening of the analysis context (from lichess archived games).
+    /// Opening of the analysis context (from Lichess archived games).
     Opening? contextOpening,
 
     /// The opening of the current branch.
@@ -716,7 +716,7 @@ sealed class AnalysisState with _$AnalysisState implements EvaluationMixinState 
     /// Optional game division data, given by server analysis.
     Division? division,
 
-    /// Optional ACPL chart data of the game, coming from lichess server analysis.
+    /// Optional ACPL chart data of the game, coming from Lichess server analysis.
     IList<Eval>? acplChartData,
 
     /// The PGN headers of the game.
@@ -731,12 +731,12 @@ sealed class AnalysisState with _$AnalysisState implements EvaluationMixinState 
   @override
   bool get alwaysRequestCloudEval => false;
 
-  /// Whether the analysis is for a lichess game.
+  /// Whether the analysis is for a Lichess game.
   bool get isLichessGameAnalysis => gameId != null;
 
   /// Whether the user can request server analysis.
   ///
-  /// It must be a lichess game, which is finished and not already analyzed.
+  /// It must be a Lichess game, which is finished and not already analyzed.
   bool get canRequestServerAnalysis =>
       gameId != null && !hasServerAnalysis && pgnHeaders['Result'] != '*';
 
@@ -819,7 +819,7 @@ sealed class AnalysisCurrentNode with _$AnalysisCurrentNode {
 
   /// The evaluation from the PGN comments.
   ///
-  /// For now we only trust the eval coming from lichess analysis.
+  /// For now we only trust the eval coming from Lichess analysis.
   ExternalEval? get serverEval {
     final pgnEval = lichessAnalysisComments?.firstWhereOrNull((c) => c.eval != null)?.eval;
     return pgnEval != null

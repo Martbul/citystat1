@@ -36,7 +36,7 @@ sealed class FcmMessage {
   RemoteNotification? get notification;
 
   factory FcmMessage.fromRemoteMessage(RemoteMessage message) {
-    final messageType = message.data['lichess.type'] as String?;
+    final messageType = message.data['Lichess.type'] as String?;
 
     if (messageType == null) {
       return UnhandledFcmMessage(message.data);
@@ -47,8 +47,8 @@ sealed class FcmMessage {
         case 'gameDrawOffer':
         case 'gameMove':
         case 'gameFinish':
-          final gameFullId = message.data['lichess.fullId'] as String?;
-          final round = message.data['lichess.round'] as String?;
+          final gameFullId = message.data['Lichess.fullId'] as String?;
+          final round = message.data['Lichess.round'] as String?;
           if (gameFullId != null) {
             final fullId = GameFullId(gameFullId);
             final game = round != null

@@ -156,7 +156,7 @@ class AppLocalizationsEt extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Registreerus lehel lichess.org';
+  String get activitySignedUp => 'Registreerus lehel Lichess.org';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
@@ -4338,7 +4338,7 @@ class AppLocalizationsEt extends AppLocalizations {
   String get temporaryInconvenience => 'Me vabandame ajutise ebamugavuse pärast,';
 
   @override
-  String get wishYouGreatGames => 'ja soovime häid mänge lichess.org-is.';
+  String get wishYouGreatGames => 'ja soovime häid mänge Lichess.org-is.';
 
   @override
   String get thankYouForReading => 'Aitäh lugemast!';
@@ -5911,7 +5911,7 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
+      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
 
   @override
   String get studyCreateChapterTitle => 'Let\'s create a study chapter';
@@ -5934,11 +5934,11 @@ class AppLocalizationsEt extends AppLocalizations {
   String get studyCustomPositionText => 'Setup the board your way.<br>Suited to explore endgames.';
 
   @override
-  String get studyLoadExistingLichessGameTitle => 'Load an existing lichess game';
+  String get studyLoadExistingLichessGameTitle => 'Load an existing Lichess game';
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Paste a lichess game URL<br>(like lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
+      'Paste a Lichess game URL<br>(like Lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
 
   @override
   String get studyFromFenStringTitle => 'From a FEN string';
@@ -5959,7 +5959,7 @@ class AppLocalizationsEt extends AppLocalizations {
 
   @override
   String get studyVariantsAreSupportedText =>
-      'Yes, you can study crazyhouse<br>and all lichess variants!';
+      'Yes, you can study crazyhouse<br>and all Lichess variants!';
 
   @override
   String get studyChapterConclusionText =>

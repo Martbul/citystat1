@@ -52,13 +52,13 @@ void main() {
   });
 }
 
-// curl -X GET 'https://lichess.org/api/tournament' -H "Accept: application/json" 2> /dev/null | jq | sed 's/≤/<=/g'
+// curl -X GET 'https://Lichess.org/api/tournament' -H "Accept: application/json" 2> /dev/null | jq | sed 's/≤/<=/g'
 const kTournamentApiResponse = '''
 {
   "created": [
     {
       "id": "xpUhjARA",
-      "createdBy": "lichess",
+      "createdBy": "Lichess",
       "system": "arena",
       "minutes": 27,
       "clock": {
@@ -92,7 +92,7 @@ const kTournamentApiResponse = '''
   "started": [
     {
       "id": "JX6S5Xjz",
-      "createdBy": "lichess",
+      "createdBy": "Lichess",
       "system": "arena",
       "minutes": 57,
       "clock": {
@@ -130,7 +130,7 @@ const kTournamentApiResponse = '''
     },
     {
       "id": "agTCjeIk",
-      "createdBy": "lichess",
+      "createdBy": "Lichess",
       "system": "arena",
       "minutes": 27,
       "clock": {
@@ -163,7 +163,7 @@ const kTournamentApiResponse = '''
             "increment": 0,
             "limit": 60
         },
-        "createdBy": "lichess",
+        "createdBy": "Lichess",
         "startsAt": 1741593602500,
         "finishesAt": 1741595222500,
         "fullName": "Team Battle Arena",
@@ -197,7 +197,7 @@ const kTournamentApiResponse = '''
   "finished": [
     {
       "id": "cQMTzBpL",
-      "createdBy": "lichess",
+      "createdBy": "Lichess",
       "system": "arena",
       "minutes": 27,
       "clock": {

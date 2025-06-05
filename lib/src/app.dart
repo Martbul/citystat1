@@ -20,12 +20,20 @@ import 'package:citystat1/src/utils/navigation.dart';
 import 'package:citystat1/src/utils/screen.dart';
 
 /// Application initialization and main entry point.
+/// 
+
+//?AppInitializationScreen – Purpose
+//?This widget serves as the transition layer between startup logic and your app's UI. It waits for preloadedDataProvider to complete loading your initial data (config, preferences, assets, etc.), then:
+   //? Removes the native splash screen (FlutterNativeSplash.remove())
+  //?  Launches the app (Application())
+  //?  Shows nothing while waiting
+   //? Handles errors gracefully
 class AppInitializationScreen extends ConsumerWidget {
   const AppInitializationScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    ref.listen<AsyncValue<PreloadedData>>(preloadedDataProvider, (_, state) {
+    ref.listen<AsyncValue<PreloadedData>>(preloadedDataProvider, (_, state) { //?This listens to state changes of the preloadedDataProvider. It does two things: On success or failure, it removes the native splash screenEnsures the splash screen only disappears when data is fully preloaded or failed (prevents early removal)
       if (state.hasValue || state.hasError) {
         FlutterNativeSplash.remove();
       }
@@ -115,7 +123,7 @@ class _AppState extends ConsumerState<Application> {
         CupertinoLocalizationsEo.delegate,
       ],
       supportedLocales: AppLocalizations.supportedLocales,
-      title: 'lichess.org',
+      title: 'Lichess.org',
       locale: generalPrefs.locale,
       theme: theme.copyWith(
         navigationBarTheme: isIOS

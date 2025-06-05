@@ -2,14 +2,14 @@
 
 ## I want to contribute code to Lichess Mobile
 
-- [Set up your development environment](https://github.com/lichess-org/mobile/blob/main/docs/setting_dev_env.md);
-- Communicate with other devs on [Discord](https://discord.gg/lichess).
-- check the [docs](https://github.com/lichess-org/mobile/tree/main/docs) for more documentation
+- [Set up your development environment](https://github.com/Lichess-org/mobile/blob/main/docs/setting_dev_env.md);
+- Communicate with other devs on [Discord](https://discord.gg/Lichess).
+- check the [docs](https://github.com/Lichess-org/mobile/tree/main/docs) for more documentation
 
 ### What to work on
 
-To find a task to work on, you can check the [good first issue](https://github.com/lichess-org/mobile/labels/good%20first%20issue)
-and [help wanted](https://github.com/lichess-org/mobile/labels/help%20wanted)
+To find a task to work on, you can check the [good first issue](https://github.com/Lichess-org/mobile/labels/good%20first%20issue)
+and [help wanted](https://github.com/Lichess-org/mobile/labels/help%20wanted)
 labels on GitHub.
 
 These tags are useful, but there are many other good issues that are not tagged with
@@ -32,8 +32,8 @@ mode if it's not ready yet) to let others know that you're working on it.
 
 ## Before submitting a Pull Request
 
-- Make sure your code follows the [coding style guide](https://github.com/lichess-org/mobile/blob/main/docs/coding_style.md)
-- Don't manually edit the `app_en.arb` file! See the [internalizations docs](https://github.com/lichess-org/mobile/blob/main/docs/internationalisation.md) for instructions on how to add new translations.
+- Make sure your code follows the [coding style guide](https://github.com/Lichess-org/mobile/blob/main/docs/coding_style.md)
+- Don't manually edit the `app_en.arb` file! See the [internalizations docs](https://github.com/Lichess-org/mobile/blob/main/docs/internationalisation.md) for instructions on how to add new translations.
 - If possible, write a new widget test for your bugfix or new feature.
 - Consider adding a screenshot and/or screen recording to the PR description.
 - Run the linter and tests:
@@ -49,7 +49,7 @@ dart format --output=none --set-exit-if-changed $(find test -name "*.dart" -not 
 
 ## I want to report a bug or a problem about Lichess Mobile
 
-[**Make an issue**](https://github.com/lichess-org/mobile/issues/new).
+[**Make an issue**](https://github.com/Lichess-org/mobile/issues/new).
 Before creating an issue, make sure that:
 
 1. You list the steps to reproduce the problem to show that other users may
@@ -63,12 +63,12 @@ debug.
 
 ## I want to suggest a feature for Lichess
 
-See [that guide](https://github.com/lichess-org/lila/blob/master/CONTRIBUTING.md#i-want-to-suggest-a-feature-for-lichess).
+See [that guide](https://github.com/Lichess-org/lila/blob/master/CONTRIBUTING.md#i-want-to-suggest-a-feature-for-Lichess).
 
 ## I want to help translate Lichess
 
-Check out [Lichess on crowdin.com](https://crowdin.com/project/lichess).
+Check out [Lichess on crowdin.com](https://crowdin.com/project/Lichess).
 
 ## Other ways to contribute
 
-Also see https://lichess.org/help/contribute.
+Also see https://Lichess.org/help/contribute.

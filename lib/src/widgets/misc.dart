@@ -60,7 +60,7 @@ class _LichessMessageState extends State<LichessMessage> {
   }
 
   void _handleTap() {
-    launchUrl(Uri.parse('https://lichess.org/features'));
+    launchUrl(Uri.parse('https://Lichess.org/features'));
   }
 
   @override

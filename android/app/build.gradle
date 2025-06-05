@@ -31,7 +31,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace 'org.lichess.mobileV2'
+    namespace 'org.Lichess.mobileV2'
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -51,13 +51,13 @@ android {
 
     defaultConfig {
         multiDexEnabled true
-        applicationId "org.lichess.mobileV2"
+        applicationId "org.Lichess.mobileV2"
         minSdkVersion 26
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         manifestPlaceholders += [
-          'appAuthRedirectScheme': 'org.lichess.mobile'
+          'appAuthRedirectScheme': 'org.Lichess.mobile'
         ]
         ndk {
             abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86_64'

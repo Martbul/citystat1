@@ -157,15 +157,15 @@ class AppLocalizationsGsw extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Hät sich bi lichess.org agmäldet';
+  String get activitySignedUp => 'Hät sich bi Lichess.org agmäldet';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Underschtützt lichess.org sit $count Mönet als $param2',
-      one: 'Underschtüzt lichess.org sit $count Monet als $param2',
+      other: 'Underschtützt Lichess.org sit $count Mönet als $param2',
+      one: 'Underschtüzt Lichess.org sit $count Monet als $param2',
     );
     return '$_temp0';
   }
@@ -4353,7 +4353,7 @@ class AppLocalizationsGsw extends AppLocalizations {
       'Mir entschuldiged eus für die vorübergehende Unannehmlichkeite,';
 
   @override
-  String get wishYouGreatGames => 'und wünsched dir tolli Schpiel uf lichess.org.';
+  String get wishYouGreatGames => 'und wünsched dir tolli Schpiel uf Lichess.org.';
 
   @override
   String get thankYouForReading => 'Danke für’s Läse!';
@@ -5927,7 +5927,7 @@ class AppLocalizationsGsw extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'Du findsch dini <a href=\'/study/mine/hot\'>vorherige Schtudie</a> vu dinere Profil-Site.<br>Da isch au en <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>Blog-Post über Schtudie</a>.<br>Poweruser chönd \"?\" trucke, um d\'Taschtaturchürzel z\'gseh.<br>Viel Schpass!';
+      'Du findsch dini <a href=\'/study/mine/hot\'>vorherige Schtudie</a> vu dinere Profil-Site.<br>Da isch au en <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>Blog-Post über Schtudie</a>.<br>Poweruser chönd \"?\" trucke, um d\'Taschtaturchürzel z\'gseh.<br>Viel Schpass!';
 
   @override
   String get studyCreateChapterTitle => 'Es Schtudie-Kapitel kreiere';
@@ -5955,7 +5955,7 @@ class AppLocalizationsGsw extends AppLocalizations {
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Füeg e Lichess-Partie-URL i<br>(wie z.B. lichess.org/7fHIU0XI)<br>zum d\'Züg is Kapitel lade.';
+      'Füeg e Lichess-Partie-URL i<br>(wie z.B. Lichess.org/7fHIU0XI)<br>zum d\'Züg is Kapitel lade.';
 
   @override
   String get studyFromFenStringTitle => 'Vunere FEN-Partie';

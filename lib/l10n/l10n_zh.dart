@@ -154,14 +154,14 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => '注册 lichess.org 账户';
+  String get activitySignedUp => '注册 Lichess.org 账户';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '该用户作为 $param2 已赞助 lichess.org $count 个月',
+      other: '该用户作为 $param2 已赞助 Lichess.org $count 个月',
     );
     return '$_temp0';
   }
@@ -4107,7 +4107,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get temporaryInconvenience => '对于你临时的不便，我们深表歉意，';
 
   @override
-  String get wishYouGreatGames => '并期待你在 lichess.org 上展露风采。';
+  String get wishYouGreatGames => '并期待你在 Lichess.org 上展露风采。';
 
   @override
   String get thankYouForReading => '感谢你的阅读！';
@@ -5445,7 +5445,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      '你可以从你的个人资料界面找到你的<a href=\'/study/mine/hot\'>过往研讨 <br> 我们也提供了 <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>研讨博客</a>.<br>高级用户可以点击\"?\"查看键盘快捷键<br>研讨愉快';
+      '你可以从你的个人资料界面找到你的<a href=\'/study/mine/hot\'>过往研讨 <br> 我们也提供了 <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>研讨博客</a>.<br>高级用户可以点击\"?\"查看键盘快捷键<br>研讨愉快';
 
   @override
   String get studyCreateChapterTitle => '让我们创建一个学习章节';
@@ -5470,7 +5470,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get studyLoadExistingLichessGameText =>
-      '导入Lichess棋局链接<br>(例如 lichess.org/7fHIU0XI)<br>来导入这局棋中的所有棋步';
+      '导入Lichess棋局链接<br>(例如 Lichess.org/7fHIU0XI)<br>来导入这局棋中的所有棋步';
 
   @override
   String get studyFromFenStringTitle => '导入FEN代码';
@@ -5773,14 +5773,14 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   }
 
   @override
-  String get activitySignedUp => '在 lichess.org 中註冊';
+  String get activitySignedUp => '在 Lichess.org 中註冊';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '以 $param2 身分贊助 lichess.org $count 個月',
+      other: '以 $param2 身分贊助 Lichess.org $count 個月',
     );
     return '$_temp0';
   }
@@ -6248,7 +6248,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get broadcastRecentTournaments => '最近錦標賽';
 
   @override
-  String get broadcastOpenLichess => '在 lichess 中開啟';
+  String get broadcastOpenLichess => '在 Lichess 中開啟';
 
   @override
   String get broadcastTeams => '團隊';
@@ -9303,7 +9303,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get networkLagBetweenYouAndLichess => '您和 Lichess 之間的網路停滯';
 
   @override
-  String get timeToProcessAMoveOnLichessServer => 'lichess 伺服器上處理走棋的時間';
+  String get timeToProcessAMoveOnLichessServer => 'Lichess 伺服器上處理走棋的時間';
 
   @override
   String get downloadAnnotated => '下載含有棋子走動方向的棋局';
@@ -9685,7 +9685,7 @@ class AppLocalizationsZhTw extends AppLocalizationsZh {
   String get temporaryInconvenience => '我們對於給您帶來的不便深表歉意';
 
   @override
-  String get wishYouGreatGames => '並祝您在 lichess.org 上玩得開心。';
+  String get wishYouGreatGames => '並祝您在 Lichess.org 上玩得開心。';
 
   @override
   String get thankYouForReading => '感謝您的閱讀！';

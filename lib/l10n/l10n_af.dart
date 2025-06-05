@@ -158,15 +158,15 @@ class AppLocalizationsAf extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Geregistreer op lichess.org';
+  String get activitySignedUp => 'Geregistreer op Lichess.org';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Het lichess.org vir $count maande ondersteun as \'n $param2',
-      one: 'Het lichess.org vir $count maand ondersteun as \'n $param2',
+      other: 'Het Lichess.org vir $count maande ondersteun as \'n $param2',
+      one: 'Het Lichess.org vir $count maand ondersteun as \'n $param2',
     );
     return '$_temp0';
   }
@@ -4359,7 +4359,7 @@ class AppLocalizationsAf extends AppLocalizations {
   String get temporaryInconvenience => 'Ons vra omverskoning vir die tydelike ongerief,';
 
   @override
-  String get wishYouGreatGames => 'en ons wens jou voorspoed toe vir jou spelle op lichess.org.';
+  String get wishYouGreatGames => 'en ons wens jou voorspoed toe vir jou spelle op Lichess.org.';
 
   @override
   String get thankYouForReading => 'Dankie vir die tyd!';
@@ -5933,7 +5933,7 @@ class AppLocalizationsAf extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
+      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
 
   @override
   String get studyCreateChapterTitle => 'Kom ons skep \'n studiehoofstuk';
@@ -5957,11 +5957,11 @@ class AppLocalizationsAf extends AppLocalizations {
       'Stel die bord op soos jy dit wil hê.<br>Geskik vir eindspelle.';
 
   @override
-  String get studyLoadExistingLichessGameTitle => 'Laai \'n bestaande lichess-spel';
+  String get studyLoadExistingLichessGameTitle => 'Laai \'n bestaande Lichess-spel';
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Paste a lichess game URL<br>(like lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
+      'Paste a Lichess game URL<br>(like Lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
 
   @override
   String get studyFromFenStringTitle => 'Vanaf \'n FEN-string';
@@ -5982,7 +5982,7 @@ class AppLocalizationsAf extends AppLocalizations {
 
   @override
   String get studyVariantsAreSupportedText =>
-      'Yes, you can study crazyhouse<br>and all lichess variants!';
+      'Yes, you can study crazyhouse<br>and all Lichess variants!';
 
   @override
   String get studyChapterConclusionText =>

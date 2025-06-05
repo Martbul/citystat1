@@ -96,7 +96,7 @@ class NotificationService {
   /// It also registers the device for push notifications once the app is online.
   ///
   /// This method should be called once the app is ready to receive notifications,
-  /// and after [LichessBinding.initializeNotifications] has been called.
+  /// and after [CitystatBinding.initializeNotifications] has been called.
   Future<void> start() async {
     // listen for connectivity changes to register device once the app is online
     _connectivitySubscription = _ref.listen(connectivityChangesProvider, (prev, current) async {
@@ -111,18 +111,18 @@ class NotificationService {
     });
 
     // Listen for incoming messages while the app is in the foreground.
-    LichessBinding.instance.firebaseMessagingOnMessage.listen((RemoteMessage message) {
+    CitystatBinding.instance.firebaseMessagingOnMessage.listen((RemoteMessage message) {
       _processFcmMessage(message, fromBackground: false);
     });
 
     // Listen for incoming messages while the app is in the background.
-    LichessBinding.instance.firebaseMessagingOnBackgroundMessage(
+    CitystatBinding.instance.firebaseMessagingOnBackgroundMessage(
       _firebaseMessagingBackgroundHandler,
     );
 
     // Request permission to receive notifications. Pop-up will appear only
     // once.
-    await LichessBinding.instance.firebaseMessaging.requestPermission(
+    await CitystatBinding.instance.firebaseMessaging.requestPermission(
       alert: true,
       badge: true,
       sound: true,
@@ -133,7 +133,7 @@ class NotificationService {
     );
 
     // Listen for token refresh and update the token on the server accordingly.
-    _fcmTokenRefreshSubscription = LichessBinding.instance.firebaseMessaging.onTokenRefresh.listen((
+    _fcmTokenRefreshSubscription = CitystatBinding.instance.firebaseMessaging.onTokenRefresh.listen((
       String token,
     ) {
       _registerToken(token);
@@ -141,7 +141,7 @@ class NotificationService {
 
     // Get any messages which caused the application to open from
     // a terminated state.
-    final RemoteMessage? initialMessage = await LichessBinding.instance.firebaseMessaging
+    final RemoteMessage? initialMessage = await CitystatBinding.instance.firebaseMessaging
         .getInitialMessage();
 
     if (initialMessage != null) {
@@ -149,7 +149,7 @@ class NotificationService {
     }
 
     // Handle any other interaction that caused the app to open when in background.
-    LichessBinding.instance.firebaseMessagingOnMessageOpenedApp.listen(_handleFcmMessageOpenedApp);
+    CitystatBinding.instance.firebaseMessagingOnMessageOpenedApp.listen(_handleFcmMessageOpenedApp);
   }
 
   /// Shows a notification.
@@ -218,7 +218,7 @@ class NotificationService {
 
       // TODO: handle other notification types
       case UnhandledFcmMessage(data: final data):
-        _logger.warning('Received unhandled FCM notification type: ${data['lichess.type']}');
+        _logger.warning('Received unhandled FCM notification type: ${data['Lichess.type']}');
 
       case MalformedFcmMessage(data: final data):
         _logger.severe('Received malformed FCM message: $data');
@@ -236,7 +236,7 @@ class NotificationService {
   /// a [RemoteMessage.data] field used to update the application state according
   /// to the message type.
   ///
-  /// A special data field, 'lichess.iosBadge', is used to update the iOS app's
+  /// A special data field, 'Lichess.iosBadge', is used to update the iOS app's
   /// badge count according to the value held by the server.
   Future<void> _processFcmMessage(
     RemoteMessage message, {
@@ -261,14 +261,14 @@ class NotificationService {
       // TODO: handle other notification types
 
       case UnhandledFcmMessage(data: final data):
-        _logger.warning('Received unhandled FCM notification type: ${data['lichess.type']}');
+        _logger.warning('Received unhandled FCM notification type: ${data['Lichess.type']}');
 
       case MalformedFcmMessage(data: final data):
         _logger.severe('Received malformed FCM message: $data');
     }
 
     // update badge
-    final badge = message.data['lichess.iosBadge'] as String?;
+    final badge = message.data['Lichess.iosBadge'] as String?;
     if (badge != null) {
       try {
         await BadgeService.instance.setBadge(int.parse(badge));
@@ -281,13 +281,13 @@ class NotificationService {
   /// Register the device for push notifications.
   Future<void> registerDevice() async {
     if (defaultTargetPlatform == TargetPlatform.iOS) {
-      final apnsToken = await LichessBinding.instance.firebaseMessaging.getAPNSToken();
+      final apnsToken = await CitystatBinding.instance.firebaseMessaging.getAPNSToken();
       if (apnsToken == null) {
         _logger.warning('APNS token is null');
         return;
       }
     }
-    final token = await LichessBinding.instance.firebaseMessaging.getToken();
+    final token = await CitystatBinding.instance.firebaseMessaging.getToken();
     if (token != null) {
       await _registerToken(token);
     }
@@ -308,7 +308,7 @@ class NotificationService {
   }
 
   Future<void> _registerToken(String token) async {
-    final settings = await LichessBinding.instance.firebaseMessaging.getNotificationSettings();
+    final settings = await CitystatBinding.instance.firebaseMessaging.getNotificationSettings();
     if (settings.authorizationStatus == AuthorizationStatus.denied) {
       return;
     }
@@ -329,8 +329,8 @@ class NotificationService {
     // create a new provider scope for the background isolate
     final ref = ProviderContainer();
 
-    final lichessBinding = AppLichessBinding.ensureInitialized();
-    await lichessBinding.preloadSharedPreferences();
+    final CitystatBinding = AppCityStatBinding.ensureInitialized();
+    await CitystatBinding.preloadSharedPreferences();
     await ref.read(preloadedDataProvider.future);
 
     try {

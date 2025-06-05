@@ -157,17 +157,17 @@ class AppLocalizationsUk extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Зареєструвався на lichess.org';
+  String get activitySignedUp => 'Зареєструвався на Lichess.org';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Підтримує lichess.org протягом $count місяців як $param2',
-      many: 'Підтримує lichess.org протягом $count місяців як $param2',
-      few: 'Підтримує lichess.org протягом $count місяців як $param2',
-      one: 'Підтримує lichess.org протягом $count місяця як $param2',
+      other: 'Підтримує Lichess.org протягом $count місяців як $param2',
+      many: 'Підтримує Lichess.org протягом $count місяців як $param2',
+      few: 'Підтримує Lichess.org протягом $count місяців як $param2',
+      one: 'Підтримує Lichess.org протягом $count місяця як $param2',
     );
     return '$_temp0';
   }
@@ -4410,7 +4410,7 @@ class AppLocalizationsUk extends AppLocalizations {
   String get temporaryInconvenience => 'Вибачте за тимчасові незручності,';
 
   @override
-  String get wishYouGreatGames => 'і бажаємо чудових ігор на lichess.org.';
+  String get wishYouGreatGames => 'і бажаємо чудових ігор на Lichess.org.';
 
   @override
   String get thankYouForReading => 'Дякуємо, що прочитали!';
@@ -6078,7 +6078,7 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'Ви можете знайти свої <a href=\'/study/mine/hot\'>попередні дослідження</a> на сторінці профілю.<br>Також радимо ознайомитися з <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>блогом про дослідження</a>.<br>Досвідчені користувачі можуть натиснути \"?\", щоб побачити комбінації клавіш.<br>Бажаємо успіхів!';
+      'Ви можете знайти свої <a href=\'/study/mine/hot\'>попередні дослідження</a> на сторінці профілю.<br>Також радимо ознайомитися з <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>блогом про дослідження</a>.<br>Досвідчені користувачі можуть натиснути \"?\", щоб побачити комбінації клавіш.<br>Бажаємо успіхів!';
 
   @override
   String get studyCreateChapterTitle => 'Let\'s create a study chapter';
@@ -6101,11 +6101,11 @@ class AppLocalizationsUk extends AppLocalizations {
   String get studyCustomPositionText => 'Setup the board your way.<br>Suited to explore endgames.';
 
   @override
-  String get studyLoadExistingLichessGameTitle => 'Load an existing lichess game';
+  String get studyLoadExistingLichessGameTitle => 'Load an existing Lichess game';
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Paste a lichess game URL<br>(like lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
+      'Paste a Lichess game URL<br>(like Lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
 
   @override
   String get studyFromFenStringTitle => 'From a FEN string';
@@ -6126,7 +6126,7 @@ class AppLocalizationsUk extends AppLocalizations {
 
   @override
   String get studyVariantsAreSupportedText =>
-      'Yes, you can study crazyhouse<br>and all lichess variants!';
+      'Yes, you can study crazyhouse<br>and all Lichess variants!';
 
   @override
   String get studyChapterConclusionText =>

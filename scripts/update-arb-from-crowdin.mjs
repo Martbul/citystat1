@@ -17,10 +17,10 @@ const tmpDir = `${__dirname}/tmp/translations`
 const destDir = `${__dirname}/../lib/l10n`
 
 const lilaSourcePath = `${tmpDir}/source`
-const lilaTranslationsPath = `${tmpDir}/[lichess-org.lila] master/translation/dest`
+const lilaTranslationsPath = `${tmpDir}/[Lichess-org.lila] master/translation/dest`
 
 const mobileSourcePath = `${__dirname}/../translation/source`
-const mobileTranslationsPath = `${tmpDir}/[lichess-org.mobile] main/translation/dest`
+const mobileTranslationsPath = `${tmpDir}/[Lichess-org.mobile] main/translation/dest`
 
 // selection of lila translation modules to include
 const modules = [
@@ -125,7 +125,7 @@ main()
 
 async function generateLilaTranslationARBs() {
   // Download zip doesn't work anymore, we need another way to get the translations
-  // This is tracked here: https://github.com/lichess-org/mobile/issues/945
+  // This is tracked here: https://github.com/Lichess-org/mobile/issues/945
   // for now we need to manually download the translations and put them in the tmp/translations folder
 
   // load all translations into a single object
@@ -197,7 +197,7 @@ async function generateTemplateARB() {
 async function downloadLilaSourcesTo(dir) {
   console.log(colors.blue('Downloading lila source translations...'))
   const response = await octokitRequest('GET /repos/{owner}/{repo}/contents/{path}', {
-    owner: 'lichess-org',
+    owner: 'Lichess-org',
     repo: 'lila',
     path: 'translation/source'
   })

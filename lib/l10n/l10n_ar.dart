@@ -162,11 +162,11 @@ class AppLocalizationsAr extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'دعم lichess.org لمدة $count أشهر ك $param2',
-      many: 'دعم lichess.org لمدة $count اشهر ك$param2',
-      few: 'دعم lichess.org لمدة $count اشهر ك$param2',
-      two: 'دعم lichess.org لمدة $count أشهر ك$param2',
-      one: 'دعم lichess.org لمدة $count شهر ك$param2',
+      other: 'دعم Lichess.org لمدة $count أشهر ك $param2',
+      many: 'دعم Lichess.org لمدة $count اشهر ك$param2',
+      few: 'دعم Lichess.org لمدة $count اشهر ك$param2',
+      two: 'دعم Lichess.org لمدة $count أشهر ك$param2',
+      one: 'دعم Lichess.org لمدة $count شهر ك$param2',
       zero: 'دعم ليتشيس لمدة $count شهر ك$param2',
     );
     return '$_temp0';
@@ -2894,7 +2894,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get ratingRange => 'نطاق التقييم';
 
   @override
-  String get thisAccountViolatedTos => 'هذا الحساب انتهك شروط خدمة lichess';
+  String get thisAccountViolatedTos => 'هذا الحساب انتهك شروط خدمة Lichess';
 
   @override
   String get openingExplorerAndTablebase => 'مستكشف الافتتاحيات& جدول النهايات';
@@ -3453,7 +3453,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get reportCheatBoostHelp =>
-      'هذه رسالة عامية وليست مخصصة لبلاغات الغش. وهي تحاول تعليم اللاعب كيفية كتابة بلاغ مفيد لفريق لي-تشيس. و أيضا تطلب إثبات.\n\nتظهر على صفحة \"بلغ مستخدم\"\nhttps://lichess. org/report.';
+      'هذه رسالة عامية وليست مخصصة لبلاغات الغش. وهي تحاول تعليم اللاعب كيفية كتابة بلاغ مفيد لفريق لي-تشيس. و أيضا تطلب إثبات.\n\nتظهر على صفحة \"بلغ مستخدم\"\nhttps://Lichess. org/report.';
 
   @override
   String get reportUsernameHelp =>
@@ -6167,7 +6167,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
+      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
 
   @override
   String get studyCreateChapterTitle => 'Let\'s create a study chapter';
@@ -6190,11 +6190,11 @@ class AppLocalizationsAr extends AppLocalizations {
   String get studyCustomPositionText => 'Setup the board your way.<br>Suited to explore endgames.';
 
   @override
-  String get studyLoadExistingLichessGameTitle => 'Load an existing lichess game';
+  String get studyLoadExistingLichessGameTitle => 'Load an existing Lichess game';
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Paste a lichess game URL<br>(like lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
+      'Paste a Lichess game URL<br>(like Lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
 
   @override
   String get studyFromFenStringTitle => 'From a FEN string';
@@ -6215,7 +6215,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get studyVariantsAreSupportedText =>
-      'Yes, you can study crazyhouse<br>and all lichess variants!';
+      'Yes, you can study crazyhouse<br>and all Lichess variants!';
 
   @override
   String get studyChapterConclusionText =>

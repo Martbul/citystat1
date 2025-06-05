@@ -38,7 +38,7 @@ ThemeData makeAppTheme(BuildContext context, GeneralPrefs generalPrefs, BoardPre
   }
 }
 
-/// A custom theme extension that adds lichess custom properties to the theme.
+/// A custom theme extension that adds Lichess custom properties to the theme.
 @immutable
 class CustomTheme extends ThemeExtension<CustomTheme> {
   const CustomTheme({required this.rowEven, required this.rowOdd});

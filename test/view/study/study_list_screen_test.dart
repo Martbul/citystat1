@@ -129,15 +129,15 @@ void main() {
       expect(find.textContaining('tom-anders'), findsOneWidget);
 
       expect(requestedUrls, [
-        'https://lichess.dev/study/all/hot?page=1',
-        'https://lichess.dev/study/search?page=1&q=Magnus',
+        'https://Lichess.dev/study/all/hot?page=1',
+        'https://Lichess.dev/study/search?page=1&q=Magnus',
       ]);
     });
   });
 }
 
 // Output based on the following command (with some modifications):
-// curl -X GET 'https://lichess.dev/study/all/hot' -H "Accept: application/json" 2> /dev/null | jq
+// curl -X GET 'https://Lichess.dev/study/all/hot' -H "Accept: application/json" 2> /dev/null | jq
 const kStudyAllHotPage1Response = '''
 {
   "paginator": {
@@ -172,7 +172,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -250,7 +250,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1722016933485,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -266,7 +266,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -281,7 +281,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1722016933188,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -297,7 +297,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -312,7 +312,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1722016933000,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -328,7 +328,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -343,7 +343,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1722016932803,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -359,7 +359,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -374,7 +374,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1722016932628,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -390,7 +390,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -405,7 +405,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1722016932385,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -421,7 +421,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -436,7 +436,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1722016932195,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -452,7 +452,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -467,7 +467,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1722016932070,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -483,7 +483,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -498,7 +498,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1722016931939,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -514,7 +514,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -529,7 +529,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1718628262858,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -542,7 +542,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -557,7 +557,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1718628262852,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -570,7 +570,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -585,7 +585,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1718628262846,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -598,7 +598,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -613,7 +613,7 @@ const kStudyAllHotPage1Response = '''
         "updatedAt": 1718628262840,
         "owner": {
           "name": "AAArmstark",
-          "flair": "activity.lichess-hogger",
+          "flair": "activity.Lichess-hogger",
           "id": "aaarmstark"
         },
         "chapters": [
@@ -626,7 +626,7 @@ const kStudyAllHotPage1Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"
@@ -676,7 +676,7 @@ const kStudyAllHotPage2Response = '''
           {
             "user": {
               "name": "AAArmstark",
-              "flair": "activity.lichess-hogger",
+              "flair": "activity.Lichess-hogger",
               "id": "aaarmstark"
             },
             "role": "w"

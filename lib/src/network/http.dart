@@ -37,7 +37,7 @@ final _logger = Logger('HttpClient');
 
 const _maxCacheSize = 2 * 1024 * 1024;
 
-/// Creates a Uri pointing to lichess server with the given unencoded path and query parameters.
+/// Creates a Uri pointing to Lichess server with the given unencoded path and query parameters.
 Uri lichessUri(String unencodedPath, [Map<String, dynamic>? queryParameters]) =>
     kLichessHost.startsWith('localhost') ||
         kLichessHost.startsWith('10.') ||
@@ -126,8 +126,8 @@ HttpClientFactory httpClientFactory(Ref ref) {
 
 /// The default http client.
 ///
-/// This client is used for all requests that don't go to the lichess server, for
-/// example, requests to lichess CDN, or other APIs.
+/// This client is used for all requests that don't go to the Lichess server, for
+/// example, requests to Lichess CDN, or other APIs.
 /// Only one instance of this client is created and kept alive for the whole app.
 @Riverpod(keepAlive: true)
 Client defaultClient(Ref ref) {
@@ -139,7 +139,7 @@ Client defaultClient(Ref ref) {
   return client;
 }
 
-/// The http client configured to make requests to the lichess API.
+/// The http client configured to make requests to the Lichess API.
 ///
 /// Only one instance of this client is created and kept alive for the whole app.
 @Riverpod(keepAlive: true)
@@ -309,7 +309,7 @@ class _RegisterCallbackClient extends BaseClient {
 /// Lichess HTTP client.
 ///
 /// * All requests made with [head], [get], [post], [put], [patch], [delete] target
-/// the lichess server, defined in [kLichessHost]. It does not apply to the low-level
+/// the Lichess server, defined in [kLichessHost]. It does not apply to the low-level
 /// [send] method.
 /// * Sets the Authorization header when a token has been stored.
 /// * Sets the user-agent header with the app version, build number, and device info. If the user is logged in, it also includes the user's id.

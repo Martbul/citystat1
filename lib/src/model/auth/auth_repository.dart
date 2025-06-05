@@ -12,7 +12,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'auth_repository.g.dart';
 
-const redirectUri = 'org.lichess.mobile://login-callback';
+const redirectUri = 'org.Lichess.mobile://login-callback';
 const oauthScopes = ['web:mobile'];
 
 @Riverpod(keepAlive: true)

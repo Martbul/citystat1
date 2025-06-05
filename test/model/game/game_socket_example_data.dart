@@ -129,9 +129,9 @@ String makeFullEvent(
           "f": "people.man-singer"
         },
         {
-          "u": "lichess",
+          "u": "Lichess",
           "t": "Takeback accepted",
-          "f": "activity.lichess"
+          "f": "activity.Lichess"
         }
       ]
     }

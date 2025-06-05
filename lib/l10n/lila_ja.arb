@@ -46,7 +46,7 @@
   "activityHostedALiveStream": "ライブ配信",
   "activityRankedInSwissTournament": "{param1} 位（{param2}）",
   "activitySignedUp": "Lichess に登録",
-  "activitySupportedNbMonths": "{count, plural, other{{param2} として lichess.org を {count} か月間支援}}",
+  "activitySupportedNbMonths": "{count, plural, other{{param2} として Lichess.org を {count} か月間支援}}",
   "activityPracticedNbPositions": "{count, plural, other{{count} 局面を {param2} で練習}}",
   "activitySolvedNbPuzzles": "{count, plural, other{{count} 問のタクティクス問題に解答}}",
   "activityPlayedNbGames": "{count, plural, other{{count} 局の {param2} をプレイ}}",

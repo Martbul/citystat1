@@ -119,7 +119,7 @@ String makeTournamentJson({
   $kFeaturedGame,
   "id": "82QbxlJb",
   "socketVersion": 0,
-  "createdBy": "lichess",
+  "createdBy": "Lichess",
   "startsAt": "2025-04-01T17:00:25Z",
   "system": "arena",
   "fullName": "<=1300 SuperBlitz Arena",
@@ -150,7 +150,7 @@ String makeTournamentJson({
     "lines": [],
     "writeable": true
   },
-  "reloadEndpoint": "https://http.lichess.org/tournament/82QbxlJb"
+  "reloadEndpoint": "https://http.Lichess.org/tournament/82QbxlJb"
 }
 ''';
 }
@@ -235,7 +235,7 @@ void main() {
           );
         }
         // Should use the reloadEndpoint field to reload the tournament
-        if (request.url.path == '/https%253A//http.lichess.org/tournament/82QbxlJb' &&
+        if (request.url.path == '/https%253A//http.Lichess.org/tournament/82QbxlJb' &&
             request.url.queryParameters['partial'] == 'true') {
           if (request.url.queryParameters['page'] == '1') {
             return mockResponse(
@@ -360,7 +360,7 @@ void main() {
             200,
           );
         }
-        if (request.url.path == '/https%253A//http.lichess.org/tournament/82QbxlJb' &&
+        if (request.url.path == '/https%253A//http.Lichess.org/tournament/82QbxlJb' &&
             request.url.queryParameters['partial'] == 'true') {
           if (request.url.queryParameters['page'] == '1') {
             return mockResponse(
@@ -523,7 +523,7 @@ void main() {
             200,
           );
         }
-        if (request.url.path == '/https%253A//http.lichess.org/tournament/82QbxlJb' &&
+        if (request.url.path == '/https%253A//http.Lichess.org/tournament/82QbxlJb' &&
             request.url.queryParameters['partial'] == 'true') {
           if (request.url.queryParameters['page'] == '1') {
             return mockResponse(

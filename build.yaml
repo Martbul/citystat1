@@ -1,3 +1,8 @@
+#controls code generation using Dart’s build_runner system
+
+#Builders are usually packages or plugins that generate Dart code automatically based on annotations or specific source files.
+
+
 targets:
   $default:
     builders:

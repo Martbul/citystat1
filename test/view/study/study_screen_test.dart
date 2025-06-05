@@ -237,12 +237,12 @@ void main() {
           ),
           '''
 [Event "Improve Your Chess Calculation: Candidates| Ex 1: Hard"]
-[Site "https://lichess.org/study/xgZOEizT/OfF4eLmN"]
+[Site "https://Lichess.org/study/xgZOEizT/OfF4eLmN"]
 [Result "*"]
 [Variant "Standard"]
 [ECO "?"]
 [Opening "?"]
-[Annotator "https://lichess.org/@/RushConnectedPawns"]
+[Annotator "https://Lichess.org/@/RushConnectedPawns"]
 [FEN "r1b2rk1/3pbppp/p3p3/1p6/2qBPP2/P1N2R2/1PPQ2PP/R6K w - - 0 1"]
 [SetUp "1"]
 [UTCDate "2024.10.23"]

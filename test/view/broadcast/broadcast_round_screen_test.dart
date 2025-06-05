@@ -521,7 +521,7 @@ const _finishedTournamentResponse = '''
       "format": "8-player knockout"
     },
     "createdAt": 1734772425213,
-    "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/AQ28hmmO",
+    "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/AQ28hmmO",
     "tier": 5,
     "dates": [
       1735671720000
@@ -537,7 +537,7 @@ const _finishedTournamentResponse = '''
       "finishedAt": 1735672455503,
       "finished": true,
       "startsAt": 1735671720000,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/quarter-final-game-1/iNSwFnXR"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/quarter-final-game-1/iNSwFnXR"
     },
     {
       "id": "VVBf6AIZ",
@@ -548,7 +548,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735673042425,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/quarter-final-game-2/VVBf6AIZ"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/quarter-final-game-2/VVBf6AIZ"
     },
     {
       "id": "dXtRYjoK",
@@ -559,7 +559,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735673869284,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/quarter-final-game-3/dXtRYjoK"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/quarter-final-game-3/dXtRYjoK"
     },
     {
       "id": "ItP4Pipu",
@@ -570,7 +570,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735674788585,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/quarter-final-game-4/ItP4Pipu"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/quarter-final-game-4/ItP4Pipu"
     },
     {
       "id": "wp5pjfIP",
@@ -580,7 +580,7 @@ const _finishedTournamentResponse = '''
       "finishedAt": 1735677848591,
       "finished": true,
       "startsAt": 1735677120000,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-game-1/wp5pjfIP"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-game-1/wp5pjfIP"
     },
     {
       "id": "Emk1sXDS",
@@ -591,7 +591,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735678107623,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-game-2/Emk1sXDS"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-game-2/Emk1sXDS"
     },
     {
       "id": "GVh5bp4H",
@@ -602,7 +602,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735679011442,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-game-3/GVh5bp4H"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-game-3/GVh5bp4H"
     },
     {
       "id": "MoGyMEGL",
@@ -613,7 +613,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735680161792,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-game-4/MoGyMEGL"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-game-4/MoGyMEGL"
     },
     {
       "id": "IhbanPam",
@@ -624,7 +624,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735680767893,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-tie-breaks/IhbanPam"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/semi-final-tie-breaks/IhbanPam"
     },
     {
       "id": "IhuCDHj9",
@@ -634,7 +634,7 @@ const _finishedTournamentResponse = '''
       "finishedAt": 1735684024337,
       "finished": true,
       "startsAt": 1735682520000,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-game-1/IhuCDHj9"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-game-1/IhuCDHj9"
     },
     {
       "id": "TdHdbfCP",
@@ -645,7 +645,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735684239913,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-game-2/TdHdbfCP"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-game-2/TdHdbfCP"
     },
     {
       "id": "OQHCOYeD",
@@ -656,7 +656,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735685074841,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-game-3/OQHCOYeD"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-game-3/OQHCOYeD"
     },
     {
       "id": "nO8RQtYi",
@@ -667,7 +667,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735686289204,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-game-4/nO8RQtYi"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-game-4/nO8RQtYi"
     },
     {
       "id": "S5VCwuVn",
@@ -678,7 +678,7 @@ const _finishedTournamentResponse = '''
       "finished": true,
       "startsAt": 1735687229333,
       "startsAfterPrevious": true,
-      "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-tie-breaks/S5VCwuVn"
+      "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-tie-breaks/S5VCwuVn"
     }
   ],
   "group": {
@@ -733,7 +733,7 @@ const _finishedRoundResponse = '''
     "finished": true,
     "startsAt": 1735687229333,
     "startsAfterPrevious": true,
-    "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-tie-breaks/S5VCwuVn",
+    "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/final-tie-breaks/S5VCwuVn",
     "delay": 120
   },
   "tour": {
@@ -751,7 +751,7 @@ const _finishedRoundResponse = '''
       "format": "8-player knockout"
     },
     "createdAt": 1734772425213,
-    "url": "https://lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/AQ28hmmO",
+    "url": "https://Lichess.org/broadcast/fide-world-rapid--blitz-championships-2024--blitz-open-knockout/AQ28hmmO",
     "tier": 5,
     "dates": [
       1735671720000
@@ -953,7 +953,7 @@ const _upcomingTournamentResponse = r'''
       "format": "9-round Swiss"
     },
     "createdAt": 1735736216240,
-    "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/KnP1dgul",
+    "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/KnP1dgul",
     "tier": 3,
     "dates": [
       1736526600000,
@@ -968,7 +968,7 @@ const _upcomingTournamentResponse = r'''
       "slug": "round-1",
       "createdAt": 1735736300620,
       "startsAt": 1736526600000,
-      "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-1/UN587WBI"
+      "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-1/UN587WBI"
     },
     {
       "id": "ptLkwyBW",
@@ -976,7 +976,7 @@ const _upcomingTournamentResponse = r'''
       "slug": "round-2",
       "createdAt": 1735736367870,
       "startsAt": 1736613000000,
-      "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-2/ptLkwyBW"
+      "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-2/ptLkwyBW"
     },
     {
       "id": "Uyr4UqvP",
@@ -984,7 +984,7 @@ const _upcomingTournamentResponse = r'''
       "slug": "round-3",
       "createdAt": 1735736376449,
       "startsAt": 1736699400000,
-      "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-3/Uyr4UqvP"
+      "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-3/Uyr4UqvP"
     },
     {
       "id": "SD9tGxHr",
@@ -992,7 +992,7 @@ const _upcomingTournamentResponse = r'''
       "slug": "round-4",
       "createdAt": 1735736382864,
       "startsAt": 1736785800000,
-      "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-4/SD9tGxHr"
+      "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-4/SD9tGxHr"
     },
     {
       "id": "YnvI7o5i",
@@ -1000,7 +1000,7 @@ const _upcomingTournamentResponse = r'''
       "slug": "round-5",
       "createdAt": 1735736388177,
       "startsAt": 1736872200000,
-      "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-5/YnvI7o5i"
+      "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-5/YnvI7o5i"
     },
     {
       "id": "zciOGngM",
@@ -1008,7 +1008,7 @@ const _upcomingTournamentResponse = r'''
       "slug": "round-6",
       "createdAt": 1735736390601,
       "startsAt": 1736958600000,
-      "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-6/zciOGngM"
+      "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-6/zciOGngM"
     },
     {
       "id": "Nm0Ab76A",
@@ -1016,7 +1016,7 @@ const _upcomingTournamentResponse = r'''
       "slug": "round-7",
       "createdAt": 1735736392918,
       "startsAt": 1737045000000,
-      "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-7/Nm0Ab76A"
+      "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-7/Nm0Ab76A"
     },
     {
       "id": "ZKH8mtNF",
@@ -1024,7 +1024,7 @@ const _upcomingTournamentResponse = r'''
       "slug": "round-8",
       "createdAt": 1735736399672,
       "startsAt": 1737131400000,
-      "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-8/ZKH8mtNF"
+      "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-8/ZKH8mtNF"
     },
     {
       "id": "jPF9296X",
@@ -1032,7 +1032,7 @@ const _upcomingTournamentResponse = r'''
       "slug": "round-9",
       "createdAt": 1735736411240,
       "startsAt": 1737189000000,
-      "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-9/jPF9296X"
+      "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-9/jPF9296X"
     }
   ],
   "defaultRoundId": "UN587WBI"
@@ -1047,7 +1047,7 @@ const _upcomingRoundResponse = r'''
     "slug": "round-1",
     "createdAt": 1735736300620,
     "startsAt": 1736526600000,
-    "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-1/UN587WBI"
+    "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/round-1/UN587WBI"
   },
   "tour": {
     "id": "KnP1dgul",
@@ -1064,7 +1064,7 @@ const _upcomingRoundResponse = r'''
       "format": "9-round Swiss"
     },
     "createdAt": 1735736216240,
-    "url": "https://lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/KnP1dgul",
+    "url": "https://Lichess.org/broadcast/ciudad-de-sevilla-seville-open-2025/KnP1dgul",
     "tier": 3,
     "dates": [
       1736526600000,

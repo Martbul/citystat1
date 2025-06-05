@@ -10,7 +10,7 @@ const Map<(BroadcastTournamentId, BroadcastRoundId), String> broadcastRoundMockR
     "createdAt": 1734081596041,
     "ongoing": true,
     "startsAt": 1734606000000,
-    "url": "https://lichess.org/broadcast/turkish-chess-championship-2024/round-41/6VuqTjes"
+    "url": "https://Lichess.org/broadcast/turkish-chess-championship-2024/round-41/6VuqTjes"
   },
   "tour": {
     "id": "RAIoMC7L",
@@ -27,7 +27,7 @@ const Map<(BroadcastTournamentId, BroadcastRoundId), String> broadcastRoundMockR
       "format": "16-player knockout"
     },
     "createdAt": 1734081433831,
-    "url": "https://lichess.org/broadcast/turkish-chess-championship-2024/RAIoMC7L",
+    "url": "https://Lichess.org/broadcast/turkish-chess-championship-2024/RAIoMC7L",
     "tier": 4,
     "dates": [
       1734087600000,
@@ -125,7 +125,7 @@ const Map<(BroadcastTournamentId, BroadcastRoundId), String> broadcastRoundMockR
 const Map<BroadcastGameId, String> broadcastGamePgnResponses = {
   BroadcastGameId('G2LUflKg'): '''
 [Event "Round 4.1: Dastan, Muhammed Batuhan - Gokerkan, Cem Kaan"]
-[Site "https://lichess.org/study/6VuqTjes/G2LUflKg"]
+[Site "https://Lichess.org/study/6VuqTjes/G2LUflKg"]
 [Date "2024-12-19"]
 [Round "7.1"]
 [White "Dastan, Muhammed Batuhan"]
@@ -140,7 +140,7 @@ const Map<BroadcastGameId, String> broadcastGamePgnResponses = {
 [Variant "Standard"]
 [ECO "D77"]
 [Opening "Neo-Grünfeld Defense: Classical Variation, Modern Defense"]
-[Annotator "https://lichess.org/broadcast/-/-/6VuqTjes"]
+[Annotator "https://Lichess.org/broadcast/-/-/6VuqTjes"]
 [StudyName "Round 4.1"]
 [ChapterName "Dastan, Muhammed Batuhan - Gokerkan, Cem Kaan"]
 
@@ -148,7 +148,7 @@ const Map<BroadcastGameId, String> broadcastGamePgnResponses = {
 ''',
   BroadcastGameId('Wf2MqRBR'): '''
 [Event "Round 4.1: Yilmazyerli, Mert - Tarhan, Adar"]
-[Site "https://lichess.org/study/6VuqTjes/Wf2MqRBR"]
+[Site "https://Lichess.org/study/6VuqTjes/Wf2MqRBR"]
 [Date "2024-12-19"]
 [Round "7.2"]
 [White "Yilmazyerli, Mert"]
@@ -163,7 +163,7 @@ const Map<BroadcastGameId, String> broadcastGamePgnResponses = {
 [Variant "Standard"]
 [ECO "C67"]
 [Opening "Ruy Lopez: Berlin Defense, Rio Gambit Accepted"]
-[Annotator "https://lichess.org/broadcast/-/-/6VuqTjes"]
+[Annotator "https://Lichess.org/broadcast/-/-/6VuqTjes"]
 [StudyName "Round 4.1"]
 [ChapterName "Yilmazyerli, Mert - Tarhan, Adar"]
 

@@ -3,11 +3,11 @@ Copying Lichess Mobile
 
 Any file in this project that does not state otherwise and is not listed as an
 exception below is part of *Lichess Mobile*, the mobile app for
-[lichess.org](lichess.org/mobile), and copyright (c) 2022-2023 Lichess Mobile
+[Lichess.org](Lichess.org/mobile), and copyright (c) 2022-2023 Lichess Mobile
 contributors.
 
 For a list of the authors see the commit log or
-https://github.com/lichess-org/mobile/graphs/contributors.
+https://github.com/Lichess-org/mobile/graphs/contributors.
 
 Lichess Mobile is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -33,4 +33,4 @@ External services
 
 Lichess Mobile relies on these external services:
 
-* [lichess.org](https://lichess.org)
+* [Lichess.org](https://Lichess.org)

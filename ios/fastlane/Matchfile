@@ -1,10 +1,10 @@
-git_url("git@github.com:lichess-org/certificates.git")
+git_url("git@github.com:Lichess-org/certificates.git")
 
 storage_mode("git")
 
 type("appstore") # The default type, can be: appstore, adhoc, enterprise or development
 
-app_identifier(["org.lichess.mobileV2"])
+app_identifier(["org.Lichess.mobileV2"])
 username(ENV['APPLE_ID']) # Your Apple Developer Portal username
 
 # For all available options run `fastlane match --help`

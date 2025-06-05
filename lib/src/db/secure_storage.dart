@@ -2,7 +2,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 AndroidOptions _getAndroidOptions() => const AndroidOptions(
   encryptedSharedPreferences: true,
-  sharedPreferencesName: 'org.lichess.mobile.secure',
+  sharedPreferencesName: 'org.Lichess.mobile.secure',
 );
 
 class SecureStorage extends FlutterSecureStorage {

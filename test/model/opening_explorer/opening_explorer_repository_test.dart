@@ -137,7 +137,7 @@ void main() {
       ''';
 
       final mockClient = MockClient((request) {
-        if (request.url.path == '/lichess') {
+        if (request.url.path == '/Lichess') {
           return mockResponse(response, 200);
         }
         return mockResponse('', 404);

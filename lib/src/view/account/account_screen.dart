@@ -118,7 +118,7 @@ class AccountScreen extends ConsumerWidget {
                 ? const Icon(Icons.chevron_right)
                 : null,
             onTap: () {
-              launchUrl(Uri.parse('https://lichess.org/patron'));
+              launchUrl(Uri.parse('https://Lichess.org/patron'));
             },
           )
         : null;
@@ -295,7 +295,7 @@ class AccountScreen extends ConsumerWidget {
                 title: Text(context.l10n.aboutX('Lichess')),
                 trailing: const _OpenInNewIcon(),
                 onTap: () {
-                  launchUrl(Uri.parse('https://lichess.org/about'));
+                  launchUrl(Uri.parse('https://Lichess.org/about'));
                 },
               ),
               ListTile(
@@ -303,7 +303,7 @@ class AccountScreen extends ConsumerWidget {
                 title: Text(context.l10n.mobileFeedbackButton),
                 trailing: const _OpenInNewIcon(),
                 onTap: () {
-                  launchUrl(Uri.parse('https://lichess.org/contact'));
+                  launchUrl(Uri.parse('https://Lichess.org/contact'));
                 },
               ),
               ListTile(
@@ -311,7 +311,7 @@ class AccountScreen extends ConsumerWidget {
                 title: Text(context.l10n.termsOfService),
                 trailing: const _OpenInNewIcon(),
                 onTap: () {
-                  launchUrl(Uri.parse('https://lichess.org/terms-of-service'));
+                  launchUrl(Uri.parse('https://Lichess.org/terms-of-service'));
                 },
               ),
               ListTile(
@@ -319,7 +319,7 @@ class AccountScreen extends ConsumerWidget {
                 title: Text(context.l10n.privacyPolicy),
                 trailing: const _OpenInNewIcon(),
                 onTap: () {
-                  launchUrl(Uri.parse('https://lichess.org/privacy'));
+                  launchUrl(Uri.parse('https://Lichess.org/privacy'));
                 },
               ),
             ],
@@ -332,7 +332,7 @@ class AccountScreen extends ConsumerWidget {
                 title: Text(context.l10n.sourceCode),
                 trailing: const _OpenInNewIcon(),
                 onTap: () {
-                  launchUrl(Uri.parse('https://lichess.org/source'));
+                  launchUrl(Uri.parse('https://Lichess.org/source'));
                 },
               ),
               ListTile(
@@ -340,7 +340,7 @@ class AccountScreen extends ConsumerWidget {
                 title: Text(context.l10n.contribute),
                 trailing: const _OpenInNewIcon(),
                 onTap: () {
-                  launchUrl(Uri.parse('https://lichess.org/help/contribute'));
+                  launchUrl(Uri.parse('https://Lichess.org/help/contribute'));
                 },
               ),
               ListTile(
@@ -348,7 +348,7 @@ class AccountScreen extends ConsumerWidget {
                 title: Text(context.l10n.thankYou),
                 trailing: const _OpenInNewIcon(),
                 onTap: () {
-                  launchUrl(Uri.parse('https://lichess.org/thanks'));
+                  launchUrl(Uri.parse('https://Lichess.org/thanks'));
                 },
               ),
             ],

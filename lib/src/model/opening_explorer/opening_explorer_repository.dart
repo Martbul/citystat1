@@ -88,7 +88,7 @@ class OpeningExplorerRepository {
     DateTime? since,
   }) {
     return client.readJson(
-      Uri.https(kLichessOpeningExplorerHost, '/lichess', {
+      Uri.https(kLichessOpeningExplorerHost, '/Lichess', {
         'fen': fen,
         if (speeds.isNotEmpty) 'speeds': speeds.map((speed) => speed.name).join(','),
         if (ratings.isNotEmpty) 'ratings': ratings.join(','),

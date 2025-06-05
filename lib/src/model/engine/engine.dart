@@ -102,7 +102,7 @@ class StockfishEngine implements Engine {
 
     if (_stockfish == null) {
       try {
-        final stockfish = LichessBinding.instance.stockfishFactory(
+        final stockfish = CitystatBinding.instance.stockfishFactory(
           flavor,
           smallNetPath: _smallNetPath,
           bigNetPath: _bigNetPath,

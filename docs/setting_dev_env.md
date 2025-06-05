@@ -2,7 +2,7 @@
 
 The following instructions outline how to set up your development environment for starting development on Lichess mobile.
 
-If you get stuck during the installation process the most suitable place to seek help is the `#lichess-dev-onboarding` channel on Discord (https://discord.gg/lichess).
+If you get stuck during the installation process the most suitable place to seek help is the `#Lichess-dev-onboarding` channel on Discord (https://discord.gg/Lichess).
 
 ## Installing Flutter
 
@@ -13,7 +13,7 @@ This project uses Flutter.
    install the iOS and/or Android platform.
 
 > [!WARNING]
-> Installing on Linux using `snapd` might cause some [problems](https://github.com/lichess-org/mobile/issues/123) building stockfish.
+> Installing on Linux using `snapd` might cause some [problems](https://github.com/Lichess-org/mobile/issues/123) building stockfish.
 > Installing flutter manually is a known workaround.
 
 2. Ensure Flutter is correctly configured by running `flutter doctor`
@@ -30,25 +30,25 @@ This project is currently using FVM 3.x.
 
 ## Lila Server
 
-By default, the app will target the [Lichess dev server](https://lichess.dev/),
+By default, the app will target the [Lichess dev server](https://Lichess.dev/),
 so you can start developing without setting up a local server.
 
-During development, you may need a local [lila](https://github.com/lichess-org/lila) (lichess server scala app)
+During development, you may need a local [lila](https://github.com/Lichess-org/lila) (Lichess server scala app)
 instance to work on this project.
 
-If you work with a local lila, you will also need to setup [lila-ws](https://github.com/lichess-org/lila-ws) (websocket server).
+If you work with a local lila, you will also need to setup [lila-ws](https://github.com/Lichess-org/lila-ws) (websocket server).
 
 ### lila-gitpod
 
-The fastest and most straight-forward way to run your own lila is [lila-gitpod](https://github.com/lichess-org/lila-gitpod).
+The fastest and most straight-forward way to run your own lila is [lila-gitpod](https://github.com/Lichess-org/lila-gitpod).
 
 ### lila-docker
 
-If you have Docker installed on your system, you will probably prefer to use [lila-docker](https://github.com/lichess-org/lila-docker).
+If you have Docker installed on your system, you will probably prefer to use [lila-docker](https://github.com/Lichess-org/lila-docker).
 
 ### Local lila server (manual installation)
 
-Instructions to install both `lila` and `lila-ws` locally can be found in [the lila wiki](https://github.com/lichess-org/lila/wiki/Lichess-Development-Onboarding).
+Instructions to install both `lila` and `lila-ws` locally can be found in [the lila wiki](https://github.com/Lichess-org/lila/wiki/Lichess-Development-Onboarding).
 
 ## Setting up a device
 
@@ -151,12 +151,12 @@ It will run analysis continuously, watching the filesystem for changes. It is im
 
 ## Run
 
-Use the `flutter run` command to run the app on an emulator or a real device. If you need to change the lichess host you can do it like so:
+Use the `flutter run` command to run the app on an emulator or a real device. If you need to change the Lichess host you can do it like so:
 
 ```bash
 flutter run \
-  --dart-define=LICHESS_HOST=lichess.org \
-  --dart-define=LICHESS_WS_HOST=socket.lichess.org
+  --dart-define=LICHESS_HOST=Lichess.org \
+  --dart-define=LICHESS_WS_HOST=socket.Lichess.org
 ```
 
 > [!WARNING]
@@ -187,7 +187,7 @@ To find the host of your lila Gitpod instance, use the command `gp url 8080`. Ju
 
 #### When using lila-docker
 
-When using [lila-docker](https://github.com/lichess-org/lila-docker), the easiest solution is to use the adb reverse command:
+When using [lila-docker](https://github.com/Lichess-org/lila-docker), the easiest solution is to use the adb reverse command:
 
 ```bash
 adb reverse tcp:8080 tcp:8080

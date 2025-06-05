@@ -17,7 +17,7 @@ part 'game_seek.freezed.dart';
 /// and rating range.
 ///
 /// See corresponding API docs:
-/// https://lichess.org/api#tag/Board/operation/apiBoardSeek
+/// https://Lichess.org/api#tag/Board/operation/apiBoardSeek
 @freezed
 sealed class GameSeek with _$GameSeek {
   const GameSeek._();

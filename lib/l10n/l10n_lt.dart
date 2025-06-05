@@ -163,10 +163,10 @@ class AppLocalizationsLt extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Remia lichess.org $count mėn. kaip „$param2“',
-      many: 'Remia lichess.org $count mėn. kaip „$param2“',
-      few: 'Remia lichess.org $count mėn. kaip „$param2“',
-      one: 'Remia lichess.org $count mėn. kaip „$param2“',
+      other: 'Remia Lichess.org $count mėn. kaip „$param2“',
+      many: 'Remia Lichess.org $count mėn. kaip „$param2“',
+      few: 'Remia Lichess.org $count mėn. kaip „$param2“',
+      one: 'Remia Lichess.org $count mėn. kaip „$param2“',
     );
     return '$_temp0';
   }
@@ -3320,7 +3320,7 @@ class AppLocalizationsLt extends AppLocalizations {
   String get clearSavedMoves => 'Išvalyti ėjimus';
 
   @override
-  String get previouslyOnLichessTV => 'Anksčiau per „lichess TV“';
+  String get previouslyOnLichessTV => 'Anksčiau per „Lichess TV“';
 
   @override
   String get onlinePlayers => 'Prisijungę žaidėjai';
@@ -3827,7 +3827,7 @@ class AppLocalizationsLt extends AppLocalizations {
   String get simulHostExtraTimePerPlayer => 'Papildomas laikas šeimininkui už kiekvieną žaidėją';
 
   @override
-  String get lichessTournaments => '„lichess“ turnyrai';
+  String get lichessTournaments => '„Lichess“ turnyrai';
 
   @override
   String get tournamentFAQ => 'Arenos turnyrų DUK';
@@ -4001,11 +4001,11 @@ class AppLocalizationsLt extends AppLocalizations {
   }
 
   @override
-  String get networkLagBetweenYouAndLichess => 'Tinklo delsa tarp jūsų ir „lichess“';
+  String get networkLagBetweenYouAndLichess => 'Tinklo delsa tarp jūsų ir „Lichess“';
 
   @override
   String get timeToProcessAMoveOnLichessServer =>
-      'Laikas, per kurį „lichess“ serveris apdoroja ėjimą';
+      'Laikas, per kurį „Lichess“ serveris apdoroja ėjimą';
 
   @override
   String get downloadAnnotated => 'Siųstis anotuotą';
@@ -4064,7 +4064,7 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String inKidModeTheLichessLogoGetsIconX(String param) {
-    return 'Vaiko veiksenoje „lichess“ logotipas gauna $param piktogramą tam, kad žinotumėte, jog jūsų vaikai yra saugūs.';
+    return 'Vaiko veiksenoje „Lichess“ logotipas gauna $param piktogramą tam, kad žinotumėte, jog jūsų vaikai yra saugūs.';
   }
 
   @override
@@ -4404,7 +4404,7 @@ class AppLocalizationsLt extends AppLocalizations {
   String get temporaryInconvenience => 'Atsiprašome dėl laikinų nepatogumų,';
 
   @override
-  String get wishYouGreatGames => 'ir linkime jums puikių partijų per lichess.org.';
+  String get wishYouGreatGames => 'ir linkime jums puikių partijų per Lichess.org.';
 
   @override
   String get thankYouForReading => 'Ačiū, kad perskaitėte!';
@@ -6069,7 +6069,7 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
+      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
 
   @override
   String get studyCreateChapterTitle => 'Let\'s create a study chapter';
@@ -6092,11 +6092,11 @@ class AppLocalizationsLt extends AppLocalizations {
   String get studyCustomPositionText => 'Setup the board your way.<br>Suited to explore endgames.';
 
   @override
-  String get studyLoadExistingLichessGameTitle => 'Load an existing lichess game';
+  String get studyLoadExistingLichessGameTitle => 'Load an existing Lichess game';
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Paste a lichess game URL<br>(like lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
+      'Paste a Lichess game URL<br>(like Lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
 
   @override
   String get studyFromFenStringTitle => 'From a FEN string';
@@ -6117,7 +6117,7 @@ class AppLocalizationsLt extends AppLocalizations {
 
   @override
   String get studyVariantsAreSupportedText =>
-      'Yes, you can study crazyhouse<br>and all lichess variants!';
+      'Yes, you can study crazyhouse<br>and all Lichess variants!';
 
   @override
   String get studyChapterConclusionText =>

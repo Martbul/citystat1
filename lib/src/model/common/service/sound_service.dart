@@ -68,7 +68,7 @@ class SoundService {
   /// This should be called once when the app starts.
   static Future<void> initialize() async {
     try {
-      final stored = LichessBinding.instance.sharedPreferences.getString(
+      final stored = CitystatBinding.instance.sharedPreferences.getString(
         PrefCategory.general.storageKey,
       );
       final theme =

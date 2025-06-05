@@ -38,7 +38,7 @@ class UserFullNameWidget extends ConsumerWidget {
   final LightUser? user;
   final int? rating;
 
-  /// The AI level, if the user is lichess AI.
+  /// The AI level, if the user is Lichess AI.
   final int? aiLevel;
 
   /// Whether the rating is provisional.

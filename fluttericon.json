@@ -442,7 +442,7 @@
     },
     {
       "uid": "1274d7838088971ac536aa8fd4d4c970",
-      "css": "lichess",
+      "css": "Lichess",
       "code": 59419,
       "src": "custom_icons",
       "selected": true,
@@ -451,7 +451,7 @@
         "width": 1000
       },
       "search": [
-        "lichess"
+        "Lichess"
       ]
     },
     {

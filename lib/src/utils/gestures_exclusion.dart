@@ -144,7 +144,7 @@ Future<void> clearAndroidBoardGesturesExclusion() async {
 }
 
 class GesturesExclusion {
-  static const _channel = MethodChannel('mobile.lichess.org/gestures_exclusion');
+  static const _channel = MethodChannel('mobile.Lichess.org/gestures_exclusion');
 
   const GesturesExclusion._();
 

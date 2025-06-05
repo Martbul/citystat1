@@ -159,15 +159,15 @@ class AppLocalizationsGl extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Rexistrado en lichess.org';
+  String get activitySignedUp => 'Rexistrado en Lichess.org';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Apoiou a lichess.org durante $count meses como $param2',
-      one: 'Apoiou a lichess.org durante $count mes como $param2',
+      other: 'Apoiou a Lichess.org durante $count meses como $param2',
+      one: 'Apoiou a Lichess.org durante $count mes como $param2',
     );
     return '$_temp0';
   }
@@ -4362,7 +4362,7 @@ class AppLocalizationsGl extends AppLocalizations {
   String get temporaryInconvenience => 'Pedímosche desculpas polas molestias,';
 
   @override
-  String get wishYouGreatGames => 'e desexámosche grandes partidas en lichess.org.';
+  String get wishYouGreatGames => 'e desexámosche grandes partidas en Lichess.org.';
 
   @override
   String get thankYouForReading => 'Grazas por pararte a ler isto!';
@@ -5936,7 +5936,7 @@ class AppLocalizationsGl extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'Podes atopar os teus <a href=\'/study/mine/hot\'>estudos previos</a> na túa páxina de perfil.<br>Tamén hai unha <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>publicación sobre estudos</a>.<br>Os usuarios curiosos poden premer \"?\" para ver os atallos de teclado.<br>Pásao ben!';
+      'Podes atopar os teus <a href=\'/study/mine/hot\'>estudos previos</a> na túa páxina de perfil.<br>Tamén hai unha <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>publicación sobre estudos</a>.<br>Os usuarios curiosos poden premer \"?\" para ver os atallos de teclado.<br>Pásao ben!';
 
   @override
   String get studyCreateChapterTitle => 'Imos crear un capítulo do estudo';
@@ -5964,7 +5964,7 @@ class AppLocalizationsGl extends AppLocalizations {
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Pega a URL dunha partida<br>(coma lichess.org/7fHIU0XI)<br>para cargar a lista de xogadas no capítulo.';
+      'Pega a URL dunha partida<br>(coma Lichess.org/7fHIU0XI)<br>para cargar a lista de xogadas no capítulo.';
 
   @override
   String get studyFromFenStringTitle => 'A partires dunha cadea FEN';

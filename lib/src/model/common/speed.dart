@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:citystat1/src/model/common/time_increment.dart';
 import 'package:citystat1/src/styles/lichess_icons.dart';
 
-/// Represents a lichess rating Speed item
+/// Represents a Lichess rating Speed item
 enum Speed {
   ultraBullet(LichessIcons.ultrabullet),
   bullet(LichessIcons.bullet),

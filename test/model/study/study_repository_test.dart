@@ -25,7 +25,7 @@ void main() {
 
   group('StudyRepository.getStudy', () {
     test('correctly parse study JSON', () async {
-      // curl -X GET https://lichess.org/study/JbWtuaeK/7OJXp679\?chapters\=1 -H "Accept: application/json" | sed "s/\\\\n/ /g" | jq 'del(.study.chat)'
+      // curl -X GET https://Lichess.org/study/JbWtuaeK/7OJXp679\?chapters\=1 -H "Accept: application/json" | sed "s/\\\\n/ /g" | jq 'del(.study.chat)'
       const response = '''
 {
   "study": {
@@ -51,7 +51,7 @@ void main() {
       "kyle11878": {
         "user": {
           "name": "kyle11878",
-          "flair": "activity.lichess-horsey",
+          "flair": "activity.Lichess-horsey",
           "id": "kyle11878"
         },
         "role": "w"

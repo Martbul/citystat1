@@ -99,7 +99,7 @@ const nonEmptyResponse = '''
           "timeZone": "Asia/Shanghai"
         },
         "createdAt": 1742172004819,
-        "url": "https://lichess.org/broadcast/fide-womens-world-chess-championship-2025/238ze7J9",
+        "url": "https://Lichess.org/broadcast/fide-womens-world-chess-championship-2025/238ze7J9",
         "tier": 5,
         "dates": [
           1743663600000,
@@ -115,7 +115,7 @@ const nonEmptyResponse = '''
         "finishedAt": 1744794350164,
         "finished": true,
         "startsAt": 1744786800000,
-        "url": "https://lichess.org/broadcast/fide-womens-world-chess-championship-2025/chongqing--game-9/pDPC5ZRh"
+        "url": "https://Lichess.org/broadcast/fide-womens-world-chess-championship-2025/chongqing--game-9/pDPC5ZRh"
       }
     }
   ],

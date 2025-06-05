@@ -40,7 +40,7 @@ class OpeningNameHeader extends StatelessWidget {
       child: GestureDetector(
         onTap: opening.name == context.l10n.startPosition
             ? null
-            : () => launchUrl(Uri.parse('https://lichess.org/opening/${opening.name}')),
+            : () => launchUrl(Uri.parse('https://Lichess.org/opening/${opening.name}')),
         child: Row(
           children: [
             if (opening.name != context.l10n.startPosition) ...[

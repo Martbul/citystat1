@@ -15,7 +15,7 @@ import 'model/engine/fake_stockfish.dart';
 TestLichessBinding get testBinding => TestLichessBinding.instance;
 
 /// Lichess binding for testing.
-class TestLichessBinding extends LichessBinding {
+class TestLichessBinding extends CitystatBinding {
   TestLichessBinding() {
     Logger.root.level = Level.FINE;
     Logger.root.onRecord.listen((record) {
@@ -40,7 +40,7 @@ class TestLichessBinding extends LichessBinding {
   }
 
   /// The single instance of the binding.
-  static TestLichessBinding get instance => LichessBinding.checkInstance(_instance);
+  static TestLichessBinding get instance => CitystatBinding.checkInstance(_instance);
   static TestLichessBinding? _instance;
 
   @override

@@ -56,7 +56,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="https" android:host="lichess.org" />
+                <data android:scheme="https" android:host="Lichess.org" />
 
                 <data android:pathPattern="/training/....." />
                 <data android:pathPattern="/study/........" />

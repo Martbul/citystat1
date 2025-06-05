@@ -69,8 +69,8 @@
       }
     }
   },
-  "activitySignedUp": "Signed up to lichess.org",
-  "activitySupportedNbMonths": "{count, plural, =1{Supported lichess.org for {count} month as a {param2}} other{Supported lichess.org for {count} months as a {param2}}}",
+  "activitySignedUp": "Signed up to Lichess.org",
+  "activitySupportedNbMonths": "{count, plural, =1{Supported Lichess.org for {count} month as a {param2}} other{Supported Lichess.org for {count} months as a {param2}}}",
   "@activitySupportedNbMonths": {
     "placeholders": {
       "count": {
@@ -2325,7 +2325,7 @@
   "tryToWin": "Try to win (or at least draw) every game you play.",
   "resignLostGames": "Resign lost games (don't let the clock run down).",
   "temporaryInconvenience": "We apologise for the temporary inconvenience,",
-  "wishYouGreatGames": "and wish you great games on lichess.org.",
+  "wishYouGreatGames": "and wish you great games on Lichess.org.",
   "thankYouForReading": "Thank you for reading!",
   "lifetimeScore": "Lifetime score",
   "currentMatchScore": "Current match score",
@@ -3297,21 +3297,21 @@
   "studyAnnotatePositionTitle": "Annotate a position",
   "studyAnnotatePositionText": "Click the !? button, or a right click on the move list on the right.<br>Annotation glyphs are shared and saved.",
   "studyConclusionTitle": "Thanks for your time",
-  "studyConclusionText": "You can find your <a href='/study/mine/hot'>previous studies</a> from your profile page.<br>There is also a <a href='//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!",
+  "studyConclusionText": "You can find your <a href='/study/mine/hot'>previous studies</a> from your profile page.<br>There is also a <a href='//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!",
   "studyCreateChapterTitle": "Let's create a study chapter",
   "studyCreateChapterText": "A study can have several chapters.<br>Each chapter has a distinct move tree,<br>and can be created in various ways.",
   "studyFromInitialPositionTitle": "From initial position",
   "studyFromInitialPositionText": "Just a board setup for a new game.<br>Suited to explore openings.",
   "studyCustomPositionTitle": "Custom position",
   "studyCustomPositionText": "Setup the board your way.<br>Suited to explore endgames.",
-  "studyLoadExistingLichessGameTitle": "Load an existing lichess game",
-  "studyLoadExistingLichessGameText": "Paste a lichess game URL<br>(like lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.",
+  "studyLoadExistingLichessGameTitle": "Load an existing Lichess game",
+  "studyLoadExistingLichessGameText": "Paste a Lichess game URL<br>(like Lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.",
   "studyFromFenStringTitle": "From a FEN string",
   "studyFromFenStringText": "Paste a position in FEN format<br><i>4k3/4rb2/8/7p/8/5Q2/1PP5/1K6 w</i><br>to start the chapter from a position.",
   "studyFromPgnGameTitle": "From a PGN game",
   "studyFromPgnGameText": "Paste a game in PGN format.<br>to load moves, comments and variations in the chapter.",
   "studyVariantsAreSupportedTitle": "Studies support variants",
-  "studyVariantsAreSupportedText": "Yes, you can study crazyhouse<br>and all lichess variants!",
+  "studyVariantsAreSupportedText": "Yes, you can study crazyhouse<br>and all Lichess variants!",
   "studyChapterConclusionText": "Chapters are saved forever.<br>Have fun organizing your chess content!",
   "studyNbChapters": "{count, plural, =1{{count} Chapter} other{{count} Chapters}}",
   "@studyNbChapters": {

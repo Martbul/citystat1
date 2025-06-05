@@ -157,15 +157,15 @@ class AppLocalizationsFi extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Liittyi lichess.orgiin';
+  String get activitySignedUp => 'Liittyi Lichess.orgiin';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'On tukenut lichess.orgia $count kuukauden ajan ${param2}ina',
-      one: 'On tukenut lichess.orgia $count kuukauden ajan ${param2}ina',
+      other: 'On tukenut Lichess.orgia $count kuukauden ajan ${param2}ina',
+      one: 'On tukenut Lichess.orgia $count kuukauden ajan ${param2}ina',
     );
     return '$_temp0';
   }
@@ -4363,7 +4363,7 @@ class AppLocalizationsFi extends AppLocalizations {
   String get temporaryInconvenience => 'Pahoittelemme tilapäistä harmia,';
 
   @override
-  String get wishYouGreatGames => 'ja toivotamme hyviä pelejä lichess.org -sivustolla.';
+  String get wishYouGreatGames => 'ja toivotamme hyviä pelejä Lichess.org -sivustolla.';
 
   @override
   String get thankYouForReading => 'Kiitos, että luit tämän!';
@@ -5937,7 +5937,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      '<a href=\'/study/mine/hot\'>Edelliset tutkielmasi</a> löytyvät profiilisivultasi.<br>Olemme myös kirjoittaneet tutkielmista <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>blogiin </a>.<br>Edistyneille käyttäjille suosittelemme tutustumista pikanäppäimin, jotka saa näkyviin painamalla \"?\".<br>Pidä hauskaa!';
+      '<a href=\'/study/mine/hot\'>Edelliset tutkielmasi</a> löytyvät profiilisivultasi.<br>Olemme myös kirjoittaneet tutkielmista <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>blogiin </a>.<br>Edistyneille käyttäjille suosittelemme tutustumista pikanäppäimin, jotka saa näkyviin painamalla \"?\".<br>Pidä hauskaa!';
 
   @override
   String get studyCreateChapterTitle => 'Tutkielman luvun luonti';
@@ -5965,7 +5965,7 @@ class AppLocalizationsFi extends AppLocalizations {
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Kun liität Lichessissä pelatun pelin URL:n<br>(esim. lichess.org/7fHIU0XI)<br>pelin siirrot latautuvat tutkielman lukuun.';
+      'Kun liität Lichessissä pelatun pelin URL:n<br>(esim. Lichess.org/7fHIU0XI)<br>pelin siirrot latautuvat tutkielman lukuun.';
 
   @override
   String get studyFromFenStringTitle => 'Tuo FEN-asema';

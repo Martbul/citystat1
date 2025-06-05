@@ -172,7 +172,7 @@ class _HomeScreenState extends ConsumerState<HomeTabScreen> {
               appBar: widget.editModeEnabled
                   ? PlatformAppBar(title: const Text('Home widgets'))
                   : PlatformAppBar(
-                      title: const Text('lichess.org'),
+                      title: const Text('Lichess.org'),
                       leading: const AccountIconButton(),
                       actions: const [_ChallengeScreenButton(), _PlayerScreenButton()],
                     ),
@@ -286,7 +286,7 @@ class _HomeScreenState extends ConsumerState<HomeTabScreen> {
         Center(
           child: FilledButton.tonal(
             onPressed: () {
-              launchUrl(Uri.parse('https://lichess.org/patron'));
+              launchUrl(Uri.parse('https://Lichess.org/patron'));
             },
             child: Text(context.l10n.patronDonate),
           ),
@@ -296,7 +296,7 @@ class _HomeScreenState extends ConsumerState<HomeTabScreen> {
       Center(
         child: FilledButton.tonal(
           onPressed: () {
-            launchUrl(Uri.parse('https://lichess.org/about'));
+            launchUrl(Uri.parse('https://Lichess.org/about'));
           },
           child: Text(context.l10n.aboutX('Lichess...')),
         ),

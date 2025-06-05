@@ -309,9 +309,9 @@ double mateWinningChances(int mate) {
 
 double _toPov(Side side, double diff) => side == Side.white ? diff : -diff;
 
-// https://github.com/lichess-org/lila/pull/11148
+// https://github.com/Lichess-org/lila/pull/11148
 double _rawWinningChances(num cp) {
-  // https://github.com/lichess-org/lila/pull/11148
+  // https://github.com/Lichess-org/lila/pull/11148
   const multiplier = -0.00368208;
   return 2 / (1 + math.exp(multiplier * cp)) - 1;
 }

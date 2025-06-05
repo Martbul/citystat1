@@ -165,8 +165,8 @@ class AppLocalizationsDe extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Unterstützt lichess.org seit $count Monaten als $param2',
-      one: 'Unterstützt lichess.org seit $count Monat als $param2',
+      other: 'Unterstützt Lichess.org seit $count Monaten als $param2',
+      one: 'Unterstützt Lichess.org seit $count Monat als $param2',
     );
     return '$_temp0';
   }
@@ -4381,7 +4381,7 @@ class AppLocalizationsDe extends AppLocalizations {
       'Wir entschuldigen uns für die vorübergehenden Unannehmlichkeiten,';
 
   @override
-  String get wishYouGreatGames => 'und wünschen Dir tolle Spiele auf lichess.org.';
+  String get wishYouGreatGames => 'und wünschen Dir tolle Spiele auf Lichess.org.';
 
   @override
   String get thankYouForReading => 'Vielen Dank für’s Lesen!';
@@ -5964,7 +5964,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'Du findest deine <a href=\'/study/mine/hot\'>früheren Studien</a> auf deiner Profilseite.<br>Es gibt auch einen <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>Blogbeitrag über Studien</a>.<br>Power-Benutzer möchten vielleicht \"?\" drücken, um Tastaturkürzel zu sehen.<br>Viel Spaß!';
+      'Du findest deine <a href=\'/study/mine/hot\'>früheren Studien</a> auf deiner Profilseite.<br>Es gibt auch einen <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>Blogbeitrag über Studien</a>.<br>Power-Benutzer möchten vielleicht \"?\" drücken, um Tastaturkürzel zu sehen.<br>Viel Spaß!';
 
   @override
   String get studyCreateChapterTitle => 'Lass uns ein Studienkapitel erstellen';
@@ -5992,7 +5992,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Füge eine lichess-Partie URL <br>(wie z.B. lichess.org/7fHIU0XI)<br>ein, um die Züge der Partie in das Kapitel zu laden.';
+      'Füge eine Lichess-Partie URL <br>(wie z.B. Lichess.org/7fHIU0XI)<br>ein, um die Züge der Partie in das Kapitel zu laden.';
 
   @override
   String get studyFromFenStringTitle => 'Aus einer FEN-Zeichenkette';

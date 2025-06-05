@@ -157,9 +157,13 @@ sealed class BoardPrefs with _$BoardPrefs implements Serializable {
     @JsonKey(defaultValue: kBoardDefaultHueFilter) required double hue,
   }) = _BoardPrefs;
 
+  
+
+
+//? This is a constant default configuration for the chessboard UI. It sets all the visual and behavior settings a user will get if they’re launching the app for the first time,or their preferences fail to load.
   static const defaults = BoardPrefs(
     pieceSet: PieceSet.staunty,
-    boardTheme: BoardTheme.brown,
+    boardTheme: BoardTheme.blue,
     immersiveModeWhilePlaying: false,
     hapticFeedback: true,
     showLegalMoves: true,
@@ -178,7 +182,33 @@ sealed class BoardPrefs with _$BoardPrefs implements Serializable {
     showBorder: false,
     brightness: kBoardDefaultBrightnessFilter,
     hue: kBoardDefaultHueFilter,
-  );
+  ); 
+  
+
+  // //TODO:
+  // static const defaults1 = MapPrefs(
+  //   pieceSet: PieceSet.staunty,
+  //   boardTheme: BoardTheme.blue,
+  //   immersiveModeWhilePlaying: false,
+  //   hapticFeedback: true,
+  //   showLegalMoves: true,
+  //   boardHighlights: true,
+  //   coordinates: true,
+  //   pieceAnimation: true,
+  //   materialDifferenceFormat: MaterialDifferenceFormat.materialDifference,
+  //   clockPosition: ClockPosition.right,
+  //   moveListDisplay: true,
+  //   pieceShiftMethod: PieceShiftMethod.either,
+  //   castlingMethod: CastlingMethod.kingOverRook,
+  //   enableShapeDrawings: true,
+  //   magnifyDraggedPiece: true,
+  //   dragTargetKind: DragTargetKind.circle,
+  //   shapeColor: ShapeColor.green,
+  //   showBorder: false,
+  //   brightness: kBoardDefaultBrightnessFilter,
+  //   hue: kBoardDefaultHueFilter,
+  // );
+
 
   bool get hasColorAdjustments =>
       brightness != kBoardDefaultBrightnessFilter || hue != kBoardDefaultHueFilter;
@@ -267,7 +297,7 @@ IMap<Square, ISet<Square>> _makeLegalMoves(
   return IMap(result);
 }
 
-/// Colors taken from lila: https://github.com/lichess-org/chessground/blob/54a7e71bf88701c1109d3b9b8106b464012b94cf/src/state.ts#L178
+/// Colors taken from lila: https://github.com/Lichess-org/chessground/blob/54a7e71bf88701c1109d3b9b8106b464012b94cf/src/state.ts#L178
 enum ShapeColor {
   green,
   red,
@@ -438,7 +468,7 @@ enum ClockPosition {
 }
 
 enum CastlingMethod {
-  /// Allow castling by moving either the king over the rook or two squares (to match lichess website).
+  /// Allow castling by moving either the king over the rook or two squares (to match Lichess website).
   kingOverRook,
 
   /// Allow castling only by moving the king two squares.

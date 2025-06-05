@@ -7,7 +7,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 part 'lobby_numbers.g.dart';
 
 /// The [LobbyNumbers] provider is used to display the number of players and
-/// games on lichess in real time.
+/// games on Lichess in real time.
 @riverpod
 class LobbyNumbers extends _$LobbyNumbers {
   StreamSubscription<SocketEvent>? _socketSubscription;

@@ -156,15 +156,15 @@ class AppLocalizationsSv extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Registrerade sig på lichess.org';
+  String get activitySignedUp => 'Registrerade sig på Lichess.org';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Har stött lichess.org i $count månader som en $param2',
-      one: 'Har stött lichess.org i $count månad som en $param2',
+      other: 'Har stött Lichess.org i $count månader som en $param2',
+      one: 'Har stött Lichess.org i $count månad som en $param2',
     );
     return '$_temp0';
   }
@@ -3947,10 +3947,10 @@ class AppLocalizationsSv extends AppLocalizations {
   }
 
   @override
-  String get networkLagBetweenYouAndLichess => 'Nätverksfördröjning mellan dig och lichess';
+  String get networkLagBetweenYouAndLichess => 'Nätverksfördröjning mellan dig och Lichess';
 
   @override
-  String get timeToProcessAMoveOnLichessServer => 'Tid att bearbeta ett drag på lichess server';
+  String get timeToProcessAMoveOnLichessServer => 'Tid att bearbeta ett drag på Lichess server';
 
   @override
   String get downloadAnnotated => 'Hämta med noter';
@@ -4009,7 +4009,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String inKidModeTheLichessLogoGetsIconX(String param) {
-    return 'I barnsäkert läge får lichess-logotypen en $param ikon, så att du vet att dina barn är säkra.';
+    return 'I barnsäkert läge får Lichess-logotypen en $param ikon, så att du vet att dina barn är säkra.';
   }
 
   @override
@@ -4346,7 +4346,7 @@ class AppLocalizationsSv extends AppLocalizations {
   String get temporaryInconvenience => 'Vi ber om ursäkt för den tillfälliga olägenheten,';
 
   @override
-  String get wishYouGreatGames => 'och önskar dig bra partier på lichess.org.';
+  String get wishYouGreatGames => 'och önskar dig bra partier på Lichess.org.';
 
   @override
   String get thankYouForReading => 'Tack för att du läste!';
@@ -5918,7 +5918,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
+      'You can find your <a href=\'/study/mine/hot\'>previous studies</a> from your profile page.<br>There is also a <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>blog post about studies</a>.<br>Power users might want to press \"?\" to see keyboard shortcuts.<br>Have fun!';
 
   @override
   String get studyCreateChapterTitle => 'Let\'s create a study chapter';
@@ -5941,11 +5941,11 @@ class AppLocalizationsSv extends AppLocalizations {
   String get studyCustomPositionText => 'Setup the board your way.<br>Suited to explore endgames.';
 
   @override
-  String get studyLoadExistingLichessGameTitle => 'Load an existing lichess game';
+  String get studyLoadExistingLichessGameTitle => 'Load an existing Lichess game';
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Paste a lichess game URL<br>(like lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
+      'Paste a Lichess game URL<br>(like Lichess.org/7fHIU0XI)<br>to load the game moves in the chapter.';
 
   @override
   String get studyFromFenStringTitle => 'From a FEN string';
@@ -5966,7 +5966,7 @@ class AppLocalizationsSv extends AppLocalizations {
 
   @override
   String get studyVariantsAreSupportedText =>
-      'Yes, you can study crazyhouse<br>and all lichess variants!';
+      'Yes, you can study crazyhouse<br>and all Lichess variants!';
 
   @override
   String get studyChapterConclusionText =>

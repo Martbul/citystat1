@@ -27,7 +27,7 @@ class _FloatingPlayButtonState extends ConsumerState<FloatingPlayButton> {
   }
 
   Future<bool> shouldDisplayHelp() async {
-    if (LichessBinding.instance.sharedPreferences.getBool('app_welcome_message_shown') == true) {
+    if (CitystatBinding.instance.sharedPreferences.getBool('app_welcome_message_shown') == true) {
       return false;
     }
 
@@ -42,7 +42,7 @@ class _FloatingPlayButtonState extends ConsumerState<FloatingPlayButton> {
   }
 
   Future<void> showHelp() async {
-    final prefs = LichessBinding.instance.sharedPreferences;
+    final prefs = CitystatBinding.instance.sharedPreferences;
     if (await shouldDisplayHelp()) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         if (!mounted) return;

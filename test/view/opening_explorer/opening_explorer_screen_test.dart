@@ -25,11 +25,11 @@ void main() {
   // );
 
   final mockClient = MockClient((request) {
-    if (request.url.host == 'explorer.lichess.ovh') {
+    if (request.url.host == 'explorer.Lichess.ovh') {
       if (request.url.path == '/masters') {
         return mockResponse(mastersOpeningExplorerResponse, 200);
       }
-      if (request.url.path == '/lichess') {
+      if (request.url.path == '/Lichess') {
         return mockResponse(lichessOpeningExplorerResponse, 200);
       }
       if (request.url.path == '/player') {
@@ -86,14 +86,14 @@ void main() {
       // );
     }, variant: kPlatformVariant);
 
-    testWidgets('lichess opening explorer loads', (WidgetTester tester) async {
+    testWidgets('Lichess opening explorer loads', (WidgetTester tester) async {
       final app = await makeTestProviderScopeApp(
         tester,
         home: const OpeningExplorerScreen(options: options),
         overrides: [defaultClientProvider.overrideWithValue(mockClient)],
         defaultPreferences: {
           SessionPreferencesStorage.key(PrefCategory.openingExplorer.storageKey, null): jsonEncode(
-            OpeningExplorerPrefs.defaults().copyWith(db: OpeningDatabase.lichess).toJson(),
+            OpeningExplorerPrefs.defaults().copyWith(db: OpeningDatabase.Lichess).toJson(),
           ),
         },
       );

@@ -102,7 +102,7 @@ class _ChatScreenState extends ConsumerState<ChatScreen> with RouteAware {
                     itemCount: value.messages.length,
                     itemBuilder: (context, index) {
                       final message = value.messages[value.messages.length - index - 1];
-                      return (message.username == 'lichess')
+                      return (message.username == 'Lichess')
                           ? _MessageAction(message: message.message)
                           : (message.username == session?.user.name)
                           ? _MessageBubble(you: true, message: message)

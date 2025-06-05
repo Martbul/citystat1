@@ -157,17 +157,17 @@ class AppLocalizationsSl extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Prijavljen na lichess';
+  String get activitySignedUp => 'Prijavljen na Lichess';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: '$count mesecev podpira lichess.org kot $param2',
-      few: '$count mesece podpira lichess.org kot $param2',
-      two: '$count meseca podpira lichess.org kot $param2',
-      one: '$count mesec podpira lichess.org kot $param2',
+      other: '$count mesecev podpira Lichess.org kot $param2',
+      few: '$count mesece podpira Lichess.org kot $param2',
+      two: '$count meseca podpira Lichess.org kot $param2',
+      one: '$count mesec podpira Lichess.org kot $param2',
     );
     return '$_temp0';
   }
@@ -989,7 +989,7 @@ class AppLocalizationsSl extends AppLocalizations {
   String get contactContact => 'Kontakt';
 
   @override
-  String get contactContactLichess => 'Kontaktiraj lichess';
+  String get contactContactLichess => 'Kontaktiraj Lichess';
 
   @override
   String get patronDonate => 'Donirajte';
@@ -4000,7 +4000,7 @@ class AppLocalizationsSl extends AppLocalizations {
   String get networkLagBetweenYouAndLichess => 'Omrežna zakasnitev med vami in lichessom';
 
   @override
-  String get timeToProcessAMoveOnLichessServer => 'Čas za obdelavo poteze na lichess strežniku';
+  String get timeToProcessAMoveOnLichessServer => 'Čas za obdelavo poteze na Lichess strežniku';
 
   @override
   String get downloadAnnotated => 'Prenesi s komentarji';
@@ -4059,7 +4059,7 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String inKidModeTheLichessLogoGetsIconX(String param) {
-    return 'V načinu za otroke ima lichess ikono $param in označuje da so otroci varni.';
+    return 'V načinu za otroke ima Lichess ikono $param in označuje da so otroci varni.';
   }
 
   @override
@@ -4397,7 +4397,7 @@ class AppLocalizationsSl extends AppLocalizations {
   String get temporaryInconvenience => 'Opravičujemo se vam za začasno neprijetnost,';
 
   @override
-  String get wishYouGreatGames => 'in vam želimo prijetno igranje na lichess.org.';
+  String get wishYouGreatGames => 'in vam želimo prijetno igranje na Lichess.org.';
 
   @override
   String get thankYouForReading => 'Hvala vam za branje!';
@@ -6059,7 +6059,7 @@ class AppLocalizationsSl extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      'Najdete lahko svoje <a href=\'/study/mine/hot\'>prejšnje študije</a> na strani vašega profila.<br>Obstaja tudi <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>objava v spletnem dnevniku o študiju</a>.<br>Izkušeni uporabniki bodo morda želeli pritisniti \"?\" za ogled bližnjic na tipkovnici.<br>Zabavajte se!';
+      'Najdete lahko svoje <a href=\'/study/mine/hot\'>prejšnje študije</a> na strani vašega profila.<br>Obstaja tudi <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>objava v spletnem dnevniku o študiju</a>.<br>Izkušeni uporabniki bodo morda želeli pritisniti \"?\" za ogled bližnjic na tipkovnici.<br>Zabavajte se!';
 
   @override
   String get studyCreateChapterTitle => 'Ustvarimo študijsko poglavje';
@@ -6083,11 +6083,11 @@ class AppLocalizationsSl extends AppLocalizations {
       'Nastavite desko po svoje.<br>Primerno za raziskovanje končnic.';
 
   @override
-  String get studyLoadExistingLichessGameTitle => 'Naloži obstoječo lichess igro';
+  String get studyLoadExistingLichessGameTitle => 'Naloži obstoječo Lichess igro';
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Prilepite URL igre lichess<br>(na primer lichess.org/7fHIU0XI)<br>da naložite poteze igre v poglavju.';
+      'Prilepite URL igre Lichess<br>(na primer Lichess.org/7fHIU0XI)<br>da naložite poteze igre v poglavju.';
 
   @override
   String get studyFromFenStringTitle => 'Iz niza FEN';

@@ -160,15 +160,15 @@ class AppLocalizationsSq extends AppLocalizations {
   }
 
   @override
-  String get activitySignedUp => 'Regjistruar në lichess.org';
+  String get activitySignedUp => 'Regjistruar në Lichess.org';
 
   @override
   String activitySupportedNbMonths(int count, String param2) {
     String _temp0 = intl.Intl.pluralLogic(
       count,
       locale: localeName,
-      other: 'Mbështeti lichess.org për $count muaj si $param2',
-      one: 'Mbështeti lichess.org për $count muaj si $param2',
+      other: 'Mbështeti Lichess.org për $count muaj si $param2',
+      one: 'Mbështeti Lichess.org për $count muaj si $param2',
     );
     return '$_temp0';
   }
@@ -4362,7 +4362,7 @@ class AppLocalizationsSq extends AppLocalizations {
   String get temporaryInconvenience => 'Kërkojmë ndjesë për bezdisjen e përkohshme,';
 
   @override
-  String get wishYouGreatGames => 'edhe ju urojmë lojëra të shkëlqyera në lichess.org.';
+  String get wishYouGreatGames => 'edhe ju urojmë lojëra të shkëlqyera në Lichess.org.';
 
   @override
   String get thankYouForReading => 'Faleminderit për leximin!';
@@ -5936,7 +5936,7 @@ class AppLocalizationsSq extends AppLocalizations {
 
   @override
   String get studyConclusionText =>
-      '<a href=\'/study/mine/hot\'>Ushtrimet tuaja të mëparshme</a> mund t’i gjeni te faqja e profilit tuaj.<br>Ka edhe një <a href=\'//lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-lichess-way\'>postim blogu rreth ushtrimeve</a>.<br>Përdoruesit e sprovuar mund të duan të shtypin “?”, që të shohin shkurtore tastiere.<br>Bëfshi qejf!';
+      '<a href=\'/study/mine/hot\'>Ushtrimet tuaja të mëparshme</a> mund t’i gjeni te faqja e profilit tuaj.<br>Ka edhe një <a href=\'//Lichess.org/blog/V0KrLSkAAMo3hsi4/study-chess-the-Lichess-way\'>postim blogu rreth ushtrimeve</a>.<br>Përdoruesit e sprovuar mund të duan të shtypin “?”, që të shohin shkurtore tastiere.<br>Bëfshi qejf!';
 
   @override
   String get studyCreateChapterTitle => 'Le të krijojmë një kapitull ushtrimi';
@@ -5964,7 +5964,7 @@ class AppLocalizationsSq extends AppLocalizations {
 
   @override
   String get studyLoadExistingLichessGameText =>
-      'Hidhni URL-në e një loje shahu<br>(fjala vjen, lichess.org/7fHIU0XI)<br>që të ngarkohen te kapitulli lëvizjet e lojës.';
+      'Hidhni URL-në e një loje shahu<br>(fjala vjen, Lichess.org/7fHIU0XI)<br>që të ngarkohen te kapitulli lëvizjet e lojës.';
 
   @override
   String get studyFromFenStringTitle => 'Nga një varg FEN';
@@ -5985,7 +5985,7 @@ class AppLocalizationsSq extends AppLocalizations {
 
   @override
   String get studyVariantsAreSupportedText =>
-      'Po, mund të ushtroheni në “crazyhouse”<br>dhe krejt variantet e lichess-it!';
+      'Po, mund të ushtroheni në “crazyhouse”<br>dhe krejt variantet e Lichess-it!';
 
   @override
   String get studyChapterConclusionText =>

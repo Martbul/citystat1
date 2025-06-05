@@ -12,7 +12,7 @@ Position randomChess960Position() {
   );
 }
 
-// https://github.com/lichess-org/scalachess/blob/bd139c6dc1acdc8fff08c46e412f784d49a16578/core/src/main/scala/variant/Chess960.scala#L49
+// https://github.com/Lichess-org/scalachess/blob/bd139c6dc1acdc8fff08c46e412f784d49a16578/core/src/main/scala/variant/Chess960.scala#L49
 final _positions = [
   'bbqnnrkr',
   'bqnbnrkr',

@@ -20,7 +20,7 @@ void main() {
   });
 
   group('LichessClient', () {
-    test('sends requests to lichess host', () async {
+    test('sends requests to Lichess host', () async {
       final container = await makeContainer(
         overrides: [
           httpClientFactoryProvider.overrideWith((ref) {
@@ -36,7 +36,7 @@ void main() {
         requests.first,
         isA<http.BaseRequest>()
             .having((r) => r.url.path, 'path', '/test')
-            .having((r) => r.url.host, 'host', 'lichess.dev')
+            .having((r) => r.url.host, 'host', 'Lichess.dev')
             .having((r) => r.url.scheme, 'scheme', 'https'),
       );
     });

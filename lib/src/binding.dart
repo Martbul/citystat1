@@ -11,7 +11,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 /// A singleton class that provides access to plugins and external APIs.
 ///
 /// Only one instance of this class will be created during the app's lifetime.
-/// See [AppLichessBinding] for the concrete implementation.
+/// See [AppCityStatBinding] for the concrete implementation.
 ///
 /// Modeled after the Flutter framework's [WidgetsBinding] class.
 ///
@@ -20,14 +20,19 @@ import 'package:shared_preferences/shared_preferences.dart';
 /// the behavior of the fake.
 /// However, if the plugin is used in a way that doesn't allow for easy mocking
 /// with riverpod, a test binding can be used to provide a fake implementation.
-abstract class LichessBinding {
-  LichessBinding() : assert(_instance == null) {
+/// 
+/// 
+/// 
+
+//? Defines an interface for binding(what services and APIs it should expose)
+abstract class CitystatBinding {
+  CitystatBinding() : assert(_instance == null) {
     initInstance();
   }
 
-  /// The single instance of [LichessBinding].
-  static LichessBinding get instance => checkInstance(_instance);
-  static LichessBinding? _instance;
+  /// The single instance of [CitystatBinding].
+  static CitystatBinding get instance => checkInstance(_instance);
+  static CitystatBinding? _instance;
 
   @protected
   @mustCallSuper
@@ -35,13 +40,13 @@ abstract class LichessBinding {
     _instance = this;
   }
 
-  static T checkInstance<T extends LichessBinding>(T? instance) {
+  static T checkInstance<T extends CitystatBinding>(T? instance) {
     assert(() {
       if (instance == null) {
         throw FlutterError.fromParts([
           ErrorSummary('Lichess binding has not yet been initialized.'),
           ErrorHint(
-            'In the app, this is done by the `AppLichessBinding.ensureInitialized()` call '
+            'In the app, this is done by the `AppCityStatBinding.ensureInitialized()` call '
             'in the `void main()` method.',
           ),
           ErrorHint(
@@ -87,21 +92,25 @@ abstract class LichessBinding {
   StockfishFactory get stockfishFactory;
 }
 
-/// A concrete implementation of [LichessBinding] for the app.
-class AppLichessBinding extends LichessBinding {
-  AppLichessBinding() {
+/// A concrete implementation of [CitystatBinding] for the app.
+class AppCityStatBinding extends CitystatBinding {
+  AppCityStatBinding() {
     setupLogging();
   }
 
-  /// Returns an instance of the binding that implements [LichessBinding].
+  /// Returns an instance of the binding that implements [CitystatBinding].
   ///
-  /// If no binding has yet been initialized, the [AppLichessBinding] class is
+  /// If no binding has yet been initialized, the [AppCityStatBinding] class is
+  /// 
   /// used to create and initialize one.
-  factory AppLichessBinding.ensureInitialized() {
-    if (LichessBinding._instance == null) {
-      AppLichessBinding();
+  factory AppCityStatBinding.ensureInitialized() {
+    //?Ensure only one instance of AppCityStatBinding is created (i.e., Singleton pattern).
+//?Return the same instance every time once initialized.
+//?Defer instantiation to another part of the class.
+    if (CitystatBinding._instance == null) {
+      AppCityStatBinding();
     }
-    return LichessBinding.instance as AppLichessBinding;
+    return CitystatBinding.instance as AppCityStatBinding;
   }
 
   late Future<SharedPreferencesWithCache> _sharedPreferencesWithCache;
@@ -113,7 +122,7 @@ class AppLichessBinding extends LichessBinding {
       throw FlutterError.fromParts([
         ErrorSummary('Shared preferences have not yet been preloaded.'),
         ErrorHint(
-          'In the app, this is done by the `await AppLichessBinding.preloadSharedPreferences()` call '
+          'In the app, this is done by the `await AppCityStatBinding.preloadSharedPreferences()` call '
           'in the `Future<void> main()` method.',
         ),
         ErrorHint(
@@ -130,10 +139,15 @@ class AppLichessBinding extends LichessBinding {
   /// This should be called only once before the app starts. Must be called before
   /// [sharedPreferences] is accessed.
   Future<void> preloadSharedPreferences() async {
-    _sharedPreferencesWithCache = SharedPreferencesWithCache.create(
+    //?Future<SharedPreferencesWithCache> _sharedPreferencesWithCache;
+    //?late final SharedPreferencesWithCache _syncSharedPreferencesWithCache;
+
+
+//! the vars in the func will live(not cleard from the stack) as long as the instance of the class lives
+    _sharedPreferencesWithCache = SharedPreferencesWithCache.create( //?Holds the future that starts loading the preferences asynchronously.
       cacheOptions: const SharedPreferencesWithCacheOptions(),
     );
-    _syncSharedPreferencesWithCache = await _sharedPreferencesWithCache;
+    _syncSharedPreferencesWithCache = await _sharedPreferencesWithCache; //?Holds the resolved, ready-to-use, in-memory preferences object.
   }
 
   @override
