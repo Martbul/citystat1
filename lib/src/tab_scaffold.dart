@@ -122,21 +122,29 @@ class _BottomTabInteraction extends ChangeNotifier {
   }
 }
 
+
+/*
+?Displays the main app scaffold with a bottom navigation bar
+?Manages switching between different tabs
+?Provides the UI and logic for tapping tabs, switching views, and maintaining navigation state inside each tab
+
+*/
 /// Main scaffold that provides the bottom navigation bar and tab switching view.
 class MainTabScaffold extends ConsumerWidget {
-  const MainTabScaffold({super.key});
+  const MainTabScaffold({super.key}); //? constructor
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final currentTab = ref.watch(currentBottomTabProvider);
+    final currentTab = ref.watch(currentBottomTabProvider); //? Watches currentBottomTabProvider (a Riverpod provider holding which tab is currently active).
 
     final extendBody = Theme.of(context).platform == TargetPlatform.iOS;
 
+//? MAin UI widget tree
     return FullScreenBackground(
       child: MainTabScaffoldProperties(
         extendBody: extendBody,
         child: Scaffold(
-          body: _TabSwitchingView(currentTab: currentTab, tabBuilder: _tabBuilder),
+          body: _TabSwitchingView(currentTab: currentTab, tabBuilder: _tabBuilder), //? shows the content for the current tab 
           extendBody: extendBody,
           bottomNavigationBar: Theme.of(context).platform == TargetPlatform.iOS
               ? _CupertinoTabBar(
@@ -219,17 +227,23 @@ class MainTabScaffold extends ConsumerWidget {
         );
       case 1:
         return _MaterialTabView(
+          navigatorKey: homeNavigatorKey,
+          tab: BottomTab.home,
+          builder: (context) => const HomeTabScreen(),
+        );
+      case 2:
+        return _MaterialTabView(
           navigatorKey: puzzlesNavigatorKey,
           tab: BottomTab.puzzles,
           builder: (context) => const PuzzleTabScreen(),
         );
-      case 2:
+      case 3:
         return _MaterialTabView(
           navigatorKey: watchNavigatorKey,
           tab: BottomTab.watch,
           builder: (context) => const WatchTabScreen(),
         );
-      case 3:
+      case 4:
         return _MaterialTabView(
           navigatorKey: toolsNavigatorKey,
           tab: BottomTab.tools,
