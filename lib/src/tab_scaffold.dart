@@ -16,6 +16,7 @@ import 'package:material_symbols_icons/symbols.dart';
 
 enum BottomTab {
   home,
+  map,
   puzzles,
   watch,
   tools;
@@ -24,6 +25,8 @@ enum BottomTab {
     switch (this) {
       case BottomTab.home:
         return strings.mobileHomeTab;
+      case BottomTab.map:
+        return strings.mobileMapTab;
       case BottomTab.puzzles:
         return strings.mobilePuzzlesTab;
       case BottomTab.tools:
@@ -37,6 +40,8 @@ enum BottomTab {
     switch (this) {
       case BottomTab.home:
         return Symbols.home_rounded;
+      case BottomTab.map:
+        return Symbols.map_rounded;
       case BottomTab.puzzles:
         return Symbols.extension_rounded;
       case BottomTab.watch:
@@ -54,6 +59,8 @@ final currentNavigatorKeyProvider = Provider<GlobalKey<NavigatorState>>((ref) {
   switch (currentTab) {
     case BottomTab.home:
       return homeNavigatorKey;
+    case BottomTab.map:
+      return homeNavigatorKey;
     case BottomTab.puzzles:
       return puzzlesNavigatorKey;
     case BottomTab.watch:
@@ -68,6 +75,8 @@ final currentRootScrollControllerProvider = Provider<ScrollController>((ref) {
   switch (currentTab) {
     case BottomTab.home:
       return homeScrollController;
+    case BottomTab.map:
+      return mapScrollController;
     case BottomTab.puzzles:
       return puzzlesScrollController;
     case BottomTab.tools:
@@ -78,11 +87,13 @@ final currentRootScrollControllerProvider = Provider<ScrollController>((ref) {
 });
 
 final homeNavigatorKey = GlobalKey<NavigatorState>(debugLabel: 'home');
+final mapNavigatorKey = GlobalKey<NavigatorState>(debugLabel: 'map');
 final puzzlesNavigatorKey = GlobalKey<NavigatorState>(debugLabel: 'puzzles');
 final toolsNavigatorKey = GlobalKey<NavigatorState>(debugLabel: 'tools');
 final watchNavigatorKey = GlobalKey<NavigatorState>(debugLabel: 'watch');
 
 final homeScrollController = ScrollController(debugLabel: 'HomeScroll');
+final mapScrollController = ScrollController(debugLabel: 'MapScroll');
 final puzzlesScrollController = ScrollController(debugLabel: 'PuzzlesScroll');
 final toolsScrollController = ScrollController(debugLabel: 'ToolsScroll');
 final watchScrollController = ScrollController(debugLabel: 'WatchScroll');
@@ -182,6 +193,8 @@ class MainTabScaffold extends ConsumerWidget {
       } else {
         switch (tappedTab) {
           case BottomTab.home:
+            homeTabInteraction.notifyItemTapped();
+          case BottomTab.map:
             homeTabInteraction.notifyItemTapped();
           case BottomTab.puzzles:
             puzzlesTabInteraction.notifyItemTapped();

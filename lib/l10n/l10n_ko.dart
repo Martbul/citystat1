@@ -47,6 +47,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get mobileLiveStreamers => '방송 중인 스트리머';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => '이 페이지를 보려면 로그인해야 합니다.';
 
   @override

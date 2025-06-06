@@ -47,6 +47,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get mobileLiveStreamers => 'Стримеры в эфире';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Вы должны войти для просмотра этой страницы.';
 
   @override

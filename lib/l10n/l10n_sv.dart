@@ -47,6 +47,9 @@ class AppLocalizationsSv extends AppLocalizations {
   String get mobileLiveStreamers => 'Live streamers';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'You must be logged in to view this page.';
 
   @override

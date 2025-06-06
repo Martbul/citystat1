@@ -47,6 +47,9 @@ class AppLocalizationsSr extends AppLocalizations {
   String get mobileLiveStreamers => 'Личес стримери';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Морате се пријавити да бисте видели ову страницу.';
 
   @override

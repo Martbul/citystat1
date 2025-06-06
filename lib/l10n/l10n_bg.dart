@@ -47,6 +47,9 @@ class AppLocalizationsBg extends AppLocalizations {
   String get mobileLiveStreamers => 'Live streamers';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'За да видите тази страница, трябва да влезете в профила си.';
 
   @override

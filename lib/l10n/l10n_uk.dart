@@ -47,6 +47,9 @@ class AppLocalizationsUk extends AppLocalizations {
   String get mobileLiveStreamers => 'Стримери в прямому етері';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Ви повинні ввійти, аби переглянути цю сторінку.';
 
   @override

@@ -47,6 +47,9 @@ class AppLocalizationsSk extends AppLocalizations {
   String get mobileLiveStreamers => 'Vysielajúci strímeri';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Na zobrazenie tejto stránky musíte byť prihlásený.';
 
   @override

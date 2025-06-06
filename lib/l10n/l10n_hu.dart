@@ -47,6 +47,9 @@ class AppLocalizationsHu extends AppLocalizations {
   String get mobileLiveStreamers => 'Lichess streamerek';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Az oldal megtekintéséhez be kell jelentkezned.';
 
   @override

@@ -47,6 +47,9 @@ class AppLocalizationsTr extends AppLocalizations {
   String get mobileLiveStreamers => 'Canlı yayıncılar';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Bu sayfayı görüntülemek için giriş yapmalısınız.';
 
   @override

@@ -47,6 +47,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get mobileLiveStreamers => 'Live streamers';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'You must be logged in to view this page.';
 
   @override
@@ -6211,6 +6214,9 @@ class AppLocalizationsEnUs extends AppLocalizationsEn {
 
   @override
   String get mobileLiveStreamers => 'Live streamers';
+
+  @override
+  String get mobileMapTab => 'Map';
 
   @override
   String get mobileMustBeLoggedIn => 'You must be logged in to view this page.';

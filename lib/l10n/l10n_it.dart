@@ -47,6 +47,9 @@ class AppLocalizationsIt extends AppLocalizations {
   String get mobileLiveStreamers => 'Streamer in diretta';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn =>
       'Devi aver effettuato l\'accesso per visualizzare questa pagina.';
 

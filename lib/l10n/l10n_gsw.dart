@@ -47,6 +47,9 @@ class AppLocalizationsGsw extends AppLocalizations {
   String get mobileLiveStreamers => 'Live Streamer';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Muesch iglogt si, zum die Site z\'gseh.';
 
   @override

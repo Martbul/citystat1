@@ -47,6 +47,9 @@ class AppLocalizationsEl extends AppLocalizations {
   String get mobileLiveStreamers => 'Streamers ζωντανά αυτή τη στιγμή';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Πρέπει να συνδεθείτε για να δείτε αυτή τη σελίδα.';
 
   @override

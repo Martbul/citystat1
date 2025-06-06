@@ -47,6 +47,9 @@ class AppLocalizationsEo extends AppLocalizations {
   String get mobileLiveStreamers => 'Vivaj filmprezentistoj';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Vi devas esti ensalutata por spekti ĉi tiun paĝon.';
 
   @override

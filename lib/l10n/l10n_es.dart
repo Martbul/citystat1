@@ -47,6 +47,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String get mobileLiveStreamers => 'Presentadores en vivo';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Debes iniciar sesión para ver esta página.';
 
   @override

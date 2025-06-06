@@ -47,6 +47,9 @@ class AppLocalizationsVi extends AppLocalizations {
   String get mobileLiveStreamers => 'Các Streamer phát trực tiếp';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Bạn phải đăng nhập để xem trang này.';
 
   @override

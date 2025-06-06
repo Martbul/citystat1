@@ -47,6 +47,9 @@ class AppLocalizationsJa extends AppLocalizations {
   String get mobileLiveStreamers => 'ライブ配信者';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'このページを見るにはログインが必要です。';
 
   @override

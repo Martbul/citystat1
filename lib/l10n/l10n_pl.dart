@@ -47,6 +47,9 @@ class AppLocalizationsPl extends AppLocalizations {
   String get mobileLiveStreamers => 'Aktywni streamerzy';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Musisz być zalogowany, aby wyświetlić tę stronę.';
 
   @override

@@ -47,6 +47,9 @@ class AppLocalizationsHe extends AppLocalizations {
   String get mobileLiveStreamers => 'שדרנים בשידור חי';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'יש להתחבר כדי לצפות בדף זה.';
 
   @override

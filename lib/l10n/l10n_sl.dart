@@ -47,6 +47,9 @@ class AppLocalizationsSl extends AppLocalizations {
   String get mobileLiveStreamers => 'Prenašalci v živo';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Prijavite se za ogled te strani.';
 
   @override

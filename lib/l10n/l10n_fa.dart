@@ -47,6 +47,9 @@ class AppLocalizationsFa extends AppLocalizations {
   String get mobileLiveStreamers => 'بَرخَط-محتواسازان زنده';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'برای دیدن این برگه باید وارد شده باشید.';
 
   @override

@@ -47,6 +47,9 @@ class AppLocalizationsZh extends AppLocalizations {
   String get mobileLiveStreamers => '主播';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => '您必须登录才能浏览此页面。';
 
   @override

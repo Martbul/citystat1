@@ -267,6 +267,12 @@ abstract class AppLocalizations {
   /// **'Live streamers'**
   String get mobileLiveStreamers;
 
+  /// No description provided for @mobileMapTab.
+  ///
+  /// In en, this message translates to:
+  /// **'Map'**
+  String get mobileMapTab;
+
   /// No description provided for @mobileMustBeLoggedIn.
   ///
   /// In en, this message translates to:

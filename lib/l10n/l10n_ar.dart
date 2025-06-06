@@ -47,6 +47,9 @@ class AppLocalizationsAr extends AppLocalizations {
   String get mobileLiveStreamers => 'البث المباشر';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'سجل الدخول لعرض هذه الصفحة.';
 
   @override

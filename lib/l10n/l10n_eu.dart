@@ -47,6 +47,9 @@ class AppLocalizationsEu extends AppLocalizations {
   String get mobileLiveStreamers => 'Zuzeneko streamerrak';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Sartu egin behar zara orri hau ikusteko.';
 
   @override

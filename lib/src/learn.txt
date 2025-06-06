@@ -16,4 +16,20 @@ In Dart, get defines a getter — a method that behaves like a property.EXAMPLE:
 
 => FirebaseMessaging.instance is a shorthand way to return the singleton instance of the FirebaseMessaging class (from the Firebase plugin).
 
-A variable that starts with _ is private to its file.
+A variable that starts with _ is private to its file or class
+
+ConsumerState<Application> createState() => _AppState(); This means: “I want the Application widget to be paired with _AppState, which is a ConsumerState<Application>.”
+
+=> _AppState(); is a sugar syntaqx for:       {
+                                      return _AppState();
+                                            }
+
+
+
+In Riverpod, ref is a handle that gives you access to the dependency injection system. It's short for "reference", and it allows you to:
+    Access (read) a provider’s value
+    Listen to updates from a provider (watch)
+    Trigger side effects or lifecycle logic (listenManual, onDispose, etc.)
+
+
+ref.read(notificationServiceProvider) - “Give me the current instance of the NotificationService from the provider called notificationServiceProvider

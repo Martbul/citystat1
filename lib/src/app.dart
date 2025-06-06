@@ -57,25 +57,58 @@ class AppInitializationScreen extends ConsumerWidget {
 ///
 /// This widget is the root of the application and is responsible for setting up
 /// the theme, locale, and other global settings.
+//? This is the  app scaffold—everything up to this point was preloading and setup.
+
+//? ConsumerStatefulWidget is a Riverpod-specific class that extends Flutter’s StatefulWidget. It creates a mutable state(via _AppState and injects the Riverpod ref object)
 class Application extends ConsumerStatefulWidget {
-  const Application({super.key});
-
-  @override
-  ConsumerState<Application> createState() => _AppState();
+  const Application({super.key}); //?constructor
+   @override
+  ConsumerState<Application> createState() => _AppState(); //?Creating a stateful widgets with Riverpod
+  //? here the retrn trype is ConsumerState<Application>, meaning that the method must return an instance of a class that extends ConsumerState<Application>
+  //? super.key passes the optional key from the Application constructor to its parent class
+  //?Why it matters:Keys help Flutter identify widgets during rebuilds.Ensures smooth animations, efficient UI updates.
+ 
+  /* 
+  ?   In stateful widgets, Flutter needs a way to instantiate the State object that will:
+   ? Hold the widget's mutable state
+    ?Handle lifecycle events (initState, dispose, etc.)
+    ?Provide the build method
+?So every StatefulWidget or ConsumerStatefulWidget must implement:
+?In your case:
+?   The widget class is Application
+ ?   The state class is _AppState 
+ */
+  
 }
+/*
+?This class is not a function. But it does have important functions inside it that Flutter automatically calls at the right time:
+?Method	Called When?	What it Does
+?initState()	When widget is first inserted in the tree	Initializes services, listeners
+?build(context)	When widget needs to draw itself	Returns the actual UI (widget)
+?So you’re not calling _AppState() like a function. Instead, Flutter creates an instance 
+?of _AppState internally and calls its build() method, which returns the actual widget.
 
+*/
 class _AppState extends ConsumerState<Application> {
   /// Whether the app has checked for online status for the first time.
   bool _firstTimeOnlineCheck = false;
 
+
+//?Starting Services
   @override
   void initState() {
     // Start services
-    ref.read(notificationServiceProvider).start();
+    ref.read(notificationServiceProvider).start(); //?Starts the notification service.
     ref.read(challengeServiceProvider).start();
     ref.read(accountServiceProvider).start();
     ref.read(correspondenceServiceProvider).start();
 
+
+/*
+?This sets up a manual listener to watch for changes in internet connectivity and app lifecycle state.
+?connectivityChangesProvider is likely a stream provider or notifier that emits online/offline changes.
+?You get both prev and current values, allowing you to detect state transitions (e.g., from offline to online).
+*/
     // Listen for connectivity changes and perform actions accordingly.
     ref.listenManual(connectivityChangesProvider, (prev, current) async {
       final prevWasOffline = prev?.value?.isOnline == false;
@@ -123,7 +156,7 @@ class _AppState extends ConsumerState<Application> {
         CupertinoLocalizationsEo.delegate,
       ],
       supportedLocales: AppLocalizations.supportedLocales,
-      title: 'Lichess.org',
+      title: 'CityStat',
       locale: generalPrefs.locale,
       theme: theme.copyWith(
         navigationBarTheme: isIOS

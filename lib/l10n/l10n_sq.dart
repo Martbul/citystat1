@@ -47,6 +47,9 @@ class AppLocalizationsSq extends AppLocalizations {
   String get mobileLiveStreamers => 'Transmetues drejtpërsëdrejti';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn =>
       'Që të shihni këtë faqe, duhet të keni bërë hyrjen në llogari.';
 

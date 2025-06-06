@@ -47,6 +47,9 @@ class AppLocalizationsCs extends AppLocalizations {
   String get mobileLiveStreamers => 'Streameři';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Pro zobrazení této stránky musíte být přihlášeni.';
 
   @override

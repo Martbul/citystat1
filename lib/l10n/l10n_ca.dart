@@ -47,6 +47,9 @@ class AppLocalizationsCa extends AppLocalizations {
   String get mobileLiveStreamers => 'Retransmissors en directe';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Has d\'estar connectat per veure aquesta pàgina.';
 
   @override

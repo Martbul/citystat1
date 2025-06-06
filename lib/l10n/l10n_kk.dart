@@ -47,6 +47,9 @@ class AppLocalizationsKk extends AppLocalizations {
   String get mobileLiveStreamers => 'Эфирдегі стримерлер';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Бұл бетті көру үшін тіркелгіге кіріңіз.';
 
   @override

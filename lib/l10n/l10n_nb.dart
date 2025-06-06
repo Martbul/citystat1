@@ -47,6 +47,9 @@ class AppLocalizationsNb extends AppLocalizations {
   String get mobileLiveStreamers => 'Direktestrømmere';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Du må være logget inn for å vise denne siden.';
 
   @override

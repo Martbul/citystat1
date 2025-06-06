@@ -47,6 +47,9 @@ class AppLocalizationsFi extends AppLocalizations {
   String get mobileLiveStreamers => 'Live-striimaajat';
 
   @override
+  String get mobileMapTab => 'Map';
+
+  @override
   String get mobileMustBeLoggedIn => 'Sinun täytyy olla kirjautuneena nähdäksesi tämän sivun.';
 
   @override
