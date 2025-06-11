@@ -154,6 +154,7 @@ class AppCityStatBinding extends CitystatBinding {
   Future<void> initializeFirebase() async {
     await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
+print("firebase app been hopefluy inited");
     if (kReleaseMode) {
       FlutterError.onError = firebaseCrashlytics.recordFlutterFatalError;
       PlatformDispatcher.instance.onError = (error, stack) {

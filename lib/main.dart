@@ -1,3 +1,5 @@
+
+import 'dart:io' show Platform;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
@@ -8,11 +10,20 @@ import 'package:citystat1/src/init.dart';
 import 'package:citystat1/src/intl.dart';
 import 'package:citystat1/src/log.dart';
 import 'package:citystat1/src/model/common/service/sound_service.dart';
-
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 Future<void> main() async {
   // Widgets is a framework and this is the "glue" to bind the framework to the Flutter engine
   final widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+
+ // 🧱 Initialize sqflite for Linux
+  if (Platform.isLinux || Platform.isWindows || Platform.isMacOS) {
+    sqfliteFfiInit();
+    databaseFactory = databaseFactoryFfi;
+  }
+
   final citystatBinding = AppCityStatBinding.ensureInitialized();
 
   // Show splash screen until app is ready
@@ -32,7 +43,20 @@ Future<void> main() async {
 
   await initializeLocalNotifications(locale);
 
-  //await CitystatBinding.initializeFirebase();
+  await citystatBinding.initializeFirebase();
+
+   // Initialize Firebase for supported platforms
+  // if (!kIsWeb && (Platform.isAndroid ||
+  //         Platform.isIOS ||
+  //         Platform.isMacOS ||
+  //         Platform.isWindows ||
+  //         Platform.isLinux)) {
+  //           print("FIREBASE LAUNCHING");
+  //   await Firebase.initializeApp(
+  //     options: DefaultFirebaseOptions.currentPlatform,
+  //   );
+  // }
+  
 
   if (defaultTargetPlatform == TargetPlatform.android) {
     await androidDisplayInitialization(widgetsBinding);

@@ -1,5 +1,6 @@
 import 'dart:ui' show ImageFilter;
 
+import 'package:citystat1/src/view/map/map_tab_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -227,9 +228,9 @@ class MainTabScaffold extends ConsumerWidget {
         );
       case 1:
         return _MaterialTabView(
-          navigatorKey: homeNavigatorKey,
-          tab: BottomTab.home,
-          builder: (context) => const HomeTabScreen(),
+          navigatorKey: mapNavigatorKey,
+          tab: BottomTab.map,
+          builder: (context) => const MapTabScreen(),
         );
       case 2:
         return _MaterialTabView(

@@ -2,7 +2,6 @@
 // ignore_for_file: lines_longer_than_80_chars, avoid_classes_with_only_static_members
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart' show defaultTargetPlatform, kIsWeb, TargetPlatform;
-
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
 /// Example:
@@ -16,10 +15,7 @@ import 'package:flutter/foundation.dart' show defaultTargetPlatform, kIsWeb, Tar
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -27,40 +23,70 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for linux - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return linux; 
       default:
         throw UnsupportedError('DefaultFirebaseOptions are not supported for this platform.');
     }
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDQI6NZ5CM8xpuq9jfM0-D4Tq6fYfsaSh0',
-    appId: '1:974101866555:android:91f3475b526b436bb8541e',
-    messagingSenderId: '974101866555',
-    projectId: 'lichessv2',
-    storageBucket: 'lichessv2.appspot.com',
+    apiKey: 'AIzaSyDbM-UHd6AAxKd_r5nIzmAzH2KUSgw0hEs',
+    appId: '1:482089823583:android:32bba582f70e7540875aea',
+    messagingSenderId: '482089823583',
+    projectId: 'citystat1-791d8',
+    storageBucket: 'citystat1-791d8.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC48jXlu52bjsbINcl3ixrrMEAbDf1uh90',
-    appId: '1:974101866555:ios:1974acbdbcbfbe0eb8541e',
-    messagingSenderId: '974101866555',
-    projectId: 'lichessv2',
-    storageBucket: 'lichessv2.appspot.com',
-    iosClientId: '974101866555-8ag66ua0p0pn1ab7u982i58a9iubhbod.apps.googleusercontent.com',
+    apiKey: 'AIzaSyD8ioz7GMLrGHgmTbi0n2bkfhaxYo9zzfs',
+    appId: '1:482089823583:ios:7178b80acf3fb172875aea',
+    messagingSenderId: '482089823583',
+    projectId: 'citystat1-791d8',
+    storageBucket: 'citystat1-791d8.firebasestorage.app',
     iosBundleId: 'org.Lichess.mobileV2',
   );
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyDqubwhCsoH29q2d-s_DiPZlyqtGKUV8XM',
+    appId: '1:482089823583:web:f6029e2c078d49aa875aea',
+    messagingSenderId: '482089823583',
+    projectId: 'citystat1-791d8',
+    authDomain: 'citystat1-791d8.firebaseapp.com',
+    storageBucket: 'citystat1-791d8.firebasestorage.app',
+    measurementId: 'G-8872N4492R',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyD8ioz7GMLrGHgmTbi0n2bkfhaxYo9zzfs',
+    appId: '1:482089823583:ios:9746a6f8019c5244875aea',
+    messagingSenderId: '482089823583',
+    projectId: 'citystat1-791d8',
+    storageBucket: 'citystat1-791d8.firebasestorage.app',
+    iosBundleId: 'org.Lichess.lichessMobile',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyDqubwhCsoH29q2d-s_DiPZlyqtGKUV8XM',
+    appId: '1:482089823583:web:d7f1c9d055f2cfb9875aea',
+    messagingSenderId: '482089823583',
+    projectId: 'citystat1-791d8',
+    authDomain: 'citystat1-791d8.firebaseapp.com',
+    storageBucket: 'citystat1-791d8.firebasestorage.app',
+    measurementId: 'G-71JH7Q1JSX',
+  );
+
+  static const FirebaseOptions linux = FirebaseOptions(
+  apiKey: 'AIzaSyDqubwhCsoH29q2d-s_DiPZlyqtGKUV8XM',
+  appId: '1:482089823583:web:d7f1c9d055f2cfb9875aea',
+  messagingSenderId: '482089823583',
+  projectId: 'citystat1-791d8',
+  authDomain: 'citystat1-791d8.firebaseapp.com',
+  storageBucket: 'citystat1-791d8.firebasestorage.app',
+  measurementId: 'G-71JH7Q1JSX',
+);
+
 }

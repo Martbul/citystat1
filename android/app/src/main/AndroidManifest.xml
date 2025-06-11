@@ -10,8 +10,10 @@
                 android:scheme="https"/>
         </intent>
     </queries>
+            <!-- android:label="Lichess"  -->
+
     <application
-        android:label="Lichess"
+        android:label="CityStat"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -21,7 +23,7 @@
 
     <meta-data
       android:name="com.google.firebase.messaging.default_notification_icon"
-      android:resource="@drawable/ic_stat_lichess_notification" />
+      android:resource="@drawable/ic_stat_citystat_notification" />
     <meta-data
         android:name="firebase_messaging_auto_init_enabled"
         android:value="false" />
@@ -56,7 +58,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
-                <data android:scheme="https" android:host="Lichess.org" />
+                <!-- <data android:scheme="https" android:host="Lichess.org" /> -->
+                                <data android:scheme="https" android:host="CityStat.org" />
+
 
                 <data android:pathPattern="/training/....." />
                 <data android:pathPattern="/study/........" />

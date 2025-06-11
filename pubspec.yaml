@@ -1,5 +1,5 @@
 name: citystat1
-description: Lichess mobile app V2
+description: CityStat mobile app
 publish_to: "none"
 
 version: 0.15.16+001516 # See README.md for details about versioning
@@ -27,9 +27,10 @@ dependencies:
   device_info_plus: ^11.0.0
   dynamic_system_colors: ^1.8.0
   fast_immutable_collections: ^11.0.0
-  firebase_core: ^3.0.0
-  firebase_crashlytics: ^4.0.0
-  firebase_messaging: ^15.0.0
+  firebase_crashlytics: ^3.4.8
+  firebase_messaging: ^14.2.1
+  firebase_core: ^2.24.2
+  firebase_analytics: ^10.7.4
   fl_chart: ^1.0.0
   flutter:
     sdk: flutter
@@ -37,11 +38,14 @@ dependencies:
   flutter_displaymode: ^0.6.0
   flutter_layout_grid: ^2.0.1
   flutter_linkify: ^6.0.0
+  flutter_map: ^6.1.0
+  geolocator: ^11.0.0
+  latlong2: ^0.9.0
   flutter_local_notifications: ^19.0.0
   flutter_localizations:
     sdk: flutter
   flutter_markdown: ^0.7.3+1
-  flutter_native_splash: ^2.3.5
+  flutter_native_splash: ^2.2.16
   flutter_riverpod: ^2.3.4
   flutter_secure_storage: ^9.2.0
   flutter_slidable: ^4.0.0
@@ -75,6 +79,7 @@ dependencies:
   visibility_detector: ^0.4.0
   wakelock_plus: ^1.1.1
   web_socket_channel: ^3.0.0
+  mapbox_maps_flutter: ^2.8.0
 
 # Temporary dependency override for custom_lint_visitor
 dependency_overrides:
