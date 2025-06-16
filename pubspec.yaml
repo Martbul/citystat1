@@ -99,7 +99,7 @@ dev_dependencies:
   mocktail_image_network: ^1.2.0
   riverpod_generator: ^2.1.0
   riverpod_lint: ^2.3.3
-  sqflite_common_ffi: ^2.2.3
+  sqflite_common_ffi: ^2.3.6
   stream_channel: ^2.1.2
 
 flutter:
